@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://teknotechoficial.github.io/TeknoTech-Services/sitemap.xml
