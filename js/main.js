@@ -1,4 +1,12 @@
+<!--
+    -------------------------------------------------------------------------------------------------------
+    TEKNOTECH SERVICES dueños, creadores y editores absolutos de este software
+    esta completamente PROHIBIDO la venta, modificación o cualquier movimiento de este software sin 
+    permiso de TEKNOTECH SERVICES
+    -------------------------------------------------------------------------------------------------------
+    -->
 // TeknoTech Services - Landing Page JavaScript
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile Menu Toggle
@@ -28,6 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
     // Header scroll effect
     const header = document.getElementById('header');
@@ -46,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         lastScroll = currentScroll;
     });
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
     // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -64,6 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
     // Form submission
     const contactForm = document.getElementById('contact-form');
@@ -78,10 +89,11 @@ document.addEventListener('DOMContentLoaded', function() {
             // Simple validation
             if (!name || !email || !message) {
                 showNotification('Por favor completa todos los campos.', 'error');
-                return;
-            }
+            return;
+        }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
-            // Email validation
+        // Email validation
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(email)) {
                 showNotification('Por favor ingresa un email valido.', 'error');
@@ -106,6 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
     // Notification function
     function showNotification(message, type) {
@@ -126,6 +139,7 @@ document.addEventListener('DOMContentLoaded', function() {
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
             background: ${type === 'success' ? '#0066CC' : '#e74c3c'};
         `;
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
         
         document.body.appendChild(notification);
         
@@ -134,6 +148,7 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(() => notification.remove(), 300);
         }, 3000);
     }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
     // Add animation keyframes
     const style = document.createElement('style');
@@ -148,6 +163,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     `;
     document.head.appendChild(style);
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
     // Intersection Observer for scroll animations
     const observerOptions = {
@@ -163,6 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }, observerOptions);
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
     // Observe elements for animation
     document.querySelectorAll('.service-card, .contact-item, .value-item').forEach(el => {
@@ -172,6 +189,7 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     });
 });
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 // Wizard Logic
 let currentStep = '1';
@@ -185,6 +203,7 @@ let wizardData = {
     fault: '',
     problemDesc: ''
 };
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 const stepSequences = {
     software: ['1', '2a', '3a', '4a', 'summary'],
@@ -192,6 +211,7 @@ const stepSequences = {
 };
 
 let currentSequence = [];
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function selectService(btn) {
     document.querySelectorAll('[data-step="1"] .option-btn').forEach(b => b.classList.remove('selected'));
@@ -200,6 +220,7 @@ function selectService(btn) {
     currentSequence = stepSequences[btn.dataset.value];
     document.getElementById('btn-next').disabled = false;
 }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function selectClientType(btn) {
     document.querySelectorAll('[data-step="2a"] .option-btn').forEach(b => b.classList.remove('selected'));
@@ -207,6 +228,7 @@ function selectClientType(btn) {
     wizardData.clientType = btn.dataset.value;
     document.getElementById('btn-next').disabled = false;
 }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function selectSoftwareType(btn) {
     document.querySelectorAll('[data-step="3a"] .option-btn').forEach(b => b.classList.remove('selected'));
@@ -214,6 +236,7 @@ function selectSoftwareType(btn) {
     wizardData.softwareType = btn.dataset.value;
     document.getElementById('btn-next').disabled = false;
 }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function selectDevice(btn) {
     document.querySelectorAll('[data-step="2b"] .option-btn').forEach(b => b.classList.remove('selected'));
@@ -221,6 +244,7 @@ function selectDevice(btn) {
     wizardData.device = btn.dataset.value;
     document.getElementById('btn-next').disabled = false;
 }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function selectBrand(btn) {
     document.querySelectorAll('[data-step="3b"] .option-btn').forEach(b => b.classList.remove('selected'));
@@ -228,6 +252,7 @@ function selectBrand(btn) {
     wizardData.brand = btn.dataset.value;
     document.getElementById('btn-next').disabled = false;
 }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function selectFault(btn) {
     document.querySelectorAll('[data-step="4b"] .option-btn').forEach(b => b.classList.remove('selected'));
@@ -235,14 +260,17 @@ function selectFault(btn) {
     wizardData.fault = btn.dataset.value;
     document.getElementById('btn-next').disabled = false;
 }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 document.getElementById('project-desc').addEventListener('input', function() {
     if (currentStep === '4a') document.getElementById('btn-next').disabled = this.value.trim() === '';
 });
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 document.getElementById('problem-desc').addEventListener('input', function() {
     if (currentStep === '5b') document.getElementById('btn-next').disabled = this.value.trim() === '';
 });
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function nextStep() {
     if (currentStep === '1' && !wizardData.service) return;
@@ -267,6 +295,7 @@ function nextStep() {
         }
     }
 }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function prevStep() {
     const prevIndex = currentSequence.indexOf(currentStep) - 1;
@@ -275,6 +304,7 @@ function prevStep() {
         showStep(prevStepNum);
     }
 }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function showStep(step) {
     document.querySelectorAll('.wizard-step').forEach(s => s.classList.remove('active'));
@@ -306,6 +336,7 @@ function showStep(step) {
     const progress = ((currentSequence.indexOf(currentStep) + 1) / currentSequence.length) * 100;
     document.getElementById('progress-bar').style.width = progress + '%';
 }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function showSummary() {
     const summaryDiv = document.getElementById('summary-content');
@@ -330,11 +361,13 @@ function showSummary() {
     
     summaryDiv.innerHTML = html;
 }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function getSoftwareTypeLabel(type) {
     const labels = { web: 'Pagina Web', app: 'App Movil', sistema: 'Sistema a Medida' };
     return labels[type] || type;
 }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function getFaultLabel(fault) {
     const labels = {
@@ -344,10 +377,12 @@ function getFaultLabel(fault) {
     };
     return labels[fault] || fault;
 }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function sendToWhatsApp() {
     let message = '*Nueva consulta desde TeknoTech Services*\n\n';
@@ -369,7 +404,7 @@ function sendToWhatsApp() {
     const url = 'https://wa.me/' + phone + '?text=' + encodeURIComponent(message);
     window.open(url, '_blank');
 }
-
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 
 function sendToFormSubmit() {
@@ -400,6 +435,7 @@ function sendToFormSubmit() {
         })
     }).catch(function() {});
 }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function resetWizard() {
     wizardData = {
@@ -424,5 +460,6 @@ function resetWizard() {
     
     window.scrollTo({ top: document.getElementById('wizard').offsetTop - 100, behavior: 'smooth' });
 }
+/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 
