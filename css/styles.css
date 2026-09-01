@@ -132,35 +132,40 @@ body {
     border: none;
     cursor: pointer;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
 }
 
 .hamburger {
     display: block;
-    width: 25px;
-    height: 3px;
+    width: 24px;
+    height: 2px;
     background-color: var(--blanco);
     position: relative;
     transition: var(--transition);
 }
-/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 .hamburger::before,
 .hamburger::after {
     content: '';
     position: absolute;
-    width: 25px;
-    height: 3px;
+    width: 24px;
+    height: 2px;
     background-color: var(--blanco);
     transition: var(--transition);
+    left: 0;
 }
 
 .hamburger::before {
-    top: -8px;
+    top: -7px;
 }
-/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 .hamburger::after {
-    top: 8px;
+    top: 7px;
 }
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
@@ -419,28 +424,28 @@ body {
 }
 
 .values-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
-/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 .value-item {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 14px;
 }
 
 .value-icon {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
     background-color: var(--azul-claro);
     color: var(--blanco);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 13px;
     flex-shrink: 0;
 }
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
@@ -729,11 +734,9 @@ body {
     .values-title {
         text-align: center;
     }
-/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
     .values-grid {
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
+        align-items: center;
     }
 }
 
@@ -787,7 +790,7 @@ body {
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
     .values-grid {
-        grid-template-columns: 1fr;
+        align-items: center;
     }
 
     .contact-form {
