@@ -598,6 +598,15 @@ body {
     box-shadow: 0 5px 20px rgba(255, 255, 255, 0.2);
 }
 
+.social-threads .threads-icon {
+    width: 14px;
+    height: 14px;
+    filter: invert(1);
+}
+
+.social-threads:hover .threads-icon {
+    filter: none;
+}
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 /* Contact Form */
