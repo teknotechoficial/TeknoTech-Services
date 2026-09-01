@@ -601,12 +601,8 @@ body {
 .social-threads img {
     width: 14px;
     height: 14px;
-    filter: invert(1);
 }
 
-.social-threads:hover img {
-    filter: none;
-}
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 /* Contact Form */
