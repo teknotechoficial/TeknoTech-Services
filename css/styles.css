@@ -601,11 +601,11 @@ body {
 .social-threads .threads-icon {
     width: 14px;
     height: 14px;
-    filter: invert(1);
+    flex-shrink: 0;
 }
 
 .social-threads:hover .threads-icon {
-    filter: none;
+    color: #000;
 }
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
