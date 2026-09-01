@@ -1,12 +1,6 @@
-<!--
-    -------------------------------------------------------------------------------------------------------
-    TEKNOTECH SERVICES dueños, creadores y editores absolutos de este software
-    esta completamente PROHIBIDO la venta, modificación o cualquier movimiento de este software sin 
-    permiso de TEKNOTECH SERVICES
-    -------------------------------------------------------------------------------------------------------
-    -->
 // TeknoTech Services - Landing Page JavaScript
-/* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
+// TEKNOTECH SERVICES - Creadores y Dueños.
+// Prohibido vender o modificar sin autorización.
 
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile Menu Toggle
