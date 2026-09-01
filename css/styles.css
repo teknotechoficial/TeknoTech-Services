@@ -597,6 +597,14 @@ body {
     border-color: #fff;
     box-shadow: 0 5px 20px rgba(255, 255, 255, 0.2);
 }
+
+.social-threads img {
+    filter: invert(1);
+}
+
+.social-threads:hover img {
+    filter: none;
+}
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 /* Contact Form */
