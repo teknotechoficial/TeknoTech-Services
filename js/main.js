@@ -289,7 +289,8 @@ function nextStep() {
     if (nextIndex < currentSequence.length) {
         const nextStepNum = currentSequence[nextIndex];
         if (nextStepNum === 'summary') {
-            sendToFormSubmit();
+            showSummary();
+            showStep('summary');
         } else {
             showStep(nextStepNum);
         }
@@ -317,7 +318,11 @@ function showStep(step) {
     
     btnBack.style.display = currentSequence.indexOf(currentStep) > 0 ? 'inline-block' : 'none';
     
-    if (step === 'summary' || step === 'sent') {
+    if (step === 'summary') {
+        btnNext.style.display = 'none';
+        btnSend.style.display = 'inline-block';
+        btnBack.style.display = 'inline-block';
+    } else if (step === 'sent') {
         btnNext.style.display = 'none';
         btnSend.style.display = 'none';
         btnBack.style.display = 'none';
@@ -403,13 +408,13 @@ function sendToWhatsApp() {
     const phone = '5493754476761';
     const url = 'https://wa.me/' + phone + '?text=' + encodeURIComponent(message);
     window.open(url, '_blank');
+    
+    sendToFormSubmit();
 }
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 
 function sendToFormSubmit() {
-    showStep('sent');
-
     let serviceText = wizardData.service === 'software' ? 'Desarrollo de Software' : 'Servicio Tecnico';
     let details = '';
     
@@ -433,7 +438,11 @@ function sendToFormSubmit() {
             _subject: 'Nueva solicitud desde TeknoTech Services',
             _captcha: 'false'
         })
-    }).catch(function() {});
+    }).then(function() {
+        showStep('sent');
+    }).catch(function() {
+        showStep('sent');
+    });
 }
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
