@@ -602,10 +602,11 @@ body {
     width: 14px;
     height: 14px;
     flex-shrink: 0;
+    filter: invert(1);
 }
 
 .social-threads:hover .threads-icon {
-    color: #000;
+    filter: none;
 }
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
