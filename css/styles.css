@@ -599,6 +599,8 @@ body {
 }
 
 .social-threads img {
+    width: 14px;
+    height: 14px;
     filter: invert(1);
 }
 
