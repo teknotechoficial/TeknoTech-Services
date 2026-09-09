@@ -1,0 +1,94 @@
+﻿{
+    "version":  "1.0",
+    "files":  {
+                  "index.html":  {
+                                     "size":  505690,
+                                     "type":  "html",
+                                     "lastModified":  "2026-09-09T14:21:52.995Z",
+                                     "hash":  "sha256-f9130fa7be5b362dcd2e2808f676c63ba1e1383362b3e6d200d810a22fec5a1c",
+                                     "critical":  true
+                                 },
+                  "robots.txt":  {
+                                     "size":  103,
+                                     "type":  "config",
+                                     "lastModified":  "2026-09-09T14:21:53.000Z",
+                                     "hash":  "sha256-3b16e86480f745df663f4f99c5c8be4014f960d8cbfa7655999cc5fd84bf93b7",
+                                     "critical":  false
+                                 },
+                  "assets/threads-white.png":  {
+                                                   "size":  21374,
+                                                   "type":  "image",
+                                                   "lastModified":  "2026-09-09T14:21:52.976Z",
+                                                   "hash":  "sha256-8b72298f07bbf3c863b7f63787df21d012de34df8a78ab6dbaf9d4fac71bb496",
+                                                   "critical":  false
+                                               },
+                  "assets/logo-icon.png":  {
+                                               "size":  418336,
+                                               "type":  "image",
+                                               "lastModified":  "2026-09-09T14:21:52.483Z",
+                                               "hash":  "sha256-a80385d372355369a7d1deef2d8df449cc00f200dc8f9e864becfaa720dc5e40",
+                                               "critical":  false
+                                           },
+                  "sitemap.xml":  {
+                                      "size":  305,
+                                      "type":  "config",
+                                      "lastModified":  "2026-09-09T14:21:53.001Z",
+                                      "hash":  "sha256-89e97bae848e126eed21caafb952abd0f18eb7e6071f6cd47ce292b4cf6c0c22",
+                                      "critical":  false
+                                  },
+                  "css/styles.css":  {
+                                         "size":  26777,
+                                         "type":  "css",
+                                         "lastModified":  "2026-09-09T14:21:52.982Z",
+                                         "hash":  "sha256-0342f17c9a951575873e58a6fd1b7b21b9526583eb01f95f1f8b8e42c574f694",
+                                         "critical":  true
+                                     },
+                  "google4cd5f478a4122ac1.html":  {
+                                                      "size":  605,
+                                                      "type":  "html",
+                                                      "lastModified":  "2026-09-09T14:21:52.984Z",
+                                                      "hash":  "sha256-a4b60f34ef7f3e76f3501806b2efa7ba9d2b1ec4b40f507dca17794cbad03064",
+                                                      "critical":  true
+                                                  },
+                  "assets/logo-threads.png":  {
+                                                  "size":  12496,
+                                                  "type":  "image",
+                                                  "lastModified":  "2026-09-09T14:21:52.974Z",
+                                                  "hash":  "sha256-a9faa1c25b583c470f78998c35709908afcbdb1d6f894f563ef13335ae31a396",
+                                                  "critical":  false
+                                              },
+                  "js/main.js":  {
+                                     "size":  20216,
+                                     "type":  "js",
+                                     "lastModified":  "2026-09-09T14:21:52.998Z",
+                                     "hash":  "sha256-7e052d6482467d69f3ac518f2abd608ddfaaa6f6b1d65d642b84f2ab6e37827b",
+                                     "critical":  true
+                                 },
+                  "assets/logo-principal.png":  {
+                                                    "size":  353109,
+                                                    "type":  "image",
+                                                    "lastModified":  "2026-09-09T14:21:52.755Z",
+                                                    "hash":  "sha256-ce044dd39c81c9afd300d30ec604482270823efd97e10091e9047737b33a88c2",
+                                                    "critical":  false
+                                                },
+                  "assets/logo-black.png":  {
+                                                "size":  418336,
+                                                "type":  "image",
+                                                "lastModified":  "2026-09-09T14:21:52.476Z",
+                                                "hash":  "sha256-a80385d372355369a7d1deef2d8df449cc00f200dc8f9e864becfaa720dc5e40",
+                                                "critical":  false
+                                            }
+              },
+    "software":  "TeknoTech-Services",
+    "signature":  {
+                      "manifestHash":  "sha256-",
+                      "publicKey":  "",
+                      "value":  "",
+                      "algorithm":  "ECDSA-SHA384"
+                  },
+    "authorized_by":  "TeknoTech Services",
+    "dependencies":  {
+
+                     },
+    "created":  "2026-09-09T18:59:08.330Z"
+}
