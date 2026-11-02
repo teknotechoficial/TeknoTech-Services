@@ -1,0 +1,131 @@
+{
+  "actualizado": "2026-11-01",
+  "moneda": "ARS",
+  "aviso": "Precios estimados de referencia para el mercado argentino. No incluyen promociones, cuotas ni descuentos. Actualizar antes de cotizar.",
+  "bandas": {
+    "alta": "1.900.000 – 4.200.000",
+    "media-alta": "1.000.000 – 1.850.000",
+    "media": "600.000 – 980.000",
+    "media-baja": "380.000 – 590.000",
+    "baja": "150.000 – 370.000"
+  },
+  "celulares": [
+    { "marca": "Apple", "modelo": "iPhone 17 Pro Max 256GB", "gama": "alta", "precio": 3850000 },
+    { "marca": "Apple", "modelo": "iPhone 17 Pro 256GB", "gama": "alta", "precio": 3400000 },
+    { "marca": "Apple", "modelo": "iPhone Air 256GB", "gama": "alta", "precio": 2900000 },
+    { "marca": "Apple", "modelo": "iPhone 17 256GB", "gama": "alta", "precio": 2650000 },
+    { "marca": "Apple", "modelo": "iPhone 16 Pro Max 256GB", "gama": "alta", "precio": 3050000 },
+    { "marca": "Apple", "modelo": "iPhone 16 Pro 128GB", "gama": "alta", "precio": 2650000 },
+    { "marca": "Apple", "modelo": "iPhone 16 Plus 128GB", "gama": "media-alta", "precio": 1750000 },
+    { "marca": "Apple", "modelo": "iPhone 16 128GB", "gama": "media-alta", "precio": 1550000 },
+    { "marca": "Apple", "modelo": "iPhone 15 128GB", "gama": "media-alta", "precio": 1250000 },
+    { "marca": "Apple", "modelo": "iPhone 14 128GB", "gama": "media", "precio": 950000 },
+    { "marca": "Apple", "modelo": "iPhone 13 128GB", "gama": "media", "precio": 780000 },
+    { "marca": "Apple", "modelo": "iPhone SE (3ª gen) 64GB", "gama": "media-baja", "precio": 520000 },
+
+    { "marca": "Samsung", "modelo": "Galaxy S25 Ultra 256GB", "gama": "alta", "precio": 2600000 },
+    { "marca": "Samsung", "modelo": "Galaxy S25+ 256GB", "gama": "alta", "precio": 2050000 },
+    { "marca": "Samsung", "modelo": "Galaxy Z Fold7 256GB", "gama": "alta", "precio": 3900000 },
+    { "marca": "Samsung", "modelo": "Galaxy Z Flip7 256GB", "gama": "alta", "precio": 2400000 },
+    { "marca": "Samsung", "modelo": "Galaxy S25 128GB", "gama": "media-alta", "precio": 1550000 },
+    { "marca": "Samsung", "modelo": "Galaxy S24 FE 128GB", "gama": "media", "precio": 900000 },
+    { "marca": "Samsung", "modelo": "Galaxy A56 5G 128GB", "gama": "media", "precio": 720000 },
+    { "marca": "Samsung", "modelo": "Galaxy A55 5G 128GB", "gama": "media", "precio": 640000 },
+    { "marca": "Samsung", "modelo": "Galaxy A36 5G 128GB", "gama": "media-baja", "precio": 540000 },
+    { "marca": "Samsung", "modelo": "Galaxy A35 5G 128GB", "gama": "media-baja", "precio": 480000 },
+    { "marca": "Samsung", "modelo": "Galaxy A26 5G 128GB", "gama": "media-baja", "precio": 430000 },
+    { "marca": "Samsung", "modelo": "Galaxy A16 128GB", "gama": "baja", "precio": 320000 },
+    { "marca": "Samsung", "modelo": "Galaxy A06 64GB", "gama": "baja", "precio": 220000 },
+
+    { "marca": "Motorola", "modelo": "Edge 60 Pro 256GB", "gama": "media-alta", "precio": 1150000 },
+    { "marca": "Motorola", "modelo": "Edge 60 Fusion 256GB", "gama": "media", "precio": 780000 },
+    { "marca": "Motorola", "modelo": "Edge 50 Neo 256GB", "gama": "media", "precio": 690000 },
+    { "marca": "Motorola", "modelo": "Razr 60 Ultra 256GB", "gama": "alta", "precio": 2300000 },
+    { "marca": "Motorola", "modelo": "Moto G85 5G 256GB", "gama": "media-baja", "precio": 520000 },
+    { "marca": "Motorola", "modelo": "Moto G75 5G 256GB", "gama": "media-baja", "precio": 470000 },
+    { "marca": "Motorola", "modelo": "Moto G55 5G 256GB", "gama": "media-baja", "precio": 400000 },
+    { "marca": "Motorola", "modelo": "Moto G24 128GB", "gama": "baja", "precio": 280000 },
+    { "marca": "Motorola", "modelo": "Moto E14 64GB", "gama": "baja", "precio": 190000 },
+
+    { "marca": "Xiaomi", "modelo": "Xiaomi 15 Ultra 512GB", "gama": "alta", "precio": 2200000 },
+    { "marca": "Xiaomi", "modelo": "Xiaomi 15 256GB", "gama": "alta", "precio": 1900000 },
+    { "marca": "Xiaomi", "modelo": "Xiaomi 14T Pro 512GB", "gama": "media-alta", "precio": 1250000 },
+    { "marca": "Xiaomi", "modelo": "Redmi Note 14 Pro+ 5G", "gama": "media", "precio": 750000 },
+    { "marca": "Xiaomi", "modelo": "Redmi Note 14 Pro 4G", "gama": "media", "precio": 620000 },
+    { "marca": "Xiaomi", "modelo": "Redmi Note 14 128GB", "gama": "media-baja", "precio": 480000 },
+    { "marca": "Xiaomi", "modelo": "Redmi 14C 128GB", "gama": "baja", "precio": 230000 },
+    { "marca": "Xiaomi", "modelo": "Poco X7 Pro 256GB", "gama": "media", "precio": 700000 },
+    { "marca": "Xiaomi", "modelo": "Poco M7 Pro 256GB", "gama": "media-baja", "precio": 420000 },
+
+    { "marca": "TCL", "modelo": "TCL 60 SE 256GB", "gama": "baja", "precio": 250000 },
+    { "marca": "TCL", "modelo": "TCL 50 Pro NxtPaper", "gama": "media-baja", "precio": 420000 },
+    { "marca": "TCL", "modelo": "TCL 505 128GB", "gama": "baja", "precio": 200000 },
+
+    { "marca": "ZTE", "modelo": "ZTE Blade A75 128GB", "gama": "baja", "precio": 240000 },
+    { "marca": "ZTE", "modelo": "ZTE Blade V60 256GB", "gama": "media-baja", "precio": 380000 },
+
+    { "marca": "Huawei", "modelo": "Huawei Pura 70 Pro 256GB", "gama": "alta", "precio": 1950000 },
+    { "marca": "Huawei", "modelo": "Huawei Nova 13 256GB", "gama": "media", "precio": 780000 },
+    { "marca": "Huawei", "modelo": "Huawei Nova 12 SE 256GB", "gama": "media-baja", "precio": 520000 },
+
+    { "marca": "Honor", "modelo": "Honor Magic 7 Pro 512GB", "gama": "alta", "precio": 2100000 },
+    { "marca": "Honor", "modelo": "Honor 200 Pro 512GB", "gama": "media-alta", "precio": 1100000 },
+    { "marca": "Honor", "modelo": "Honor X9c 256GB", "gama": "media-baja", "precio": 480000 },
+
+    { "marca": "Oppo", "modelo": "Oppo Find X8 Pro 256GB", "gama": "alta", "precio": 2300000 },
+    { "marca": "Oppo", "modelo": "Oppo Reno 13 256GB", "gama": "media-alta", "precio": 1050000 },
+    { "marca": "Oppo", "modelo": "Oppo A5 Pro 128GB", "gama": "baja", "precio": 330000 },
+
+    { "marca": "Realme", "modelo": "Realme GT 7 Pro 256GB", "gama": "alta", "precio": 1950000 },
+    { "marca": "Realme", "modelo": "Realme 14 Pro+ 256GB", "gama": "media", "precio": 780000 },
+    { "marca": "Realme", "modelo": "Realme C75 256GB", "gama": "baja", "precio": 300000 },
+
+    { "marca": "Nokia", "modelo": "Nokia G42 5G 128GB", "gama": "media-baja", "precio": 380000 },
+    { "marca": "Nokia", "modelo": "Nokia C32 64GB", "gama": "baja", "precio": 210000 },
+
+    { "marca": "Sony", "modelo": "Xperia 1 VI 256GB", "gama": "alta", "precio": 2400000 },
+    { "marca": "Sony", "modelo": "Xperia 10 VI 128GB", "gama": "media", "precio": 900000 },
+
+    { "marca": "Alcatel", "modelo": "Alcatel 1B 32GB", "gama": "baja", "precio": 150000 },
+
+    { "marca": "Infinix", "modelo": "Infinix Note 50 Pro 256GB", "gama": "media-baja", "precio": 450000 },
+    { "marca": "Infinix", "modelo": "Infinix Hot 60 Pro 256GB", "gama": "baja", "precio": 280000 },
+
+    { "marca": "Tecno", "modelo": "Tecno Camon 30 256GB", "gama": "media-baja", "precio": 420000 },
+    { "marca": "Tecno", "modelo": "Tecno Spark 30 256GB", "gama": "baja", "precio": 250000 },
+
+    { "marca": "Itel", "modelo": "Itel A70 128GB", "gama": "baja", "precio": 160000 },
+
+    { "marca": "OnePlus", "modelo": "OnePlus 13 256GB", "gama": "alta", "precio": 2300000 },
+    { "marca": "OnePlus", "modelo": "OnePlus Nord 4 256GB", "gama": "media-alta", "precio": 1150000 },
+
+    { "marca": "Google", "modelo": "Pixel 9 Pro 256GB", "gama": "alta", "precio": 2200000 },
+    { "marca": "Google", "modelo": "Pixel 9a 128GB", "gama": "media-alta", "precio": 1050000 },
+
+    { "marca": "Nothing", "modelo": "Nothing Phone (3) 256GB", "gama": "alta", "precio": 1900000 },
+    { "marca": "Nothing", "modelo": "Nothing Phone (2a) 128GB", "gama": "media", "precio": 780000 },
+
+    { "marca": "Asus", "modelo": "ROG Phone 9 512GB", "gama": "alta", "precio": 2600000 },
+    { "marca": "Asus", "modelo": "Zenfone 11 Ultra 256GB", "gama": "media-alta", "precio": 1400000 }
+  ],
+  "servicios": [
+    { "rubro": "Diagnóstico y presupuesto", "detalle": "Revisión inicial del equipo", "precio": null },
+    { "rubro": "Cambio de pantalla", "detalle": "Celular, según modelo y calidad del repuesto", "precio": null },
+    { "rubro": "Cambio de batería", "detalle": "Celular, según modelo", "precio": null },
+    { "rubro": "Conector de carga", "detalle": "Reparación o cambio de puerto", "precio": null },
+    { "rubro": "Cámara trasera / frontal", "detalle": "Cambio de módulo", "precio": null },
+    { "rubro": "Altavoz / auricular", "detalle": "Bocina, parlante o auricular interno", "precio": null },
+    { "rubro": "Botones y flex", "detalle": "Encendido, volumen o flex de carga", "precio": null },
+    { "rubro": "Limpieza por humedad", "detalle": "Baño ultrasónico y revisión", "precio": null },
+    { "rubro": "Reparación de placa", "detalle": "Microsoldadura, según complejidad", "precio": null },
+    { "rubro": "Liberación / flasheo", "detalle": "Software y desbloqueo", "precio": null },
+    { "rubro": "Actualización de software", "detalle": "Sistema y aplicaciones", "precio": null },
+    { "rubro": "Cambio de tapa / vidrio trasero", "detalle": "Según modelo", "precio": null },
+    { "rubro": "Reparación de tablet", "detalle": "Pantalla, batería o carga", "precio": null },
+    { "rubro": "Reparación de notebook", "detalle": "Teclado, batería, limpieza, bisagras", "precio": null },
+    { "rubro": "Formateo e instalación de Windows", "detalle": "Con backup básico", "precio": null },
+    { "rubro": "Recuperación de datos", "detalle": "Según estado del disco", "precio": null },
+    { "rubro": "Armado de PC", "detalle": "Mano de obra de armado y testeo", "precio": null },
+    { "rubro": "Mantenimiento preventivo", "detalle": "Limpieza y cambio de pasta térmica", "precio": null }
+  ]
+}

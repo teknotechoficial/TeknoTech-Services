@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <meta name="referrer" content="no-referrer">
+    <title>Panel interno · TeknoTech Services</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+    <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="topbar-inner">
+            <div class="brand">
+                <img src="../assets/logo-icon-256.png" alt="" width="36" height="36">
+                <div>
+                    <strong>Panel interno</strong>
+                    <span>TeknoTech Services</span>
+                </div>
+            </div>
+            <div class="topbar-actions">
+                <span class="updated">Actualizado: <b id="fecha-actualizado">—</b></span>
+                <a class="logout" href="/cdn-cgi/access/logout">Salir</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <nav class="tabs" role="tablist" aria-label="Secciones del panel">
+            <button type="button" role="tab" id="tab-cel" aria-controls="panel-cel" aria-selected="true" class="tab active">Catálogo de celulares</button>
+            <button type="button" role="tab" id="tab-serv" aria-controls="panel-serv" aria-selected="false" class="tab">Precios de servicio técnico</button>
+        </nav>
+
+        <section id="panel-cel" role="tabpanel" aria-labelledby="tab-cel" class="panel active">
+            <div class="filters">
+                <input type="search" id="buscar" placeholder="Buscar marca o modelo…" aria-label="Buscar celular">
+                <select id="filtro-marca" aria-label="Filtrar por marca">
+                    <option value="">Todas las marcas</option>
+                </select>
+                <select id="filtro-gama" aria-label="Filtrar por gama">
+                    <option value="">Todas las gamas</option>
+                    <option value="alta">Gama alta</option>
+                    <option value="media-alta">Gama media alta</option>
+                    <option value="media">Gama media</option>
+                    <option value="media-baja">Gama media baja</option>
+                    <option value="baja">Gama baja</option>
+                </select>
+                <select id="orden" aria-label="Ordenar">
+                    <option value="precio-desc">Mayor precio</option>
+                    <option value="precio-asc">Menor precio</option>
+                    <option value="marca">Marca (A-Z)</option>
+                    <option value="gama">Gama</option>
+                </select>
+                <button type="button" id="exportar" class="btn-ghost">Exportar CSV</button>
+            </div>
+
+            <p class="resultado"><span id="conteo">0</span> equipos · <span id="rango">—</span></p>
+
+            <div class="table-wrap">
+                <table id="tabla-cel">
+                    <thead>
+                        <tr>
+                            <th>Marca</th>
+                            <th>Modelo</th>
+                            <th>Gama</th>
+                            <th class="num">Precio estimado</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <p class="aviso" id="aviso-cel"></p>
+        </section>
+
+        <section id="panel-serv" role="tabpanel" aria-labelledby="tab-serv" class="panel">
+            <div class="serv-head">
+                <h2>Precios de servicio técnico</h2>
+                <button type="button" id="exportar-serv" class="btn-ghost">Exportar CSV</button>
+            </div>
+            <div class="table-wrap">
+                <table id="tabla-serv">
+                    <thead>
+                        <tr>
+                            <th>Rubro</th>
+                            <th>Detalle</th>
+                            <th class="num">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <p class="aviso">Los precios vacíos se completan en <code>panel/datos.json</code> (campo <code>precio</code>).</p>
+        </section>
+    </main>
+
+    <footer class="foot">
+        <span>Uso interno · TeknoTech Services</span>
+        <span id="conteo-serv"></span>
+    </footer>
+
+    <script src="panel.js"></script>
+</body>
+</html>

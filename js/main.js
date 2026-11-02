@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         menuToggle.addEventListener('click', function() {
             nav.classList.toggle('active');
             menuToggle.classList.toggle('active');
+            menuToggle.setAttribute('aria-expanded', nav.classList.contains('active') ? 'true' : 'false');
         });
 
         // Close menu when clicking a link
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
             link.addEventListener('click', function() {
                 nav.classList.remove('active');
                 menuToggle.classList.remove('active');
+                menuToggle.setAttribute('aria-expanded', 'false');
             });
         });
 
@@ -82,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Simple validation
             if (!name || !email || !message) {
-                showNotification('Por favor completa todos los campos.', 'error');
+                showNotification('Por favor completá todos los campos.', 'error');
             return;
         }
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
@@ -90,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Email validation
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(email)) {
-                showNotification('Por favor ingresa un email valido.', 'error');
+                showNotification('Por favor ingresá un email válido.', 'error');
                 return;
             }
 
@@ -105,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     _captcha: 'false'
                 })
             }).then(function() {
-                showNotification('Mensaje enviado correctamente! Te contactaremos pronto.', 'success');
+                showNotification('¡Mensaje enviado correctamente! Te contactaremos pronto.', 'success');
                 contactForm.reset();
             }).catch(function() {
                 showNotification('Error al enviar. Intentalo de nuevo.', 'error');
@@ -208,8 +210,9 @@ let currentSequence = [];
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function selectService(btn) {
-    document.querySelectorAll('[data-step="1"] .option-btn').forEach(b => b.classList.remove('selected'));
+    document.querySelectorAll('[data-step="1"] .option-btn').forEach(b => { b.classList.remove('selected'); b.setAttribute('aria-pressed', 'false'); });
     btn.classList.add('selected');
+    btn.setAttribute('aria-pressed', 'true');
     wizardData.service = btn.dataset.value;
     currentSequence = stepSequences[btn.dataset.value];
     document.getElementById('btn-next').disabled = false;
@@ -217,40 +220,45 @@ function selectService(btn) {
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function selectClientType(btn) {
-    document.querySelectorAll('[data-step="2a"] .option-btn').forEach(b => b.classList.remove('selected'));
+    document.querySelectorAll('[data-step="2a"] .option-btn').forEach(b => { b.classList.remove('selected'); b.setAttribute('aria-pressed', 'false'); });
     btn.classList.add('selected');
+    btn.setAttribute('aria-pressed', 'true');
     wizardData.clientType = btn.dataset.value;
     document.getElementById('btn-next').disabled = false;
 }
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function selectSoftwareType(btn) {
-    document.querySelectorAll('[data-step="3a"] .option-btn').forEach(b => b.classList.remove('selected'));
+    document.querySelectorAll('[data-step="3a"] .option-btn').forEach(b => { b.classList.remove('selected'); b.setAttribute('aria-pressed', 'false'); });
     btn.classList.add('selected');
+    btn.setAttribute('aria-pressed', 'true');
     wizardData.softwareType = btn.dataset.value;
     document.getElementById('btn-next').disabled = false;
 }
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function selectDevice(btn) {
-    document.querySelectorAll('[data-step="2b"] .option-btn').forEach(b => b.classList.remove('selected'));
+    document.querySelectorAll('[data-step="2b"] .option-btn').forEach(b => { b.classList.remove('selected'); b.setAttribute('aria-pressed', 'false'); });
     btn.classList.add('selected');
+    btn.setAttribute('aria-pressed', 'true');
     wizardData.device = btn.dataset.value;
     document.getElementById('btn-next').disabled = false;
 }
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function selectBrand(btn) {
-    document.querySelectorAll('[data-step="3b"] .option-btn').forEach(b => b.classList.remove('selected'));
+    document.querySelectorAll('[data-step="3b"] .option-btn').forEach(b => { b.classList.remove('selected'); b.setAttribute('aria-pressed', 'false'); });
     btn.classList.add('selected');
+    btn.setAttribute('aria-pressed', 'true');
     wizardData.brand = btn.dataset.value;
     document.getElementById('btn-next').disabled = false;
 }
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function selectFault(btn) {
-    document.querySelectorAll('[data-step="4b"] .option-btn').forEach(b => b.classList.remove('selected'));
+    document.querySelectorAll('[data-step="4b"] .option-btn').forEach(b => { b.classList.remove('selected'); b.setAttribute('aria-pressed', 'false'); });
     btn.classList.add('selected');
+    btn.setAttribute('aria-pressed', 'true');
     wizardData.fault = btn.dataset.value;
     document.getElementById('btn-next').disabled = false;
 }
@@ -334,6 +342,17 @@ function showStep(step) {
     
     const progress = ((currentSequence.indexOf(currentStep) + 1) / currentSequence.length) * 100;
     document.getElementById('progress-bar').style.width = progress + '%';
+    const progressEl = document.querySelector('.wizard-progress');
+    if (progressEl) progressEl.setAttribute('aria-valuenow', Math.round(progress));
+
+    const activeStep = document.querySelector('.wizard-step.active');
+    if (activeStep) {
+        const title = activeStep.querySelector('.step-title');
+        if (title) {
+            title.setAttribute('tabindex', '-1');
+            title.focus({ preventScroll: true });
+        }
+    }
 }
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
@@ -341,20 +360,20 @@ function showSummary() {
     const summaryDiv = document.getElementById('summary-content');
     let html = '';
     
-    html += '<div class="summary-item"><span class="summary-label">Servicio:</span><span class="summary-value">' + (wizardData.service === 'software' ? 'Desarrollo de Software' : 'Servicio Tecnico') + '</span></div>';
+    html += '<div class="summary-item"><span class="summary-label">Servicio:</span><span class="summary-value">' + (wizardData.service === 'software' ? 'Desarrollo de Software' : 'Servicio Técnico') + '</span></div>';
     
     if (wizardData.service === 'software') {
         html += '<div class="summary-item"><span class="summary-label">Para:</span><span class="summary-value">' + (wizardData.clientType === 'empresa' ? 'Empresa' : 'Marca Personal') + '</span></div>';
         html += '<div class="summary-item"><span class="summary-label">Tipo:</span><span class="summary-value">' + getSoftwareTypeLabel(wizardData.softwareType) + '</span></div>';
         if (wizardData.projectDesc) {
-            html += '<div class="summary-item"><span class="summary-label">Descripcion:</span><span class="summary-value">' + wizardData.projectDesc + '</span></div>';
+            html += '<div class="summary-item"><span class="summary-label">Descripción:</span><span class="summary-value">' + wizardData.projectDesc + '</span></div>';
         }
     } else {
         html += '<div class="summary-item"><span class="summary-label">Dispositivo:</span><span class="summary-value">' + capitalize(wizardData.device) + '</span></div>';
         html += '<div class="summary-item"><span class="summary-label">Marca:</span><span class="summary-value">' + capitalize(wizardData.brand) + '</span></div>';
         html += '<div class="summary-item"><span class="summary-label">Problema:</span><span class="summary-value">' + getFaultLabel(wizardData.fault) + '</span></div>';
         if (wizardData.problemDesc) {
-            html += '<div class="summary-item"><span class="summary-label">Descripcion:</span><span class="summary-value">' + wizardData.problemDesc + '</span></div>';
+            html += '<div class="summary-item"><span class="summary-label">Descripción:</span><span class="summary-value">' + wizardData.problemDesc + '</span></div>';
         }
     }
     
@@ -363,14 +382,14 @@ function showSummary() {
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function getSoftwareTypeLabel(type) {
-    const labels = { web: 'Pagina Web', app: 'App Movil', sistema: 'Sistema a Medida' };
+    const labels = { web: 'Página Web', app: 'App Móvil', sistema: 'Sistema a Medida' };
     return labels[type] || type;
 }
 /* TeknoTech Services - Creadores y Dueños. Prohibido vender o modificar sin autorización. */
 
 function getFaultLabel(fault) {
     const labels = {
-        pantalla: 'Pantalla rota', bateria: 'Problema de bateria', carga: 'No carga',
+        pantalla: 'Pantalla rota', bateria: 'Problema de batería', carga: 'No carga',
         lento: 'Funciona lento', virus: 'Virus / Malware', audio: 'Problema de audio',
         botones: 'Botones no funcionan', otro: 'Otro'
     };
@@ -390,13 +409,13 @@ function sendToWhatsApp() {
         message += '*Servicio:* Desarrollo de Software\n';
         message += '*Para:* ' + (wizardData.clientType === 'empresa' ? 'Empresa' : 'Marca Personal') + '\n';
         message += '*Tipo:* ' + getSoftwareTypeLabel(wizardData.softwareType) + '\n';
-        if (wizardData.projectDesc) message += '*Descripcion:* ' + wizardData.projectDesc + '\n';
+        if (wizardData.projectDesc) message += '*Descripción:* ' + wizardData.projectDesc + '\n';
     } else {
-        message += '*Servicio:* Servicio Tecnico\n';
+        message += '*Servicio:* Servicio Técnico\n';
         message += '*Dispositivo:* ' + capitalize(wizardData.device) + '\n';
         message += '*Marca:* ' + capitalize(wizardData.brand) + '\n';
         message += '*Problema:* ' + getFaultLabel(wizardData.fault) + '\n';
-        if (wizardData.problemDesc) message += '*Descripcion:* ' + wizardData.problemDesc + '\n';
+        if (wizardData.problemDesc) message += '*Descripción:* ' + wizardData.problemDesc + '\n';
     }
     
     const phone = '5493754476761';
@@ -409,18 +428,18 @@ function sendToWhatsApp() {
 
 
 function sendToFormSubmit() {
-    let serviceText = wizardData.service === 'software' ? 'Desarrollo de Software' : 'Servicio Tecnico';
+    let serviceText = wizardData.service === 'software' ? 'Desarrollo de Software' : 'Servicio Técnico';
     let details = '';
     
     if (wizardData.service === 'software') {
         details = 'Para: ' + (wizardData.clientType === 'empresa' ? 'Empresa' : 'Marca Personal') + '\n';
         details += 'Tipo: ' + getSoftwareTypeLabel(wizardData.softwareType) + '\n';
-        if (wizardData.projectDesc) details += 'Descripcion: ' + wizardData.projectDesc;
+        if (wizardData.projectDesc) details += 'Descripción: ' + wizardData.projectDesc;
     } else {
         details = 'Dispositivo: ' + capitalize(wizardData.device) + '\n';
         details += 'Marca: ' + capitalize(wizardData.brand) + '\n';
         details += 'Problema: ' + getFaultLabel(wizardData.fault) + '\n';
-        if (wizardData.problemDesc) details += 'Descripcion: ' + wizardData.problemDesc;
+        if (wizardData.problemDesc) details += 'Descripción: ' + wizardData.problemDesc;
     }
 
     fetch('https://formsubmit.co/ajax/teknotech.oficial@gmail.com', {
@@ -451,7 +470,7 @@ function resetWizard() {
     document.querySelectorAll('.wizard-step').forEach(s => s.classList.remove('active'));
     document.querySelector('[data-step="1"]').classList.add('active');
     
-    document.querySelectorAll('.option-btn').forEach(b => b.classList.remove('selected'));
+    document.querySelectorAll('.option-btn').forEach(b => { b.classList.remove('selected'); b.setAttribute('aria-pressed', 'false'); });
     document.getElementById('project-desc').value = '';
     document.getElementById('problem-desc').value = '';
     
@@ -460,6 +479,9 @@ function resetWizard() {
     document.getElementById('btn-back').style.display = 'none';
     document.getElementById('btn-send').style.display = 'none';
     document.getElementById('progress-bar').style.width = '0%';
+    const progressEl = document.querySelector('.wizard-progress');
+    if (progressEl) progressEl.setAttribute('aria-valuenow', '0');
+    document.querySelectorAll('.option-btn').forEach(b => b.setAttribute('aria-pressed', 'false'));
     
     window.scrollTo({ top: document.getElementById('wizard').offsetTop - 100, behavior: 'smooth' });
 }

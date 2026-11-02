@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /panel/
 
-Sitemap: https://teknotechoficial.github.io/TeknoTech-Services/sitemap.xml
+Sitemap: https://teknotech-services.pages.dev/sitemap.xml
