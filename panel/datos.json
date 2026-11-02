@@ -1,131 +1,8322 @@
 {
   "actualizado": "2026-11-01",
   "moneda": "ARS",
-  "aviso": "Precios estimados de referencia para el mercado argentino. No incluyen promociones, cuotas ni descuentos. Actualizar antes de cotizar.",
+  "aviso": "Precios estimados en ARS para el mercado argentino, calculados por gama y año de lanzamiento (un modelo de 2013 vale mucho menos que uno de 2026). No incluyen promociones, cuotas ni descuentos. Verificar antes de cotizar.",
   "bandas": {
-    "alta": "1.900.000 – 4.200.000",
-    "media-alta": "1.000.000 – 1.850.000",
-    "media": "600.000 – 980.000",
-    "media-baja": "380.000 – 590.000",
-    "baja": "150.000 – 370.000"
+    "alta": "280.000 - 3.420.000",
+    "media-alta": "75.000 - 1.400.000",
+    "media": "60.000 - 690.000",
+    "media-baja": "60.000 - 435.000",
+    "baja": "60.000 - 235.000"
   },
   "celulares": [
-    { "marca": "Apple", "modelo": "iPhone 17 Pro Max 256GB", "gama": "alta", "precio": 3850000 },
-    { "marca": "Apple", "modelo": "iPhone 17 Pro 256GB", "gama": "alta", "precio": 3400000 },
-    { "marca": "Apple", "modelo": "iPhone Air 256GB", "gama": "alta", "precio": 2900000 },
-    { "marca": "Apple", "modelo": "iPhone 17 256GB", "gama": "alta", "precio": 2650000 },
-    { "marca": "Apple", "modelo": "iPhone 16 Pro Max 256GB", "gama": "alta", "precio": 3050000 },
-    { "marca": "Apple", "modelo": "iPhone 16 Pro 128GB", "gama": "alta", "precio": 2650000 },
-    { "marca": "Apple", "modelo": "iPhone 16 Plus 128GB", "gama": "media-alta", "precio": 1750000 },
-    { "marca": "Apple", "modelo": "iPhone 16 128GB", "gama": "media-alta", "precio": 1550000 },
-    { "marca": "Apple", "modelo": "iPhone 15 128GB", "gama": "media-alta", "precio": 1250000 },
-    { "marca": "Apple", "modelo": "iPhone 14 128GB", "gama": "media", "precio": 950000 },
-    { "marca": "Apple", "modelo": "iPhone 13 128GB", "gama": "media", "precio": 780000 },
-    { "marca": "Apple", "modelo": "iPhone SE (3ª gen) 64GB", "gama": "media-baja", "precio": 520000 },
-
-    { "marca": "Samsung", "modelo": "Galaxy S25 Ultra 256GB", "gama": "alta", "precio": 2600000 },
-    { "marca": "Samsung", "modelo": "Galaxy S25+ 256GB", "gama": "alta", "precio": 2050000 },
-    { "marca": "Samsung", "modelo": "Galaxy Z Fold7 256GB", "gama": "alta", "precio": 3900000 },
-    { "marca": "Samsung", "modelo": "Galaxy Z Flip7 256GB", "gama": "alta", "precio": 2400000 },
-    { "marca": "Samsung", "modelo": "Galaxy S25 128GB", "gama": "media-alta", "precio": 1550000 },
-    { "marca": "Samsung", "modelo": "Galaxy S24 FE 128GB", "gama": "media", "precio": 900000 },
-    { "marca": "Samsung", "modelo": "Galaxy A56 5G 128GB", "gama": "media", "precio": 720000 },
-    { "marca": "Samsung", "modelo": "Galaxy A55 5G 128GB", "gama": "media", "precio": 640000 },
-    { "marca": "Samsung", "modelo": "Galaxy A36 5G 128GB", "gama": "media-baja", "precio": 540000 },
-    { "marca": "Samsung", "modelo": "Galaxy A35 5G 128GB", "gama": "media-baja", "precio": 480000 },
-    { "marca": "Samsung", "modelo": "Galaxy A26 5G 128GB", "gama": "media-baja", "precio": 430000 },
-    { "marca": "Samsung", "modelo": "Galaxy A16 128GB", "gama": "baja", "precio": 320000 },
-    { "marca": "Samsung", "modelo": "Galaxy A06 64GB", "gama": "baja", "precio": 220000 },
-
-    { "marca": "Motorola", "modelo": "Edge 60 Pro 256GB", "gama": "media-alta", "precio": 1150000 },
-    { "marca": "Motorola", "modelo": "Edge 60 Fusion 256GB", "gama": "media", "precio": 780000 },
-    { "marca": "Motorola", "modelo": "Edge 50 Neo 256GB", "gama": "media", "precio": 690000 },
-    { "marca": "Motorola", "modelo": "Razr 60 Ultra 256GB", "gama": "alta", "precio": 2300000 },
-    { "marca": "Motorola", "modelo": "Moto G85 5G 256GB", "gama": "media-baja", "precio": 520000 },
-    { "marca": "Motorola", "modelo": "Moto G75 5G 256GB", "gama": "media-baja", "precio": 470000 },
-    { "marca": "Motorola", "modelo": "Moto G55 5G 256GB", "gama": "media-baja", "precio": 400000 },
-    { "marca": "Motorola", "modelo": "Moto G24 128GB", "gama": "baja", "precio": 280000 },
-    { "marca": "Motorola", "modelo": "Moto E14 64GB", "gama": "baja", "precio": 190000 },
-
-    { "marca": "Xiaomi", "modelo": "Xiaomi 15 Ultra 512GB", "gama": "alta", "precio": 2200000 },
-    { "marca": "Xiaomi", "modelo": "Xiaomi 15 256GB", "gama": "alta", "precio": 1900000 },
-    { "marca": "Xiaomi", "modelo": "Xiaomi 14T Pro 512GB", "gama": "media-alta", "precio": 1250000 },
-    { "marca": "Xiaomi", "modelo": "Redmi Note 14 Pro+ 5G", "gama": "media", "precio": 750000 },
-    { "marca": "Xiaomi", "modelo": "Redmi Note 14 Pro 4G", "gama": "media", "precio": 620000 },
-    { "marca": "Xiaomi", "modelo": "Redmi Note 14 128GB", "gama": "media-baja", "precio": 480000 },
-    { "marca": "Xiaomi", "modelo": "Redmi 14C 128GB", "gama": "baja", "precio": 230000 },
-    { "marca": "Xiaomi", "modelo": "Poco X7 Pro 256GB", "gama": "media", "precio": 700000 },
-    { "marca": "Xiaomi", "modelo": "Poco M7 Pro 256GB", "gama": "media-baja", "precio": 420000 },
-
-    { "marca": "TCL", "modelo": "TCL 60 SE 256GB", "gama": "baja", "precio": 250000 },
-    { "marca": "TCL", "modelo": "TCL 50 Pro NxtPaper", "gama": "media-baja", "precio": 420000 },
-    { "marca": "TCL", "modelo": "TCL 505 128GB", "gama": "baja", "precio": 200000 },
-
-    { "marca": "ZTE", "modelo": "ZTE Blade A75 128GB", "gama": "baja", "precio": 240000 },
-    { "marca": "ZTE", "modelo": "ZTE Blade V60 256GB", "gama": "media-baja", "precio": 380000 },
-
-    { "marca": "Huawei", "modelo": "Huawei Pura 70 Pro 256GB", "gama": "alta", "precio": 1950000 },
-    { "marca": "Huawei", "modelo": "Huawei Nova 13 256GB", "gama": "media", "precio": 780000 },
-    { "marca": "Huawei", "modelo": "Huawei Nova 12 SE 256GB", "gama": "media-baja", "precio": 520000 },
-
-    { "marca": "Honor", "modelo": "Honor Magic 7 Pro 512GB", "gama": "alta", "precio": 2100000 },
-    { "marca": "Honor", "modelo": "Honor 200 Pro 512GB", "gama": "media-alta", "precio": 1100000 },
-    { "marca": "Honor", "modelo": "Honor X9c 256GB", "gama": "media-baja", "precio": 480000 },
-
-    { "marca": "Oppo", "modelo": "Oppo Find X8 Pro 256GB", "gama": "alta", "precio": 2300000 },
-    { "marca": "Oppo", "modelo": "Oppo Reno 13 256GB", "gama": "media-alta", "precio": 1050000 },
-    { "marca": "Oppo", "modelo": "Oppo A5 Pro 128GB", "gama": "baja", "precio": 330000 },
-
-    { "marca": "Realme", "modelo": "Realme GT 7 Pro 256GB", "gama": "alta", "precio": 1950000 },
-    { "marca": "Realme", "modelo": "Realme 14 Pro+ 256GB", "gama": "media", "precio": 780000 },
-    { "marca": "Realme", "modelo": "Realme C75 256GB", "gama": "baja", "precio": 300000 },
-
-    { "marca": "Nokia", "modelo": "Nokia G42 5G 128GB", "gama": "media-baja", "precio": 380000 },
-    { "marca": "Nokia", "modelo": "Nokia C32 64GB", "gama": "baja", "precio": 210000 },
-
-    { "marca": "Sony", "modelo": "Xperia 1 VI 256GB", "gama": "alta", "precio": 2400000 },
-    { "marca": "Sony", "modelo": "Xperia 10 VI 128GB", "gama": "media", "precio": 900000 },
-
-    { "marca": "Alcatel", "modelo": "Alcatel 1B 32GB", "gama": "baja", "precio": 150000 },
-
-    { "marca": "Infinix", "modelo": "Infinix Note 50 Pro 256GB", "gama": "media-baja", "precio": 450000 },
-    { "marca": "Infinix", "modelo": "Infinix Hot 60 Pro 256GB", "gama": "baja", "precio": 280000 },
-
-    { "marca": "Tecno", "modelo": "Tecno Camon 30 256GB", "gama": "media-baja", "precio": 420000 },
-    { "marca": "Tecno", "modelo": "Tecno Spark 30 256GB", "gama": "baja", "precio": 250000 },
-
-    { "marca": "Itel", "modelo": "Itel A70 128GB", "gama": "baja", "precio": 160000 },
-
-    { "marca": "OnePlus", "modelo": "OnePlus 13 256GB", "gama": "alta", "precio": 2300000 },
-    { "marca": "OnePlus", "modelo": "OnePlus Nord 4 256GB", "gama": "media-alta", "precio": 1150000 },
-
-    { "marca": "Google", "modelo": "Pixel 9 Pro 256GB", "gama": "alta", "precio": 2200000 },
-    { "marca": "Google", "modelo": "Pixel 9a 128GB", "gama": "media-alta", "precio": 1050000 },
-
-    { "marca": "Nothing", "modelo": "Nothing Phone (3) 256GB", "gama": "alta", "precio": 1900000 },
-    { "marca": "Nothing", "modelo": "Nothing Phone (2a) 128GB", "gama": "media", "precio": 780000 },
-
-    { "marca": "Asus", "modelo": "ROG Phone 9 512GB", "gama": "alta", "precio": 2600000 },
-    { "marca": "Asus", "modelo": "Zenfone 11 Ultra 256GB", "gama": "media-alta", "precio": 1400000 }
+    {
+      "marca": "Alcatel",
+      "modelo": "Alcatel 1B 2022",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Alcatel",
+      "modelo": "Alcatel 1S 2021",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Alcatel",
+      "modelo": "Alcatel 1V 2021",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Alcatel",
+      "modelo": "Alcatel 1B",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Alcatel",
+      "modelo": "Alcatel 20",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Alcatel",
+      "modelo": "Alcatel 1S",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Alcatel",
+      "modelo": "Alcatel 1V",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Alcatel",
+      "modelo": "Alcatel 3L",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Alcatel",
+      "modelo": "Alcatel 1",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Alcatel",
+      "modelo": "Alcatel 1X",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Alcatel",
+      "modelo": "Alcatel 3",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Alcatel",
+      "modelo": "Alcatel 3X",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Alcatel",
+      "modelo": "Alcatel 5",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Alcatel",
+      "modelo": "Alcatel 5V",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Alcatel",
+      "modelo": "Alcatel 7",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 16e",
+      "anio": 2025,
+      "gama": "media",
+      "precio": 575000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 17",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2095000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 17 Pro",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2615000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 17 Pro Max",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 3045000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2095000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 16",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 830000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 16 Plus",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 1000000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 16 Pro",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2145000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 16 Pro Max",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2495000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 15",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 680000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 15 Plus",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 820000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 15 Pro",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1760000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 15 Pro Max",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 2045000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 14",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 555000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 14 Plus",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 670000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 14 Pro",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1440000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 14 Pro Max",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1680000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone SE (3ª gen)",
+      "anio": 2022,
+      "gama": "media",
+      "precio": 295000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 13",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 455000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 13 Pro",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1185000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 13 Pro Max",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1375000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 13 mini",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 490000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 12",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 375000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 12 Pro",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 970000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 12 Pro Max",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 1130000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 12 mini",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 400000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone SE (2ª gen)",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 200000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 11",
+      "anio": 2019,
+      "gama": "media-alta",
+      "precio": 305000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 11 Pro",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 795000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 11 Pro Max",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 925000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone XR",
+      "anio": 2018,
+      "gama": "media-alta",
+      "precio": 250000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone XS",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 520000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone XS Max",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 650000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 8",
+      "anio": 2017,
+      "gama": "media-alta",
+      "precio": 205000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 8 Plus",
+      "anio": 2017,
+      "gama": "media-alta",
+      "precio": 250000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone X",
+      "anio": 2017,
+      "gama": "alta",
+      "precio": 430000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 7",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 170000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 7 Plus",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 205000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone SE (1ª gen)",
+      "anio": 2016,
+      "gama": "media",
+      "precio": 90000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 6s",
+      "anio": 2015,
+      "gama": "media",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 6s Plus",
+      "anio": 2015,
+      "gama": "media-alta",
+      "precio": 165000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 6",
+      "anio": 2014,
+      "gama": "media",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 6 Plus",
+      "anio": 2014,
+      "gama": "media-alta",
+      "precio": 135000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 5c",
+      "anio": 2013,
+      "gama": "media",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 5s",
+      "anio": 2013,
+      "gama": "media",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus ROG Phone 9",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2095000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus ROG Phone 8",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 1715000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus Zenfone 11 Ultra",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2300000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus ROG Phone 7",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1405000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus Zenfone 10",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 680000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus ROG Phone 6",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1155000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus Zenfone 9",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 555000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus ROG Phone 5",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 945000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus Zenfone 8",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 455000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus ROG Phone 3",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 775000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus Zenfone 7",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 375000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus ROG Phone 2",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 635000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus Zenfone 6",
+      "anio": 2019,
+      "gama": "media-alta",
+      "precio": 305000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus ROG Phone",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 520000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus Zenfone 5",
+      "anio": 2018,
+      "gama": "media",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus Zenfone 4",
+      "anio": 2017,
+      "gama": "media",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus Zenfone 3",
+      "anio": 2016,
+      "gama": "media",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Asus",
+      "modelo": "Asus Zenfone 2",
+      "anio": 2015,
+      "gama": "media",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "BlackBerry",
+      "modelo": "BlackBerry KEY2",
+      "anio": 2018,
+      "gama": "media-alta",
+      "precio": 250000,
+      "imagen": null
+    },
+    {
+      "marca": "BlackBerry",
+      "modelo": "BlackBerry KEYone",
+      "anio": 2017,
+      "gama": "media-alta",
+      "precio": 205000,
+      "imagen": null
+    },
+    {
+      "marca": "BlackBerry",
+      "modelo": "BlackBerry DTEK50",
+      "anio": 2016,
+      "gama": "media",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "BlackBerry",
+      "modelo": "BlackBerry DTEK60",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 170000,
+      "imagen": null
+    },
+    {
+      "marca": "BlackBerry",
+      "modelo": "BlackBerry Leap",
+      "anio": 2015,
+      "gama": "media",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "BlackBerry",
+      "modelo": "BlackBerry Priv",
+      "anio": 2015,
+      "gama": "media-alta",
+      "precio": 140000,
+      "imagen": null
+    },
+    {
+      "marca": "BlackBerry",
+      "modelo": "BlackBerry Classic",
+      "anio": 2014,
+      "gama": "media",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "BlackBerry",
+      "modelo": "BlackBerry Passport",
+      "anio": 2014,
+      "gama": "media-alta",
+      "precio": 115000,
+      "imagen": null
+    },
+    {
+      "marca": "BlackBerry",
+      "modelo": "BlackBerry Q10",
+      "anio": 2013,
+      "gama": "media",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "BlackBerry",
+      "modelo": "BlackBerry Z10",
+      "anio": 2013,
+      "gama": "media",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "BlackBerry",
+      "modelo": "BlackBerry Z30",
+      "anio": 2013,
+      "gama": "media",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 10",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2095000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 10 Pro",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2615000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 9a",
+      "anio": 2025,
+      "gama": "media-alta",
+      "precio": 1010000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 8a",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 830000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 9",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 1715000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 9 Pro",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2145000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 9 Pro XL",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2145000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 7a",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 680000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 8",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1405000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 8 Pro",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1760000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 6a",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 555000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 7",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1155000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 7 Pro",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1440000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 5a",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 260000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 6",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 945000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 6 Pro",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1185000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 4a",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 5",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 375000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 3a",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 3a XL",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 4",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 635000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 4 XL",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 635000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 3",
+      "anio": 2018,
+      "gama": "media-alta",
+      "precio": 250000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 3 XL",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 520000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 2",
+      "anio": 2017,
+      "gama": "media-alta",
+      "precio": 205000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 2 XL",
+      "anio": 2017,
+      "gama": "media-alta",
+      "precio": 205000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 170000,
+      "imagen": null
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel XL",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 170000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC U23",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 440000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC Desire 22",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC Desire 21",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC Desire 20",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC U20 5G",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 425000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC Desire 19",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC U19e",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC Desire 12",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC U12+",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 595000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC U11",
+      "anio": 2017,
+      "gama": "alta",
+      "precio": 485000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC 10",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 190000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC Desire 10",
+      "anio": 2016,
+      "gama": "media",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC Desire 826",
+      "anio": 2015,
+      "gama": "media",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC One M9",
+      "anio": 2015,
+      "gama": "media-alta",
+      "precio": 140000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC Desire 820",
+      "anio": 2014,
+      "gama": "media",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC One M8",
+      "anio": 2014,
+      "gama": "media-alta",
+      "precio": 115000,
+      "imagen": null
+    },
+    {
+      "marca": "HTC",
+      "modelo": "HTC One M7",
+      "anio": 2013,
+      "gama": "media-alta",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor Magic 7",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2615000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor Magic 7 Pro",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2615000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 100",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 940000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 200",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 940000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 200 Lite",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 475000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 200 Pro",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2145000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor Magic 6",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2145000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor Magic 6 Pro",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2145000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor Magic V3",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2145000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor X7b",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 325000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor X9b",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 325000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor X9c",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 325000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 80",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 770000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 90",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 770000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 90 Lite",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 390000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor Magic 5",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1760000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor Magic V2",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1760000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor X6a",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor X9a",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 265000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 70",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 635000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor Magic 4",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1440000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor Pad X8",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor X5",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor X8",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor X9",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 50",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 520000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 50 Lite",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 260000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 60",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 295000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor Magic 3",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1185000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor X6",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor X7",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 30",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 425000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 20",
+      "anio": 2019,
+      "gama": "media-alta",
+      "precio": 350000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 20 Pro",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 795000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 10",
+      "anio": 2018,
+      "gama": "media-alta",
+      "precio": 285000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor Magic",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 650000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor Magic 2",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 650000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 9",
+      "anio": 2017,
+      "gama": "media-alta",
+      "precio": 235000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 8",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 190000,
+      "imagen": null
+    },
+    {
+      "marca": "Honor",
+      "modelo": "Honor 7",
+      "anio": 2015,
+      "gama": "media",
+      "precio": 90000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova 13",
+      "anio": 2025,
+      "gama": "media",
+      "precio": 575000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Pura 80",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2095000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Pura 80 Pro",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2615000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate X6",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 1715000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova 12",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 475000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova 12 SE",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 265000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Pura 70",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 1715000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Pura 70 Pro",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2145000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Pura 70 Ultra",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2300000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate 60",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1405000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate 60 Pro",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1760000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate X3",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1405000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate X5",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1405000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova 11",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 390000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova Y71",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 125000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova Y91",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 235000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P60",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1405000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P60 Pro",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1760000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate 50",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1155000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate 50 Pro",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1440000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova 10",
+      "anio": 2022,
+      "gama": "media",
+      "precio": 320000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova Y70",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova 8",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 260000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova 9",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 260000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova Y60",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P50",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 945000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P50 Pocket",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 945000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P50 Pro",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1185000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Y7a 2021",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate 40",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 775000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate 40 Pro",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 970000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova 7",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova 7i",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 130000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P40",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 775000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P40 Lite",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P40 Pro",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 970000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Y5p",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Y6p",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Y7a",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Y9a",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 130000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate 30",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 635000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate 30 Pro",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 795000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova 5",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova 5T",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P30",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 635000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P30 Lite",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P30 Pro",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 795000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate 20",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 520000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate 20 Lite",
+      "anio": 2018,
+      "gama": "media",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate 20 Pro",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 650000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova 3",
+      "anio": 2018,
+      "gama": "media",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P20",
+      "anio": 2018,
+      "gama": "media-alta",
+      "precio": 250000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P20 Lite",
+      "anio": 2018,
+      "gama": "media",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P20 Pro",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 650000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate 10",
+      "anio": 2017,
+      "gama": "alta",
+      "precio": 430000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate 10 Lite",
+      "anio": 2017,
+      "gama": "media",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova 2",
+      "anio": 2017,
+      "gama": "media",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P10",
+      "anio": 2017,
+      "gama": "media-alta",
+      "precio": 205000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P10 Lite",
+      "anio": 2017,
+      "gama": "media",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Y9",
+      "anio": 2017,
+      "gama": "media-baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate 9",
+      "anio": 2016,
+      "gama": "alta",
+      "precio": 350000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Nova",
+      "anio": 2016,
+      "gama": "media",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P9",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 170000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P9 Lite",
+      "anio": 2016,
+      "gama": "media",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Y7",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Mate 8",
+      "anio": 2015,
+      "gama": "alta",
+      "precio": 290000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P8",
+      "anio": 2015,
+      "gama": "media-alta",
+      "precio": 140000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei P8 Lite",
+      "anio": 2015,
+      "gama": "media",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Y5",
+      "anio": 2015,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "Huawei Y6",
+      "anio": 2015,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Hot 60 Pro",
+      "anio": 2025,
+      "gama": "baja",
+      "precio": 235000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Note 50",
+      "anio": 2025,
+      "gama": "media-baja",
+      "precio": 345000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Note 50 Pro",
+      "anio": 2025,
+      "gama": "media-baja",
+      "precio": 435000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Smart 9",
+      "anio": 2025,
+      "gama": "baja",
+      "precio": 180000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Hot 40",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Hot 50",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Note 40",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 285000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Smart 8",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 150000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Zero 40",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 475000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Hot 30",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Note 30",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 235000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Smart 7",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Zero 30",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 390000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Hot 12",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Hot 20",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Note 12",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 190000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Hot 11",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Note 10",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Note 11",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 155000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Smart 6",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Hot 10",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Hot 9",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Note 7",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Note 8",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Smart 5",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "Infinix",
+      "modelo": "Infinix Zero 8",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 130000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel A80",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 155000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel P55",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 155000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel S24",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 155000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel A70",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 125000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel S23",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 125000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel A60",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel P40",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel A58",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel P38",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel A36",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel A48",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel A56",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel P36",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel A16",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel A23",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Itel",
+      "modelo": "Itel A25",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG K61",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG K62",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG K71",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG Stylo 6",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG V60 ThinQ",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 880000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG Velvet",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 375000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG Wing",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 880000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG G8 ThinQ",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 725000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG K40",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG K50",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG Q60",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG Q70",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG Stylo 5",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG V50 ThinQ",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 725000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG G7 ThinQ",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 595000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG Q7",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG V40 ThinQ",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 595000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG G6",
+      "anio": 2017,
+      "gama": "media-alta",
+      "precio": 235000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG K20",
+      "anio": 2017,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG Q6",
+      "anio": 2017,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG V30",
+      "anio": 2017,
+      "gama": "alta",
+      "precio": 485000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG G5",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 190000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG K10",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG V20",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 190000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG G4",
+      "anio": 2015,
+      "gama": "media-alta",
+      "precio": 160000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG V10",
+      "anio": 2015,
+      "gama": "media-alta",
+      "precio": 160000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG G3",
+      "anio": 2014,
+      "gama": "media-alta",
+      "precio": 130000,
+      "imagen": null
+    },
+    {
+      "marca": "LG",
+      "modelo": "LG G2",
+      "anio": 2013,
+      "gama": "media-alta",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo Legion Phone Duel 2",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 945000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo Legion Phone Duel",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 775000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo A6 Note",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo Z6",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo A5",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo K9",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo S5",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo Z5",
+      "anio": 2018,
+      "gama": "media-baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo K8",
+      "anio": 2017,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo K4 Note",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo K5",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo K6",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo P2",
+      "anio": 2016,
+      "gama": "media",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo Vibe K5",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo Z2 Plus",
+      "anio": 2016,
+      "gama": "media",
+      "precio": 115000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo K3 Note",
+      "anio": 2015,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo P1",
+      "anio": 2015,
+      "gama": "media",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo Vibe P1",
+      "anio": 2015,
+      "gama": "media",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Lenovo",
+      "modelo": "Lenovo Vibe X3",
+      "anio": 2015,
+      "gama": "media",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Meizu",
+      "modelo": "Meizu 21",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 1715000,
+      "imagen": null
+    },
+    {
+      "marca": "Meizu",
+      "modelo": "Meizu 20",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1405000,
+      "imagen": null
+    },
+    {
+      "marca": "Meizu",
+      "modelo": "Meizu 18",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 945000,
+      "imagen": null
+    },
+    {
+      "marca": "Meizu",
+      "modelo": "Meizu 17",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 775000,
+      "imagen": null
+    },
+    {
+      "marca": "Meizu",
+      "modelo": "Meizu 15",
+      "anio": 2018,
+      "gama": "media-alta",
+      "precio": 250000,
+      "imagen": null
+    },
+    {
+      "marca": "Meizu",
+      "modelo": "Meizu 16",
+      "anio": 2018,
+      "gama": "media-alta",
+      "precio": 250000,
+      "imagen": null
+    },
+    {
+      "marca": "Meizu",
+      "modelo": "Meizu Pro 7",
+      "anio": 2017,
+      "gama": "media-alta",
+      "precio": 260000,
+      "imagen": null
+    },
+    {
+      "marca": "Meizu",
+      "modelo": "Meizu MX6",
+      "anio": 2016,
+      "gama": "media",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Meizu",
+      "modelo": "Meizu Pro 6",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 210000,
+      "imagen": null
+    },
+    {
+      "marca": "Meizu",
+      "modelo": "Meizu MX5",
+      "anio": 2015,
+      "gama": "media",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Meizu",
+      "modelo": "Meizu Pro 5",
+      "anio": 2015,
+      "gama": "media-alta",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "Meizu",
+      "modelo": "Meizu MX4",
+      "anio": 2014,
+      "gama": "media",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "Microsoft",
+      "modelo": "Microsoft Surface Duo 2",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 945000,
+      "imagen": null
+    },
+    {
+      "marca": "Microsoft",
+      "modelo": "Microsoft Surface Duo",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 775000,
+      "imagen": null
+    },
+    {
+      "marca": "Microsoft",
+      "modelo": "Microsoft Lumia 650",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Microsoft",
+      "modelo": "Microsoft Lumia 640",
+      "anio": 2015,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Microsoft",
+      "modelo": "Microsoft Lumia 950",
+      "anio": 2015,
+      "gama": "media-alta",
+      "precio": 160000,
+      "imagen": null
+    },
+    {
+      "marca": "Microsoft",
+      "modelo": "Microsoft Lumia 950 XL",
+      "anio": 2015,
+      "gama": "media-alta",
+      "precio": 160000,
+      "imagen": null
+    },
+    {
+      "marca": "Microsoft",
+      "modelo": "Microsoft Lumia 535",
+      "anio": 2014,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto E15",
+      "anio": 2025,
+      "gama": "baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 60",
+      "anio": 2025,
+      "gama": "media-alta",
+      "precio": 1205000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 60 Fusion",
+      "anio": 2025,
+      "gama": "media",
+      "precio": 690000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 60 Neo",
+      "anio": 2025,
+      "gama": "media",
+      "precio": 690000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 60 Pro",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2615000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Razr 60",
+      "anio": 2025,
+      "gama": "media-alta",
+      "precio": 1150000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Razr 60 Ultra",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2805000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto E14",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 50",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 990000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 50 Fusion",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 565000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 50 Neo",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 565000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 50 Pro",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2145000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 50 Ultra",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2300000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G24",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G35",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 325000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G55",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 325000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G75",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 325000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G85",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 540000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Razr 50",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 940000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Razr 50 Ultra",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2300000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto E13",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 40",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 810000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 40 Neo",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 465000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 40 Pro",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1760000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G23",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G34",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 265000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G54",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 265000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G64",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 440000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G73",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 440000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G84",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 440000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Razr 40",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 770000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Razr 40 Ultra",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1885000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto E22",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 30",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 665000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 30 Pro",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1440000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 30 Ultra",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1545000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G20",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G200",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 635000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G22",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G32",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G42",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G52",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G62",
+      "anio": 2022,
+      "gama": "media",
+      "precio": 360000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G72",
+      "anio": 2022,
+      "gama": "media",
+      "precio": 360000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G82",
+      "anio": 2022,
+      "gama": "media",
+      "precio": 360000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Razr 2022",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1310000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto E20",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto E30",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto E32",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto E40",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 20",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 310000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge 20 Pro",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 570000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G10",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G100",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 520000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G30",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 180000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G31",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 180000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G40 Fusion",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 180000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G41",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 180000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G51",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 180000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G60s",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 295000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G71",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 295000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G9",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto E7",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 445000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Edge+",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 925000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G Power",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 130000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G Stylus",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G50",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G60",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 245000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G8",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto One Fusion",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto One Hyper",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Razr 5G",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 880000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto E6",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G7",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto One Action",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto One Vision",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto Razr",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 725000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto E5",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G6",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto One",
+      "anio": 2018,
+      "gama": "media",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto One Power",
+      "anio": 2018,
+      "gama": "media",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto E3",
+      "anio": 2017,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto E4",
+      "anio": 2017,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G5",
+      "anio": 2017,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto X4",
+      "anio": 2017,
+      "gama": "media",
+      "precio": 135000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G4",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G3",
+      "anio": 2015,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto X Style",
+      "anio": 2015,
+      "gama": "media",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto E",
+      "anio": 2014,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G2",
+      "anio": 2014,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto X2",
+      "anio": 2014,
+      "gama": "media",
+      "precio": 75000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto G",
+      "anio": 2013,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Moto X",
+      "anio": 2013,
+      "gama": "media",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia C12",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia C22",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia C32",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia G42 5G",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 265000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia C21",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia C31",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia G21",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia G60 5G",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 1.4",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia G20",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia X10",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 180000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia X20",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 295000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 2.4",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 3.4",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 5.3",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 5.4",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 8.3 5G",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 425000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 2.2",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 2.3",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 3.2",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 4.2",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 6.2",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 7.2",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 9 PureView",
+      "anio": 2019,
+      "gama": "media-alta",
+      "precio": 305000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 1",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 3.1",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 5.1",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 6.1",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 7.1",
+      "anio": 2018,
+      "gama": "media-baja",
+      "precio": 100000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 8.1",
+      "anio": 2018,
+      "gama": "media",
+      "precio": 165000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 2",
+      "anio": 2017,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 3",
+      "anio": 2017,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 5",
+      "anio": 2017,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 6",
+      "anio": 2017,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 7",
+      "anio": 2017,
+      "gama": "media-baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "Nokia 8",
+      "anio": 2017,
+      "gama": "media",
+      "precio": 135000,
+      "imagen": null
+    },
+    {
+      "marca": "Nothing",
+      "modelo": "Nothing Phone (3)",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2095000,
+      "imagen": null
+    },
+    {
+      "marca": "Nothing",
+      "modelo": "Nothing Phone (3a)",
+      "anio": 2025,
+      "gama": "media",
+      "precio": 575000,
+      "imagen": null
+    },
+    {
+      "marca": "Nothing",
+      "modelo": "Nothing Phone (2a)",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 475000,
+      "imagen": null
+    },
+    {
+      "marca": "Nothing",
+      "modelo": "Nothing Phone (2a) Plus",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 1000000,
+      "imagen": null
+    },
+    {
+      "marca": "Nothing",
+      "modelo": "Nothing Phone (2)",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1405000,
+      "imagen": null
+    },
+    {
+      "marca": "Nothing",
+      "modelo": "Nothing Phone (1)",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 555000,
+      "imagen": null
+    },
+    {
+      "marca": "Nubia",
+      "modelo": "Nubia Red Magic 9",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2145000,
+      "imagen": null
+    },
+    {
+      "marca": "Nubia",
+      "modelo": "Nubia Z60",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 1950000,
+      "imagen": null
+    },
+    {
+      "marca": "Nubia",
+      "modelo": "Nubia Red Magic 8",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1760000,
+      "imagen": null
+    },
+    {
+      "marca": "Nubia",
+      "modelo": "Nubia Z50",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1600000,
+      "imagen": null
+    },
+    {
+      "marca": "Nubia",
+      "modelo": "Nubia Z40 Pro",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1440000,
+      "imagen": null
+    },
+    {
+      "marca": "Nubia",
+      "modelo": "Nubia Z30 Pro",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1185000,
+      "imagen": null
+    },
+    {
+      "marca": "Nubia",
+      "modelo": "Nubia Z20",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 725000,
+      "imagen": null
+    },
+    {
+      "marca": "Nubia",
+      "modelo": "Nubia Z18",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 595000,
+      "imagen": null
+    },
+    {
+      "marca": "Nubia",
+      "modelo": "Nubia Z17",
+      "anio": 2017,
+      "gama": "alta",
+      "precio": 485000,
+      "imagen": null
+    },
+    {
+      "marca": "Nubia",
+      "modelo": "Nubia Z11",
+      "anio": 2016,
+      "gama": "alta",
+      "precio": 400000,
+      "imagen": null
+    },
+    {
+      "marca": "Nubia",
+      "modelo": "Nubia Z9",
+      "anio": 2015,
+      "gama": "alta",
+      "precio": 325000,
+      "imagen": null
+    },
+    {
+      "marca": "Nubia",
+      "modelo": "Nubia Z7",
+      "anio": 2014,
+      "gama": "media-alta",
+      "precio": 130000,
+      "imagen": null
+    },
+    {
+      "marca": "Nubia",
+      "modelo": "Nubia Z5",
+      "anio": 2013,
+      "gama": "media-alta",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 13",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2520000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 12",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2065000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus Nord 4",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 1000000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus Nord CE 4",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 570000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 11",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1695000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus Nord 3",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 820000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus Nord CE 3",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 470000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 10 Pro",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1440000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 10T",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1390000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus Nord CE 2",
+      "anio": 2022,
+      "gama": "media",
+      "precio": 385000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 9",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1140000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 9 Pro",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1185000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus Nord 2",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 315000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus Nord CE",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 315000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 8",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 935000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 8 Pro",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 970000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 8T",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 935000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus Nord",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 260000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 7",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 765000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 7 Pro",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 795000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 7T",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 765000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 6",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 630000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 6T",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 630000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 5",
+      "anio": 2017,
+      "gama": "media-alta",
+      "precio": 250000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 5T",
+      "anio": 2017,
+      "gama": "media-alta",
+      "precio": 250000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 3",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 205000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 3T",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 205000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 2",
+      "anio": 2015,
+      "gama": "media",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus One",
+      "anio": 2014,
+      "gama": "media",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Reno 13",
+      "anio": 2025,
+      "gama": "media-alta",
+      "precio": 1010000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A5 Pro",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 190000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Find X7",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2240000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Find X8",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2240000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Find X8 Pro",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2145000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Reno 11",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 830000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Reno 12",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 830000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A18",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A58",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A78",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 265000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A79",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 265000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Find X6",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1840000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Reno 10",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 680000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A17",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A57",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A77",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A96",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Find X5",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1510000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Reno 7",
+      "anio": 2022,
+      "gama": "media",
+      "precio": 320000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Reno 8",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 555000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A16",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A54",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A55",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A94",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 180000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A95",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 180000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Find X3",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1235000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Reno 5",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 455000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Reno 6",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 455000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A12",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A15",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A31",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A53",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Find X2",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 1015000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Reno 3",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 375000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Reno 4",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 375000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A5s",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A9",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Reno",
+      "anio": 2019,
+      "gama": "media-alta",
+      "precio": 305000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Reno 2",
+      "anio": 2019,
+      "gama": "media-alta",
+      "precio": 305000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A3",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo A5",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Find X",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 680000,
+      "imagen": null
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Oppo Find 7",
+      "anio": 2014,
+      "gama": "media",
+      "precio": 75000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO C75",
+      "anio": 2025,
+      "gama": "baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO F7",
+      "anio": 2025,
+      "gama": "media-alta",
+      "precio": 1150000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO M7 Pro",
+      "anio": 2025,
+      "gama": "media-baja",
+      "precio": 435000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO X7 Pro",
+      "anio": 2025,
+      "gama": "media-alta",
+      "precio": 1265000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO C65",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO F6",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 940000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO M6 Pro",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 355000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO X6 Pro",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 1035000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO C55",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO F5",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 770000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO M5",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 265000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO X5 Pro",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 485000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO F4",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 635000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO M4 Pro",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 240000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO X4 Pro",
+      "anio": 2022,
+      "gama": "media",
+      "precio": 400000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO C40",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO F3",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 520000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO X3",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 295000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO C3",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO F2 Pro",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 470000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO M3",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO M2",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO X2",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 200000,
+      "imagen": null
+    },
+    {
+      "marca": "POCO",
+      "modelo": "POCO F1",
+      "anio": 2018,
+      "gama": "media-alta",
+      "precio": 285000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 14",
+      "anio": 2025,
+      "gama": "media",
+      "precio": 575000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 14 Pro",
+      "anio": 2025,
+      "gama": "media-alta",
+      "precio": 1265000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 14 Pro+",
+      "anio": 2025,
+      "gama": "media-alta",
+      "precio": 1265000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme C75",
+      "anio": 2025,
+      "gama": "baja",
+      "precio": 190000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme GT 7",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2570000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme GT 7 Pro",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2615000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 12",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 475000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 12 Pro",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 1035000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 13",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 475000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme C61",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 155000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme C67",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 155000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme GT 6",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2105000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme Narzo 70",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 155000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 10",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 235000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 11",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 390000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme C53",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 125000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme C55",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 125000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme GT 3",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1725000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme GT 5",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1725000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme Narzo 60",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 125000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 9",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 190000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme C31",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme C33",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme GT 2",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1415000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme Narzo 50",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 8",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 155000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme C21",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme C25",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme GT",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1160000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 6",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 130000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 7",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 130000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme C11",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme C15",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme C3",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 3",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 5",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme C2",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 1",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme 2",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Realme",
+      "modelo": "Realme C1",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S26",
+      "anio": 2026,
+      "gama": "media-alta",
+      "precio": 1400000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S26 Ultra",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3420000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S26+",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 2900000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A06 5G",
+      "anio": 2025,
+      "gama": "media-baja",
+      "precio": 395000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A16",
+      "anio": 2025,
+      "gama": "media-baja",
+      "precio": 395000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A26",
+      "anio": 2025,
+      "gama": "media-baja",
+      "precio": 395000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A36",
+      "anio": 2025,
+      "gama": "media",
+      "precio": 655000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A56",
+      "anio": 2025,
+      "gama": "media",
+      "precio": 655000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S25",
+      "anio": 2025,
+      "gama": "media-alta",
+      "precio": 1150000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S25 Edge",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2495000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S25 FE",
+      "anio": 2025,
+      "gama": "media",
+      "precio": 655000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S25 Ultra",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2805000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S25+",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2380000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Z Flip7",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2735000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Z Fold7",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 3210000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A06",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A15",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 325000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A25",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 325000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A35",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 540000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A55",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 540000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M15",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M35",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 325000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M55",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 540000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S24",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 940000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S24 FE",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 540000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S24 Ultra",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2300000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S24+",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 1950000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Z Flip6",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2240000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Z Fold6",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2630000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A05",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A05s",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A14",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 265000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A24",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 265000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A34",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 440000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A54",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 440000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M14",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M34",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 265000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M54",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 440000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S23",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 770000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S23 FE",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 440000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S23 Ultra",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1885000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S23+",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1600000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Z Flip5",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1840000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Z Fold5",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 2160000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A04",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A04e",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A04s",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A13",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A23",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A33",
+      "anio": 2022,
+      "gama": "media",
+      "precio": 360000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A53",
+      "anio": 2022,
+      "gama": "media",
+      "precio": 360000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A73",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 635000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M13",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M23",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M33",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M53",
+      "anio": 2022,
+      "gama": "media",
+      "precio": 360000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S21 FE",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 635000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S22",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 635000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S22 Ultra",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1545000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S22+",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1310000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Z Flip4",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1510000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Z Fold4",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1770000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A02",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A03",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A03 Core",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A03s",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A22",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 180000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A32",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 180000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A42",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 295000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A52",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 295000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A52s",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 295000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A72",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 295000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M02",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M02s",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M12",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M22",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 180000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M32",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 180000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M42",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 295000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M52",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 295000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S21",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 520000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S21 Ultra",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1270000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S21+",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1075000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Z Flip3",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1235000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Z Fold3",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1450000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A01",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A01 Core",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A02s",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A11",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A12",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A21",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A21s",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A31",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A41",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 245000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A51",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 245000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A71",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 245000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M01",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M11",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M21",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M31",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M31s",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M51",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 245000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Note 10 Lite",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Note 20",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 775000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Note 20 Ultra",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 1040000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S20",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 425000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S20 FE",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 425000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S20 Ultra",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 1040000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S20+",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 880000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Z Flip",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 1015000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Z Fold2",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 1190000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A10",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A10s",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A20",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A20s",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A30",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A30s",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A40",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 200000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A50",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 200000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A50s",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 200000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A70",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 200000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A80",
+      "anio": 2019,
+      "gama": "media-alta",
+      "precio": 350000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A90",
+      "anio": 2019,
+      "gama": "media-alta",
+      "precio": 350000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M10",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M20",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M30",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M30s",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy M40",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 200000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Note 10",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 635000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Note 10+",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 635000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S10",
+      "anio": 2019,
+      "gama": "media-alta",
+      "precio": 350000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S10 5G",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 725000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S10+",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 725000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S10e",
+      "anio": 2019,
+      "gama": "media-alta",
+      "precio": 305000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Z Fold",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 975000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J4",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J4+",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J6",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J6+",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J8",
+      "anio": 2018,
+      "gama": "media-baja",
+      "precio": 100000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Note 9",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 520000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S9",
+      "anio": 2018,
+      "gama": "media-alta",
+      "precio": 285000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S9+",
+      "anio": 2018,
+      "gama": "media-alta",
+      "precio": 285000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J7 Pro",
+      "anio": 2017,
+      "gama": "media-baja",
+      "precio": 90000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J7+",
+      "anio": 2017,
+      "gama": "media-baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Note 8",
+      "anio": 2017,
+      "gama": "alta",
+      "precio": 430000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S8",
+      "anio": 2017,
+      "gama": "media-alta",
+      "precio": 235000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S8+",
+      "anio": 2017,
+      "gama": "media-alta",
+      "precio": 235000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J1 mini",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J2",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J2 Prime",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J3",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J3 Pro",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J5 Prime",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J7 Prime",
+      "anio": 2016,
+      "gama": "media-baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Note 7",
+      "anio": 2016,
+      "gama": "alta",
+      "precio": 350000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S7",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 190000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S7 edge",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 170000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J1",
+      "anio": 2015,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J5",
+      "anio": 2015,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy J7",
+      "anio": 2015,
+      "gama": "media-baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Note 5",
+      "anio": 2015,
+      "gama": "media-alta",
+      "precio": 140000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S6",
+      "anio": 2015,
+      "gama": "media-alta",
+      "precio": 160000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S6 edge",
+      "anio": 2015,
+      "gama": "media-alta",
+      "precio": 140000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S6 edge+",
+      "anio": 2015,
+      "gama": "media-alta",
+      "precio": 140000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Ace 4",
+      "anio": 2014,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Grand 2",
+      "anio": 2014,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Grand Prime",
+      "anio": 2014,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Note 4",
+      "anio": 2014,
+      "gama": "media-alta",
+      "precio": 115000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Note Edge",
+      "anio": 2014,
+      "gama": "alta",
+      "precio": 280000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S5",
+      "anio": 2014,
+      "gama": "media",
+      "precio": 75000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S5 mini",
+      "anio": 2014,
+      "gama": "media-baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Core",
+      "anio": 2013,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Note 3",
+      "anio": 2013,
+      "gama": "media-alta",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S4",
+      "anio": 2013,
+      "gama": "media",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S4 mini",
+      "anio": 2013,
+      "gama": "media-baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Star",
+      "anio": 2013,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Young",
+      "anio": 2013,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy Note 2",
+      "anio": 2012,
+      "gama": "media-alta",
+      "precio": 75000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S3",
+      "anio": 2012,
+      "gama": "media",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S3 mini",
+      "anio": 2012,
+      "gama": "media-baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Sharp",
+      "modelo": "Sharp Aquos Sense 8",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 475000,
+      "imagen": null
+    },
+    {
+      "marca": "Sharp",
+      "modelo": "Sharp Aquos R8",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1600000,
+      "imagen": null
+    },
+    {
+      "marca": "Sharp",
+      "modelo": "Sharp Aquos Sense 7",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 390000,
+      "imagen": null
+    },
+    {
+      "marca": "Sharp",
+      "modelo": "Sharp Aquos R7",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1310000,
+      "imagen": null
+    },
+    {
+      "marca": "Sharp",
+      "modelo": "Sharp Aquos R6",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1075000,
+      "imagen": null
+    },
+    {
+      "marca": "Sharp",
+      "modelo": "Sharp Aquos R5",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 880000,
+      "imagen": null
+    },
+    {
+      "marca": "Sharp",
+      "modelo": "Sharp Aquos R3",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 725000,
+      "imagen": null
+    },
+    {
+      "marca": "Sharp",
+      "modelo": "Sharp Aquos R2",
+      "anio": 2018,
+      "gama": "media-alta",
+      "precio": 285000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 1 VII",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2095000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 1 VI",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 1715000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 10 VI",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 475000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 1 V",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1405000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 10 V",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 390000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 5 V",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 680000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 1 IV",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1155000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 10 IV",
+      "anio": 2022,
+      "gama": "media",
+      "precio": 320000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 5 IV",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 555000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 1 III",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 945000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 10 III",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 260000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 5 III",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 455000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 1 II",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 775000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 10 II",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 5 II",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 375000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 1",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 635000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 10",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 5",
+      "anio": 2019,
+      "gama": "media-alta",
+      "precio": 305000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia XZ2",
+      "anio": 2018,
+      "gama": "media-alta",
+      "precio": 250000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia XZ3",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 520000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia XZ Premium",
+      "anio": 2017,
+      "gama": "alta",
+      "precio": 430000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia XZ1",
+      "anio": 2017,
+      "gama": "media-alta",
+      "precio": 205000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia X",
+      "anio": 2016,
+      "gama": "media",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia XZ",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 170000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia Z5",
+      "anio": 2015,
+      "gama": "media-alta",
+      "precio": 140000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia Z5 Compact",
+      "anio": 2015,
+      "gama": "media",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia Z2",
+      "anio": 2014,
+      "gama": "media-alta",
+      "precio": 115000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia Z3",
+      "anio": 2014,
+      "gama": "media-alta",
+      "precio": 115000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia Z3 Compact",
+      "anio": 2014,
+      "gama": "media",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia Z",
+      "anio": 2013,
+      "gama": "media-alta",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia Z1",
+      "anio": 2013,
+      "gama": "media-alta",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 60 SE",
+      "anio": 2025,
+      "gama": "baja",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 50 5G",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 325000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 50 Pro NxtPaper",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 355000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 50 SE",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 501",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 505",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 40 NxtPaper",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 235000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 40 SE",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 30",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 30 5G",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 30 SE",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 30+",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 215000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 20 Pro 5G",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 570000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 20 SE",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 20L",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 10 5G",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 10 Pro",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 270000,
+      "imagen": null
+    },
+    {
+      "marca": "TCL",
+      "modelo": "TCL 10L",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Camon 40",
+      "anio": 2025,
+      "gama": "media-baja",
+      "precio": 345000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Spark 30",
+      "anio": 2025,
+      "gama": "baja",
+      "precio": 190000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Camon 30",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 285000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Pova 6",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 155000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Spark 20",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 155000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Camon 20",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 235000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Phantom V Fold",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 2160000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Pova 5",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 125000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Spark 10",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 125000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Camon 19",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 190000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Phantom X2",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 555000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Pova 3",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Spark 8",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Spark 9",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Camon 17",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Camon 18",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 155000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Phantom X",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 455000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Pova 2",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Spark 7",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Camon 15",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Camon 16",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Pova",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Spark 5",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Spark 6",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Tecno",
+      "modelo": "Tecno Camon 12",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 14C",
+      "anio": 2025,
+      "gama": "baja",
+      "precio": 190000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi A5",
+      "anio": 2025,
+      "gama": "baja",
+      "precio": 190000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Xiaomi 15",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2380000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Xiaomi 15 Ultra",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2805000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Xiaomi 15T",
+      "anio": 2025,
+      "gama": "media-alta",
+      "precio": 1150000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Xiaomi 15T Pro",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2615000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 13C",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 155000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi A3",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 155000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 13",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 285000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 13 Pro",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 590000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 14",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 285000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 14 Pro",
+      "anio": 2024,
+      "gama": "media",
+      "precio": 590000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 14 Pro+",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 1035000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Xiaomi 14",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 1950000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Xiaomi 14 Ultra",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2300000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Xiaomi 14T",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 940000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Xiaomi 14T Pro",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2145000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 13",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1600000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 13 Lite",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 680000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 12C",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 125000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi A2",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 125000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 12",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 235000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 12 Pro",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 485000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Xiaomi 13T",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 770000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Xiaomi 13T Pro",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1760000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 12",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1310000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 12 Lite",
+      "anio": 2022,
+      "gama": "media-alta",
+      "precio": 555000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 10",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 10C",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi A1",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 11",
+      "anio": 2022,
+      "gama": "media-baja",
+      "precio": 190000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 11 Pro",
+      "anio": 2022,
+      "gama": "media",
+      "precio": 400000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 11",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1075000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 11 Lite",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 260000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 11 Ultra",
+      "anio": 2021,
+      "gama": "alta",
+      "precio": 1270000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 9",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 9A",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 9C",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 10",
+      "anio": 2021,
+      "gama": "media-baja",
+      "precio": 155000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 10 Pro",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 325000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 10",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 880000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 10T",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 425000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 10T Pro",
+      "anio": 2020,
+      "gama": "alta",
+      "precio": 970000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 8",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 8",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 130000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 9",
+      "anio": 2020,
+      "gama": "media-baja",
+      "precio": 130000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 9 Pro",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 270000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 9",
+      "anio": 2019,
+      "gama": "media-alta",
+      "precio": 350000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 9T",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 200000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 9T Pro",
+      "anio": 2019,
+      "gama": "media-alta",
+      "precio": 385000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 7",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 7",
+      "anio": 2019,
+      "gama": "media-baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 8 Pro",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 220000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 8",
+      "anio": 2018,
+      "gama": "media-alta",
+      "precio": 285000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 8 Lite",
+      "anio": 2018,
+      "gama": "media",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 5",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 6",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 5",
+      "anio": 2018,
+      "gama": "media-baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 6 Pro",
+      "anio": 2018,
+      "gama": "media-baja",
+      "precio": 110000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 6",
+      "anio": 2017,
+      "gama": "media-alta",
+      "precio": 235000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 4",
+      "anio": 2017,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 4",
+      "anio": 2017,
+      "gama": "media-baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 5",
+      "anio": 2016,
+      "gama": "media",
+      "precio": 110000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 5s",
+      "anio": 2016,
+      "gama": "media",
+      "precio": 110000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 3",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 3",
+      "anio": 2016,
+      "gama": "media-baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 2",
+      "anio": 2015,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 4",
+      "anio": 2014,
+      "gama": "media-baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 3",
+      "anio": 2013,
+      "gama": "media-baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi 1",
+      "anio": 2013,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Axon 60",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 940000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade A75",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 155000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade V60",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 285000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Axon 50",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1600000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade A53",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 125000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade A54",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 125000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade V50",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 235000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Axon 40",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1310000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade A52",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade V40",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 105000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Axon 30",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 520000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade A31",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade A51",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade V30",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 85000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Axon 20",
+      "anio": 2020,
+      "gama": "media-alta",
+      "precio": 425000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade V20",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 70000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Axon 10 Pro",
+      "anio": 2019,
+      "gama": "alta",
+      "precio": 795000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade A5",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade A7",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade V10",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Axon 9 Pro",
+      "anio": 2018,
+      "gama": "alta",
+      "precio": 650000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade A3",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade V9",
+      "anio": 2018,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade V8",
+      "anio": 2017,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Axon 7",
+      "anio": 2016,
+      "gama": "media-alta",
+      "precio": 190000,
+      "imagen": null
+    },
+    {
+      "marca": "ZTE",
+      "modelo": "ZTE Blade V7",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 60000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo X200",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2380000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo X200 Pro",
+      "anio": 2025,
+      "gama": "alta",
+      "precio": 2615000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo V30",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 940000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo V40",
+      "anio": 2024,
+      "gama": "media-alta",
+      "precio": 940000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo X100",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 1950000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo X100 Pro",
+      "anio": 2024,
+      "gama": "alta",
+      "precio": 2145000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo Y28",
+      "anio": 2024,
+      "gama": "baja",
+      "precio": 175000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo Y38",
+      "anio": 2024,
+      "gama": "media-baja",
+      "precio": 325000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo V27",
+      "anio": 2023,
+      "gama": "media",
+      "precio": 440000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo V29",
+      "anio": 2023,
+      "gama": "media-alta",
+      "precio": 770000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo X90",
+      "anio": 2023,
+      "gama": "alta",
+      "precio": 1600000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo Y100",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 265000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo Y27",
+      "anio": 2023,
+      "gama": "baja",
+      "precio": 145000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo Y36",
+      "anio": 2023,
+      "gama": "media-baja",
+      "precio": 265000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo V23",
+      "anio": 2022,
+      "gama": "media",
+      "precio": 360000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo V25",
+      "anio": 2022,
+      "gama": "media",
+      "precio": 360000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo X80",
+      "anio": 2022,
+      "gama": "alta",
+      "precio": 1310000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo Y22",
+      "anio": 2022,
+      "gama": "baja",
+      "precio": 120000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo V21",
+      "anio": 2021,
+      "gama": "media",
+      "precio": 295000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo X60",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 520000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo X70",
+      "anio": 2021,
+      "gama": "media-alta",
+      "precio": 520000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo Y21",
+      "anio": 2021,
+      "gama": "baja",
+      "precio": 95000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo V19",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 245000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo V20",
+      "anio": 2020,
+      "gama": "media",
+      "precio": 245000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo Y20",
+      "anio": 2020,
+      "gama": "baja",
+      "precio": 80000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo V15",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 200000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo V17",
+      "anio": 2019,
+      "gama": "media",
+      "precio": 200000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo Y11",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo Y12",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo Y15",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo Y17",
+      "anio": 2019,
+      "gama": "baja",
+      "precio": 65000,
+      "imagen": null
+    },
+    {
+      "marca": "vivo",
+      "modelo": "vivo V11",
+      "anio": 2018,
+      "gama": "media",
+      "precio": 165000,
+      "imagen": null
+    }
   ],
   "servicios": [
-    { "rubro": "Diagnóstico y presupuesto", "detalle": "Revisión inicial del equipo", "precio": null },
-    { "rubro": "Cambio de pantalla", "detalle": "Celular, según modelo y calidad del repuesto", "precio": null },
-    { "rubro": "Cambio de batería", "detalle": "Celular, según modelo", "precio": null },
-    { "rubro": "Conector de carga", "detalle": "Reparación o cambio de puerto", "precio": null },
-    { "rubro": "Cámara trasera / frontal", "detalle": "Cambio de módulo", "precio": null },
-    { "rubro": "Altavoz / auricular", "detalle": "Bocina, parlante o auricular interno", "precio": null },
-    { "rubro": "Botones y flex", "detalle": "Encendido, volumen o flex de carga", "precio": null },
-    { "rubro": "Limpieza por humedad", "detalle": "Baño ultrasónico y revisión", "precio": null },
-    { "rubro": "Reparación de placa", "detalle": "Microsoldadura, según complejidad", "precio": null },
-    { "rubro": "Liberación / flasheo", "detalle": "Software y desbloqueo", "precio": null },
-    { "rubro": "Actualización de software", "detalle": "Sistema y aplicaciones", "precio": null },
-    { "rubro": "Cambio de tapa / vidrio trasero", "detalle": "Según modelo", "precio": null },
-    { "rubro": "Reparación de tablet", "detalle": "Pantalla, batería o carga", "precio": null },
-    { "rubro": "Reparación de notebook", "detalle": "Teclado, batería, limpieza, bisagras", "precio": null },
-    { "rubro": "Formateo e instalación de Windows", "detalle": "Con backup básico", "precio": null },
-    { "rubro": "Recuperación de datos", "detalle": "Según estado del disco", "precio": null },
-    { "rubro": "Armado de PC", "detalle": "Mano de obra de armado y testeo", "precio": null },
-    { "rubro": "Mantenimiento preventivo", "detalle": "Limpieza y cambio de pasta térmica", "precio": null }
+    {
+      "rubro": "Diagnóstico y presupuesto",
+      "detalle": "Revisión inicial del equipo",
+      "precio": null
+    },
+    {
+      "rubro": "Cambio de pantalla",
+      "detalle": "Celular, según modelo y calidad del repuesto",
+      "precio": null
+    },
+    {
+      "rubro": "Cambio de batería",
+      "detalle": "Celular, según modelo",
+      "precio": null
+    },
+    {
+      "rubro": "Conector de carga",
+      "detalle": "Reparación o cambio de puerto",
+      "precio": null
+    },
+    {
+      "rubro": "Cámara trasera / frontal",
+      "detalle": "Cambio de módulo",
+      "precio": null
+    },
+    {
+      "rubro": "Altavoz / auricular",
+      "detalle": "Bocina, parlante o auricular interno",
+      "precio": null
+    },
+    {
+      "rubro": "Botones y flex",
+      "detalle": "Encendido, volumen o flex de carga",
+      "precio": null
+    },
+    {
+      "rubro": "Limpieza por humedad",
+      "detalle": "Baño ultrasónico y revisión",
+      "precio": null
+    },
+    {
+      "rubro": "Reparación de placa",
+      "detalle": "Microsoldadura, según complejidad",
+      "precio": null
+    },
+    {
+      "rubro": "Liberación / flasheo",
+      "detalle": "Software y desbloqueo",
+      "precio": null
+    },
+    {
+      "rubro": "Actualización de software",
+      "detalle": "Sistema y aplicaciones",
+      "precio": null
+    },
+    {
+      "rubro": "Cambio de tapa / vidrio trasero",
+      "detalle": "Según modelo",
+      "precio": null
+    },
+    {
+      "rubro": "Reparación de tablet",
+      "detalle": "Pantalla, batería o carga",
+      "precio": null
+    },
+    {
+      "rubro": "Reparación de notebook",
+      "detalle": "Teclado, batería, limpieza, bisagras",
+      "precio": null
+    },
+    {
+      "rubro": "Formateo e instalación de Windows",
+      "detalle": "Con backup básico",
+      "precio": null
+    },
+    {
+      "rubro": "Recuperación de datos",
+      "detalle": "Según estado del disco",
+      "precio": null
+    },
+    {
+      "rubro": "Armado de PC",
+      "detalle": "Mano de obra de armado y testeo",
+      "precio": null
+    },
+    {
+      "rubro": "Mantenimiento preventivo",
+      "detalle": "Limpieza y cambio de pasta térmica",
+      "precio": null
+    }
   ]
 }

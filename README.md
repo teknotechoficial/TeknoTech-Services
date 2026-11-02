@@ -29,10 +29,16 @@ Sitio estático de TeknoTech Services: landing pública + panel interno de preci
 Todo se edita en `panel/datos.json`:
 
 - `actualizado`: fecha que se muestra en el panel.
-- `celulares[]`: cada equipo tiene `marca`, `modelo`, `gama` y `precio` (ARS, sin decimales).
+- `celulares[]`: cada equipo tiene `marca`, `modelo`, `anio`, `gama`, `precio` (ARS, sin decimales) e `imagen`.
   - Valores válidos de `gama`: `alta`, `media-alta`, `media`, `media-baja`, `baja`.
+  - `anio` es el año de lanzamiento; el panel lo muestra y permite filtrar por él.
+  - `imagen` está reservado: si ponés una ruta (ej. `img/iphone-17.png`), queda lista para mostrarse.
 - `servicios[]`: cada rubro tiene `rubro`, `detalle` y `precio`.
   - Mientras `precio` sea `null`, el panel muestra “A completar”.
+
+El catálogo actual tiene **1027 modelos de 30 marcas (2012–2026)**. Los precios son estimados:
+se calculan por gama y se deprecian según el año de lanzamiento, así que un gama alta de 2013
+vale mucho menos que uno de 2026. Verificar antes de cotizar.
 
 Después de editar, commit y push: Cloudflare Pages redeploya solo.
 
@@ -73,5 +79,6 @@ Luego abrir:
 ## Pendientes conocidos
 
 - Precios de servicio técnico sin cargar (18 rubros con `precio: null`).
+- Imágenes por modelo: el campo `imagen` está reservado pero vacío; hay que definir la fuente de las fotos.
 - La marca de agua a pantalla completa del `index.html` se mantiene por decisión del dueño; pesa ~470 KB en base64.
 - Sin dominio propio: cuando haya uno, actualizar las URLs listadas arriba.
