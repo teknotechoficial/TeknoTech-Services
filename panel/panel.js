@@ -21,6 +21,9 @@
     var paginaActual = [];
     var focoDetalle = null;
     var ORDEN_LINEA = {};
+    var fichas = {};
+    var fichasListas = false;
+    var fichaPendiente = null;
 
     var el = {
         fecha: document.getElementById('fecha-actualizado'),
@@ -71,11 +74,76 @@
     }
 
     function lentesDe(c) {
-        var ficha = datos && datos.fichas ? datos.fichas[c.marca + '|' + c.modelo] : null;
+        var ficha = fichas[c.marca + '|' + c.modelo] || fichaEstimada(c);
         if (!ficha || !ficha.camara) return null;
 
         var cuantas = String(ficha.camara).split('+').length;
         return Math.max(1, Math.min(4, cuantas));
+    }
+
+    function fichaEstimada(c) {
+        var anio = Number(c.anio) || 2020;
+        var gama = c.gama;
+        var pantalla, chip, ram, bateria, camara, frontal, antutu, soporte;
+
+        if (gama === 'alta') {
+            pantalla = '6.7" AMOLED 120 Hz';
+            chip = 'Chipset de gama alta (8 nucleos)';
+            ram = anio >= 2022 ? '12 GB' : '8 GB';
+            bateria = '4600 mAh';
+            camara = '50 MP + 12 MP + 10 MP';
+            frontal = '12 MP';
+            antutu = anio >= 2022 ? '~1.200.000' : '~750.000';
+            soporte = '4 años';
+        } else if (gama === 'media-alta') {
+            pantalla = '6.6" AMOLED 120 Hz';
+            chip = 'Chipset de gama media alta (8 nucleos)';
+            ram = '8 GB';
+            bateria = '5000 mAh';
+            camara = '50 MP + 8 MP + 2 MP';
+            frontal = '16 MP';
+            antutu = anio >= 2022 ? '~650.000' : '~450.000';
+            soporte = '3 años';
+        } else if (gama === 'media') {
+            pantalla = '6.6" IPS 90 Hz';
+            chip = 'Chipset de gama media (8 nucleos)';
+            ram = anio >= 2021 ? '6 GB' : '4 GB';
+            bateria = '5000 mAh';
+            camara = '50 MP + 5 MP + 2 MP';
+            frontal = '13 MP';
+            antutu = anio >= 2022 ? '~420.000' : '~300.000';
+            soporte = '2 años';
+        } else if (gama === 'media-baja') {
+            pantalla = '6.5" IPS 90 Hz';
+            chip = 'Chipset de gama media baja (8 nucleos)';
+            ram = '4 GB';
+            bateria = '5000 mAh';
+            camara = '50 MP + 2 MP';
+            frontal = '8 MP';
+            antutu = anio >= 2022 ? '~300.000' : '~200.000';
+            soporte = '2 años';
+        } else {
+            pantalla = '6.5" IPS 60 Hz';
+            chip = 'Chipset de gama baja (8 nucleos)';
+            ram = anio >= 2020 ? '3 GB' : '2 GB';
+            bateria = '5000 mAh';
+            camara = '13 MP + 2 MP';
+            frontal = '5 MP';
+            antutu = anio >= 2022 ? '~180.000' : '~110.000';
+            soporte = '1 año';
+        }
+
+        if (anio <= 2017) {
+            pantalla = pantalla.replace('120 Hz', '60 Hz').replace('90 Hz', '60 Hz');
+            ram = (gama === 'alta' || gama === 'media-alta') ? '3 GB' : '2 GB';
+            bateria = '3300 mAh';
+        }
+
+        return {
+            pantalla: pantalla, chipset: chip, ram: ram, bateria: bateria,
+            camara: camara, frontal: frontal, antutu: antutu, soporte: soporte,
+            real: false
+        };
     }
 
     function iniciar() {
@@ -95,12 +163,32 @@
                 prepararFiltros();
                 pintarCelulares();
                 pintarServicios();
+                cargarFichas();
                 if (el.fecha) el.fecha.textContent = datos.actualizado || '—';
                 if (el.avisoCel) el.avisoCel.textContent = datos.aviso || '';
             })
             .catch(function (error) {
                 el.tbodyCel.innerHTML = '<tr><td colspan="6" class="vacio">No se pudo cargar datos.json (' + escapar(error.message) + '). Abrilo desde un servidor HTTP.</td></tr>';
                 el.pagInfo.textContent = '—';
+            });
+    }
+
+    function cargarFichas() {
+        fetch('fichas.json', { cache: 'no-store' })
+            .then(function (r) {
+                return r.ok ? r.json() : {};
+            })
+            .then(function (json) {
+                fichas = json || {};
+                fichasListas = true;
+                if (fichaPendiente) {
+                    var c = fichaPendiente;
+                    fichaPendiente = null;
+                    if (el.detalle && !el.detalle.hidden) abrirDetalle(c);
+                }
+            })
+            .catch(function () {
+                fichasListas = true;
             });
     }
 
@@ -334,10 +422,32 @@
         pintarCelulares();
     }
 
+    function pintarFicha(ficha, real) {
+        var filas = [
+            ['Pantalla', ficha.pantalla],
+            ['Chipset', ficha.chipset],
+            ['Memoria RAM', ficha.ram],
+            ['Batería', ficha.bateria],
+            ['Cámara principal', ficha.camara],
+            ['Cámara frontal', ficha.frontal],
+            ['Potencia (AnTuTu)', ficha.antutu],
+            ['Actualizaciones', ficha.soporte]
+        ];
+
+        el.detalleSpecs.innerHTML = filas.map(function (fila) {
+            return '<div class="spec"><dt>' + escapar(fila[0]) + '</dt><dd>' + escapar(fila[1] || '—') + '</dd></div>';
+        }).join('');
+
+        el.detalleFuente.textContent = real
+            ? 'Datos de referencia del modelo.'
+            : 'Datos estimados según gama y año.';
+        el.detalleFuente.className = 'detalle-fuente ' + (real ? 'real' : 'estimado');
+    }
+
     function abrirDetalle(c) {
         if (!el.detalle || !c) return;
 
-        var ficha = (datos.fichas || {})[c.marca + '|' + c.modelo];
+        var ficha = fichas[c.marca + '|' + c.modelo];
         var nombre = c.modelo + (c.variante ? ' · ' + c.variante : '');
 
         focoDetalle = document.activeElement;
@@ -353,29 +463,10 @@
             : '';
 
         if (ficha) {
-            var filas = [
-                ['Pantalla', ficha.pantalla],
-                ['Chipset', ficha.chipset],
-                ['Memoria RAM', ficha.ram],
-                ['Batería', ficha.bateria],
-                ['Cámara principal', ficha.camara],
-                ['Cámara frontal', ficha.frontal],
-                ['Potencia (AnTuTu)', ficha.antutu],
-                ['Actualizaciones', ficha.soporte]
-            ];
-
-            el.detalleSpecs.innerHTML = filas.map(function (fila) {
-                return '<div class="spec"><dt>' + escapar(fila[0]) + '</dt><dd>' + escapar(fila[1] || '—') + '</dd></div>';
-            }).join('');
-
-            el.detalleFuente.textContent = ficha.real
-                ? 'Datos de referencia del modelo.'
-                : 'Datos estimados según gama y año.';
-            el.detalleFuente.className = 'detalle-fuente ' + (ficha.real ? 'real' : 'estimado');
+            pintarFicha(ficha, true);
         } else {
-            el.detalleSpecs.innerHTML = '<div class="spec"><dt>Ficha</dt><dd>Sin datos para este modelo.</dd></div>';
-            el.detalleFuente.textContent = 'Sin ficha técnica cargada.';
-            el.detalleFuente.className = 'detalle-fuente estimado';
+            pintarFicha(fichaEstimada(c), false);
+            if (!fichasListas) fichaPendiente = c;
         }
 
         el.detalle.hidden = false;

@@ -62,8 +62,17 @@
             .replace(/"/g, '&quot;');
     }
 
+    function colorDe(marca) {
+        if (COLORES[marca]) return COLORES[marca];
+        // Las marcas nuevas (GSMArena trae 128) reciben un color estable
+        // derivado del nombre, asi no quedan todas grises.
+        var h = 0, s = String(marca || '');
+        for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 360;
+        return 'hsl(' + h + ', 32%, 42%)';
+    }
+
     function svg(marca, gama, etiqueta, compacto, lentes) {
-        var color = COLORES[marca] || '#4a4a4a';
+        var color = colorDe(marca);
         var g = GAMAS[gama] || GAMAS['media'];
         var isla = g.isla;
 
@@ -127,7 +136,7 @@
 
     window.TT_Marcas = {
         svg: svg,
-        color: function (marca) { return COLORES[marca] || '#4a4a4a'; },
+        color: function (marca) { return colorDe(marca); },
         acento: function (gama) { return (GAMAS[gama] || GAMAS['media']).acento; }
     };
 })();

@@ -19,7 +19,8 @@ Sitio estático de TeknoTech Services: landing pública + panel interno de preci
 │   ├── panel.css         Estilos del panel
 │   ├── panel.js          Filtros, tablas, ficha y exportación CSV
 │   ├── marcas.js         Ilustraciones SVG por marca y gama
-│   └── datos.json        ← acá se editan precios, modelos y fichas
+│   ├── datos.json        ← catálogo y precios (lo que edita el panel)
+│   └── fichas.json       Fichas técnicas reales, se cargan al abrir una ficha
 ├── robots.txt
 ├── sitemap.xml
 └── _headers              Headers de Cloudflare Pages
@@ -40,29 +41,40 @@ Todo se edita en `panel/datos.json`:
 - `lineas`: orden en que se muestran las líneas dentro de cada marca. Es un objeto
   `{ "Samsung": ["Galaxy S", "Galaxy Note", …] }`; el panel respeta ese orden en la vista
   de catálogo. Si agregás una línea nueva y no la listás acá, va al final de su marca.
-- `fichas`: datos técnicos por modelo. La clave es `"Marca|Modelo"` (ej. `"Apple|iPhone 15"`).
+- `fichas` ya no vive en `datos.json`: está en `panel/fichas.json`, con la misma clave
+  `"Marca|Modelo"` (ej. `"Apple|iPhone 15"`). El panel lo pide recién cuando abrís una ficha,
+  así el listado no arrastra 1,8 MB extra.
   - Campos: `pantalla`, `chipset`, `ram`, `bateria`, `camara`, `frontal`, `antutu`, `soporte`.
   - `real: true` muestra “Datos de referencia del modelo”; `false` muestra “Datos estimados según gama y año”.
+  - Si un modelo no está en `fichas.json`, el panel arma una ficha estimada con la gama y el año.
 - `servicios[]`: cada rubro tiene `rubro`, `detalle` y `precio`.
   - Mientras `precio` sea `null`, el panel muestra “A completar”.
 
-El catálogo actual tiene **2348 filas (1274 modelos) de 30 marcas (2010–2026)**. Los precios son
-estimados: se calculan por gama, se ajustan por capacidad y se deprecian según el año de
-lanzamiento, con un piso por gama para que un equipo viejo no quede en un valor irreal.
-Verificar antes de cotizar.
+El catálogo actual tiene **11.133 filas (10.621 modelos) de 101 marcas (2010–2026)**, con
+9.436 fichas técnicas reales. Los precios son estimados: se calculan por gama, se ajustan por
+capacidad y se deprecian según el año de lanzamiento, con un piso por gama para que un equipo
+viejo no quede en un valor irreal. Verificar antes de cotizar.
 
-### Cobertura de 2010 y 2026
+### Origen de los datos
 
-Ambos años se cargaron desde las categorías de Wikipedia "Mobile phones introduced in 2010" y
-"introduced in 2026", filtradas a las 30 marcas del catálogo y solo equipos con sistema operativo.
+El catálogo se genera con `build-catalog.py` a partir de:
 
-- **2010:** 76 modelos (153 filas).
-- **2026:** 42 modelos (97 filas), a noviembre de 2026. El año sigue en curso, así que la lista
-  crece a medida que se anuncian equipos.
+- **GSMArena** (`gsmarena-raw.json`): las 128 marcas de su buscador, 12.685 equipos, de los
+  cuales 10.826 son de 2010–2026. Aporta modelo, año, tipo (smartphone / tablet / feature phone),
+  pantalla, chipset, RAM, batería, cámara y almacenamiento.
+- **Lista curada** (la sección `CATALOGO` del generador): los modelos y gamas de las marcas
+  principales, que tienen prioridad y variantes de capacidad verificadas a mano.
 
-Quedaron afuera los feature phones, las variantes de operador y los modelos exclusivos de Japón.
-Para agregar uno, sumarlo a la sección `AMPLIACION 2010 Y 2026` del generador o directamente a
-`celulares[]`.
+Reglas de armado:
+
+- Se excluyen relojes, bandas y pulseras inteligentes (GSMArena los publica como “phone”).
+- Se incluyen smartphones, tablets y feature phones; los feature phones van siempre a gama baja.
+- La gama sale del chipset cuando está; si no, del año y del nombre, y la RAM solo ajusta dentro
+  de su época (2 GB era gama alta en 2014 y baja en 2020). Un sufijo “Pro Max”/“Ultra” sube un
+  escalón, pero no convierte por sí solo un equipo de gama media en gama alta.
+- El almacenamiento se normaliza a la capacidad comercial (`1024GB` → `1TB`, `13.3GB` → `16GB`).
+  Si GSMArena no publica capacidad, el modelo queda con una sola fila y `variante: "s/d"`.
+- Deduplicación por nombre exacto y por nombre base (ignora `5G`/`4G`/`LTE`).
 
 ### Orden del catálogo
 
@@ -143,6 +155,6 @@ Luego abrir:
 ## Pendientes conocidos
 
 - Precios de servicio técnico sin cargar (18 rubros con `precio: null`).
-- Fichas técnicas: 89 modelos con datos de referencia; el resto son estimados según gama y año.
+- Fichas técnicas: 9.436 modelos con datos reales de GSMArena; el resto se estima según gama y año.
 - La marca de agua a pantalla completa del `index.html` se mantiene por decisión del dueño; pesa ~470 KB en base64.
 - Sin dominio propio: cuando haya uno, actualizar las URLs listadas arriba.
