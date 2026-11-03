@@ -10,6 +10,18 @@
     <link rel="stylesheet" href="panel.css">
 </head>
 <body>
+    <div class="gate" id="gate" hidden>
+        <form class="gate-box" id="gate-form" novalidate>
+            <img src="../assets/logo-icon-256.png" alt="" width="56" height="56">
+            <h1>Acceso interno</h1>
+            <p>Este panel es privado. Ingresá la contraseña para continuar.</p>
+            <label class="gate-label" for="gate-pass">Contraseña</label>
+            <input type="password" id="gate-pass" inputmode="numeric" autocomplete="current-password" required>
+            <p class="gate-error" id="gate-error" role="alert"></p>
+            <button type="submit" class="gate-btn">Entrar</button>
+        </form>
+    </div>
+
     <header class="topbar">
         <div class="topbar-inner">
             <div class="brand">
@@ -112,6 +124,8 @@
         <span id="conteo-serv"></span>
     </footer>
 
+    <script src="../js/access-core.js"></script>
+    <script src="gate.js"></script>
     <script src="panel.js"></script>
 </body>
 </html>

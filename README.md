@@ -76,6 +76,25 @@ Luego abrir:
 
 > Nota: sin Access, el panel es público aunque tenga `noindex`. `noindex` solo evita que Google lo indexe, no que alguien entre.
 
+## Entrada al panel desde el sitio
+
+- **Cinco clics seguidos** (menos de 2 segundos entre uno y otro) sobre el logo del encabezado
+  o del pie abren el pedido de contraseña.
+- Con la contraseña correcta se abre `/panel/`.
+- Si alguien entra directo a `/panel/` sin pasar por el logo, el panel pide la contraseña
+  antes de cargar nada.
+- La contraseña no está en texto plano: se guarda como hash SHA-256 en `js/access-core.js`.
+  Para cambiarla:
+
+  ```bash
+  node -e "console.log(require('crypto').createHash('sha256').update('NUEVA_CLAVE').digest('hex'))"
+  ```
+
+  Y reemplazar el valor de `HASH` en `js/access-core.js`.
+
+> Esta contraseña es una barrera de comodidad, no seguridad real: el código es público y
+> cualquiera puede leerlo y probar sin límite. La protección efectiva es Cloudflare Access.
+
 ## Pendientes conocidos
 
 - Precios de servicio técnico sin cargar (18 rubros con `precio: null`).

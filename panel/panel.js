@@ -59,6 +59,11 @@
     }
 
     function iniciar() {
+        if (document.body.classList.contains('locked')) {
+            document.addEventListener('tt:unlock', iniciar, { once: true });
+            return;
+        }
+
         fetch('datos.json', { cache: 'no-store' })
             .then(function (r) {
                 if (!r.ok) throw new Error('HTTP ' + r.status);
