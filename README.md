@@ -17,8 +17,9 @@ Sitio estático de TeknoTech Services: landing pública + panel interno de preci
 ├── panel/
 │   ├── index.html        Panel interno (noindex)
 │   ├── panel.css         Estilos del panel
-│   ├── panel.js          Filtros, tablas y exportación CSV
-│   └── datos.json        ← acá se editan precios y modelos
+│   ├── panel.js          Filtros, tablas, ficha y exportación CSV
+│   ├── marcas.js         Ilustraciones SVG por marca y gama
+│   └── datos.json        ← acá se editan precios, modelos y fichas
 ├── robots.txt
 ├── sitemap.xml
 └── _headers              Headers de Cloudflare Pages
@@ -29,16 +30,27 @@ Sitio estático de TeknoTech Services: landing pública + panel interno de preci
 Todo se edita en `panel/datos.json`:
 
 - `actualizado`: fecha que se muestra en el panel.
-- `celulares[]`: cada equipo tiene `marca`, `modelo`, `anio`, `gama`, `precio` (ARS, sin decimales) e `imagen`.
+- `celulares[]`: cada fila es un modelo con una capacidad. Tiene `marca`, `modelo`,
+  `variante` (almacenamiento, ej. `128GB`), `anio`, `gama` y `precio` (ARS, sin decimales).
   - Valores válidos de `gama`: `alta`, `media-alta`, `media`, `media-baja`, `baja`.
+  - Un mismo modelo puede repetirse con distintas capacidades, cada una con su precio.
   - `anio` es el año de lanzamiento; el panel lo muestra y permite filtrar por él.
-  - `imagen` está reservado: si ponés una ruta (ej. `img/iphone-17.png`), queda lista para mostrarse.
+- `fichas`: datos técnicos por modelo. La clave es `"Marca|Modelo"` (ej. `"Apple|iPhone 15"`).
+  - Campos: `pantalla`, `chipset`, `ram`, `bateria`, `camara`, `frontal`, `antutu`, `soporte`.
+  - `real: true` muestra “Datos de referencia del modelo”; `false` muestra “Datos estimados según gama y año”.
 - `servicios[]`: cada rubro tiene `rubro`, `detalle` y `precio`.
   - Mientras `precio` sea `null`, el panel muestra “A completar”.
 
-El catálogo actual tiene **1027 modelos de 30 marcas (2012–2026)**. Los precios son estimados:
-se calculan por gama y se deprecian según el año de lanzamiento, así que un gama alta de 2013
-vale mucho menos que uno de 2026. Verificar antes de cotizar.
+El catálogo actual tiene **2351 filas (1290 modelos) de 30 marcas (2010–2026)**. Los precios son
+estimados: se calculan por gama, se ajustan por capacidad y se deprecian según el año de
+lanzamiento. Verificar antes de cotizar.
+
+### Imágenes
+
+No se usan fotos: `panel/marcas.js` dibuja un SVG en el navegador con el color de cada marca y la
+cantidad de cámaras del modelo (según `fichas.camara`, o según la gama si no hay ficha). No hay
+archivos, no pesa y no tiene derechos de autor. Para agregar una marca nueva, sumar su color al
+objeto `COLORES` de ese archivo.
 
 Después de editar, commit y push: Cloudflare Pages redeploya solo.
 
@@ -98,6 +110,6 @@ Luego abrir:
 ## Pendientes conocidos
 
 - Precios de servicio técnico sin cargar (18 rubros con `precio: null`).
-- Imágenes por modelo: el campo `imagen` está reservado pero vacío; hay que definir la fuente de las fotos.
+- Fichas técnicas: 89 modelos con datos de referencia; el resto son estimados según gama y año.
 - La marca de agua a pantalla completa del `index.html` se mantiene por decisión del dueño; pesa ~470 KB en base64.
 - Sin dominio propio: cuando haya uno, actualizar las URLs listadas arriba.

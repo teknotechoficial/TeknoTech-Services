@@ -18,6 +18,8 @@
     var datos = null;
     var estado = { texto: '', marca: '', gama: '', anio: '', orden: 'precio-desc', pagina: 1 };
     var ultimaLista = [];
+    var paginaActual = [];
+    var focoDetalle = null;
 
     var el = {
         fecha: document.getElementById('fecha-actualizado'),
@@ -38,7 +40,16 @@
         pagNext: document.getElementById('pag-next'),
         pagInfo: document.getElementById('pag-info'),
         tabs: document.querySelectorAll('.tab'),
-        paneles: document.querySelectorAll('.panel')
+        paneles: document.querySelectorAll('.panel'),
+        detalle: document.getElementById('detalle'),
+        detalleFigura: document.getElementById('detalle-figura'),
+        detalleMarca: document.getElementById('detalle-marca'),
+        detalleTitulo: document.getElementById('detalle-titulo'),
+        detalleSub: document.getElementById('detalle-sub'),
+        detallePrecio: document.getElementById('detalle-precio'),
+        detalleSpecs: document.getElementById('detalle-specs'),
+        detalleFuente: document.getElementById('detalle-fuente'),
+        detalleCerrar: document.getElementById('detalle-cerrar')
     };
 
     function escapar(valor) {
@@ -56,6 +67,14 @@
 
     function normalizar(texto) {
         return String(texto).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+
+    function lentesDe(c) {
+        var ficha = datos && datos.fichas ? datos.fichas[c.marca + '|' + c.modelo] : null;
+        if (!ficha || !ficha.camara) return null;
+
+        var cuantas = String(ficha.camara).split('+').length;
+        return Math.max(1, Math.min(4, cuantas));
     }
 
     function iniciar() {
@@ -113,7 +132,7 @@
             if (estado.marca && c.marca !== estado.marca) return false;
             if (estado.gama && c.gama !== estado.gama) return false;
             if (estado.anio && String(c.anio) !== estado.anio) return false;
-            if (texto && normalizar(c.marca + ' ' + c.modelo).indexOf(texto) === -1) return false;
+            if (texto && normalizar(c.marca + ' ' + c.modelo + ' ' + (c.variante || '')).indexOf(texto) === -1) return false;
             return true;
         });
     }
@@ -158,11 +177,12 @@
         el.conteo.textContent = total.toLocaleString('es-AR');
 
         if (!total) {
-            el.tbodyCel.innerHTML = '<tr><td colspan="5" class="vacio">Sin resultados con esos filtros.</td></tr>';
+            el.tbodyCel.innerHTML = '<tr><td colspan="6" class="vacio">Sin resultados con esos filtros.</td></tr>';
             el.rango.textContent = '—';
             el.pagInfo.textContent = '—';
             el.pagPrev.disabled = true;
             el.pagNext.disabled = true;
+            paginaActual = [];
             return;
         }
 
@@ -170,12 +190,18 @@
         el.rango.textContent = formatearPrecio(Math.min.apply(null, precios)) + ' a ' + formatearPrecio(Math.max.apply(null, precios));
 
         var desde = (estado.pagina - 1) * POR_PAGINA;
-        var pagina = ultimaLista.slice(desde, desde + POR_PAGINA);
+        paginaActual = ultimaLista.slice(desde, desde + POR_PAGINA);
 
-        el.tbodyCel.innerHTML = pagina.map(function (c) {
-            return '<tr>' +
+        el.tbodyCel.innerHTML = paginaActual.map(function (c, indice) {
+            var miniatura = window.TT_Marcas
+                ? window.TT_Marcas.svg(c.marca, c.gama, '', true, lentesDe(c))
+                : '';
+            var nombre = c.modelo + (c.variante ? ' · ' + c.variante : '');
+
+            return '<tr class="fila" tabindex="0" data-i="' + indice + '" aria-label="Ver ficha de ' + escapar(c.marca + ' ' + nombre) + '">' +
+                '<td class="col-img"><span class="mini">' + miniatura + '</span></td>' +
                 '<td>' + escapar(c.marca) + '</td>' +
-                '<td>' + escapar(c.modelo) + '</td>' +
+                '<td>' + escapar(c.modelo) + (c.variante ? ' <span class="cap">' + escapar(c.variante) + '</span>' : '') + '</td>' +
                 '<td class="num anio">' + (c.anio || '—') + '</td>' +
                 '<td><span class="badge badge-' + escapar(c.gama) + '">' + escapar(ETIQUETA_GAMA[c.gama] || c.gama) + '</span></td>' +
                 '<td class="num">' + formatearPrecio(c.precio) + '</td>' +
@@ -230,6 +256,106 @@
         pintarCelulares();
     }
 
+    function abrirDetalle(c) {
+        if (!el.detalle || !c) return;
+
+        var ficha = (datos.fichas || {})[c.marca + '|' + c.modelo];
+        var nombre = c.modelo + (c.variante ? ' · ' + c.variante : '');
+
+        focoDetalle = document.activeElement;
+
+        el.detalleMarca.textContent = c.marca;
+        el.detalleTitulo.textContent = c.modelo;
+        el.detalleSub.textContent = (c.variante ? c.variante + ' · ' : '') +
+            (c.anio || '—') + ' · ' + (ETIQUETA_GAMA[c.gama] || c.gama);
+        el.detallePrecio.textContent = formatearPrecio(c.precio) || '—';
+
+        el.detalleFigura.innerHTML = window.TT_Marcas
+            ? window.TT_Marcas.svg(c.marca, c.gama, c.marca + ' ' + nombre, false, lentesDe(c))
+            : '';
+
+        if (ficha) {
+            var filas = [
+                ['Pantalla', ficha.pantalla],
+                ['Chipset', ficha.chipset],
+                ['Memoria RAM', ficha.ram],
+                ['Batería', ficha.bateria],
+                ['Cámara principal', ficha.camara],
+                ['Cámara frontal', ficha.frontal],
+                ['Potencia (AnTuTu)', ficha.antutu],
+                ['Actualizaciones', ficha.soporte]
+            ];
+
+            el.detalleSpecs.innerHTML = filas.map(function (fila) {
+                return '<div class="spec"><dt>' + escapar(fila[0]) + '</dt><dd>' + escapar(fila[1] || '—') + '</dd></div>';
+            }).join('');
+
+            el.detalleFuente.textContent = ficha.real
+                ? 'Datos de referencia del modelo.'
+                : 'Datos estimados según gama y año.';
+            el.detalleFuente.className = 'detalle-fuente ' + (ficha.real ? 'real' : 'estimado');
+        } else {
+            el.detalleSpecs.innerHTML = '<div class="spec"><dt>Ficha</dt><dd>Sin datos para este modelo.</dd></div>';
+            el.detalleFuente.textContent = 'Sin ficha técnica cargada.';
+            el.detalleFuente.className = 'detalle-fuente estimado';
+        }
+
+        el.detalle.hidden = false;
+        document.body.classList.add('detalle-abierto');
+
+        if (el.detalleCerrar) {
+            window.setTimeout(function () { el.detalleCerrar.focus(); }, 30);
+        }
+    }
+
+    function cerrarDetalle() {
+        if (!el.detalle || el.detalle.hidden) return;
+
+        el.detalle.hidden = true;
+        document.body.classList.remove('detalle-abierto');
+
+        if (focoDetalle && typeof focoDetalle.focus === 'function') {
+            focoDetalle.focus();
+        }
+    }
+
+    function detalleDeFila(nodo) {
+        var fila = nodo && nodo.closest ? nodo.closest('tr.fila') : null;
+        if (!fila) return null;
+
+        var indice = Number(fila.getAttribute('data-i'));
+        return paginaActual[indice] || null;
+    }
+
+    el.tbodyCel.addEventListener('click', function (evento) {
+        var c = detalleDeFila(evento.target);
+        if (c) abrirDetalle(c);
+    });
+
+    el.tbodyCel.addEventListener('keydown', function (evento) {
+        if (evento.key !== 'Enter' && evento.key !== ' ') return;
+
+        var c = detalleDeFila(evento.target);
+        if (!c) return;
+
+        evento.preventDefault();
+        abrirDetalle(c);
+    });
+
+    if (el.detalle) {
+        el.detalle.addEventListener('click', function (evento) {
+            if (evento.target.hasAttribute('data-cerrar')) cerrarDetalle();
+        });
+
+        if (el.detalleCerrar) {
+            el.detalleCerrar.addEventListener('click', cerrarDetalle);
+        }
+
+        document.addEventListener('keydown', function (evento) {
+            if (evento.key === 'Escape') cerrarDetalle();
+        });
+    }
+
     el.buscar.addEventListener('input', function () {
         estado.texto = this.value;
         reiniciarPagina();
@@ -273,9 +399,9 @@
     });
 
     el.exportar.addEventListener('click', function () {
-        var filas = [['Marca', 'Modelo', 'Año', 'Gama', 'Precio estimado ARS']];
+        var filas = [['Marca', 'Modelo', 'Almacenamiento', 'Año', 'Gama', 'Precio estimado ARS']];
         ultimaLista.forEach(function (c) {
-            filas.push([c.marca, c.modelo, c.anio || '', ETIQUETA_GAMA[c.gama] || c.gama, c.precio]);
+            filas.push([c.marca, c.modelo, c.variante || '', c.anio || '', ETIQUETA_GAMA[c.gama] || c.gama, c.precio]);
         });
         descargarCSV('celulares-teknotech-' + (datos.actualizado || '') + '.csv', filas);
     });

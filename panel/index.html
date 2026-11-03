@@ -78,6 +78,7 @@
                 <table id="tabla-cel">
                     <thead>
                         <tr>
+                            <th class="col-img"><span class="sr-only">Imagen</span></th>
                             <th>Marca</th>
                             <th>Modelo</th>
                             <th class="num">Año</th>
@@ -124,8 +125,25 @@
         <span id="conteo-serv"></span>
     </footer>
 
+    <div class="detalle" id="detalle" role="dialog" aria-modal="true" aria-labelledby="detalle-titulo" hidden>
+        <div class="detalle-backdrop" data-cerrar></div>
+        <div class="detalle-box">
+            <button type="button" class="detalle-cerrar" id="detalle-cerrar" aria-label="Cerrar ficha">×</button>
+            <div class="detalle-figura" id="detalle-figura" aria-hidden="true"></div>
+            <div class="detalle-info">
+                <p class="detalle-marca" id="detalle-marca"></p>
+                <h2 class="detalle-titulo" id="detalle-titulo"></h2>
+                <p class="detalle-sub" id="detalle-sub"></p>
+                <p class="detalle-precio" id="detalle-precio"></p>
+                <dl class="detalle-specs" id="detalle-specs"></dl>
+                <p class="detalle-fuente" id="detalle-fuente"></p>
+            </div>
+        </div>
+    </div>
+
     <script src="../js/access-core.js"></script>
     <script src="gate.js"></script>
+    <script src="marcas.js"></script>
     <script src="panel.js"></script>
 </body>
 </html>
