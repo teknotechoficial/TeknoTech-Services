@@ -36,6 +36,7 @@
       "BlackBerry"
     ],
     "Google": [
+      "Nexus",
       "Pixel",
       "Pixel Pro",
       "Pixel a",
@@ -82,6 +83,7 @@
     "LG": [
       "Velvet",
       "Wing",
+      "Optimus",
       "G",
       "V",
       "K",
@@ -94,11 +96,13 @@
     ],
     "Microsoft": [
       "Surface Duo",
-      "Lumia"
+      "Lumia",
+      "Microsoft"
     ],
     "Motorola": [
       "Edge",
       "Razr",
+      "Droid",
       "Moto G",
       "Moto E",
       "One",
@@ -108,6 +112,8 @@
       "X",
       "G",
       "C",
+      "E",
+      "N",
       "Nokia"
     ],
     "Nothing": [
@@ -124,6 +130,7 @@
       "OnePlus"
     ],
     "Oppo": [
+      "Find N",
       "Find X",
       "Reno",
       "A",
@@ -150,7 +157,11 @@
       "Galaxy M",
       "Galaxy F",
       "Galaxy J",
-      "Galaxy"
+      "Galaxy",
+      "Omnia",
+      "Wave",
+      "Focus",
+      "Samsung"
     ],
     "Sharp": [
       "Aquos R",
@@ -160,7 +171,8 @@
       "Xperia 1",
       "Xperia 5",
       "Xperia 10",
-      "Xperia"
+      "Xperia",
+      "Sony"
     ],
     "TCL": [
       "TCL"
@@ -188,7 +200,8 @@
     ],
     "ZTE": [
       "Axon",
-      "Blade"
+      "Blade",
+      "ZTE"
     ]
   },
   "celulares": [
@@ -271,7 +284,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Alcatel",
@@ -280,7 +293,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Alcatel",
@@ -289,7 +302,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Alcatel",
@@ -298,7 +311,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Alcatel",
@@ -307,7 +320,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Alcatel",
@@ -316,7 +329,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Alcatel",
@@ -325,7 +338,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Alcatel",
@@ -334,7 +347,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Alcatel",
@@ -343,7 +356,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Alcatel",
@@ -352,7 +365,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Alcatel",
@@ -361,7 +374,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Alcatel",
@@ -370,7 +383,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Alcatel",
@@ -379,7 +392,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Alcatel",
@@ -388,7 +401,97 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
+    },
+    {
+      "marca": "Alcatel",
+      "linea": "Alcatel",
+      "modelo": "One Touch 808",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 40000
+    },
+    {
+      "marca": "Alcatel",
+      "linea": "Alcatel",
+      "modelo": "One Touch 808",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Alcatel",
+      "linea": "Alcatel",
+      "modelo": "One Touch 980",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 40000
+    },
+    {
+      "marca": "Alcatel",
+      "linea": "Alcatel",
+      "modelo": "One Touch 980",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Apple",
+      "linea": "iPhone",
+      "modelo": "iPhone 17e",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media",
+      "precio": 705000
+    },
+    {
+      "marca": "Apple",
+      "linea": "iPhone",
+      "modelo": "iPhone 17e",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media",
+      "precio": 805000
+    },
+    {
+      "marca": "Apple",
+      "linea": "iPhone",
+      "modelo": "iPhone 17e",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "media",
+      "precio": 915000
+    },
+    {
+      "marca": "Apple",
+      "linea": "iPhone",
+      "modelo": "iPhone Duo",
+      "variante": "1TB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3950000
+    },
+    {
+      "marca": "Apple",
+      "linea": "iPhone",
+      "modelo": "iPhone Duo",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 2905000
+    },
+    {
+      "marca": "Apple",
+      "linea": "iPhone",
+      "modelo": "iPhone Duo",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3315000
     },
     {
       "marca": "Apple",
@@ -757,7 +860,7 @@
       "variante": "128GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 80000
+      "precio": 95000
     },
     {
       "marca": "Apple",
@@ -766,7 +869,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 70000
+      "precio": 85000
     },
     {
       "marca": "Apple",
@@ -775,7 +878,7 @@
       "variante": "64GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 75000
+      "precio": 90000
     },
     {
       "marca": "Apple",
@@ -784,7 +887,7 @@
       "variante": "128GB",
       "anio": 2014,
       "gama": "media",
-      "precio": 65000
+      "precio": 95000
     },
     {
       "marca": "Apple",
@@ -793,7 +896,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "media",
-      "precio": 55000
+      "precio": 80000
     },
     {
       "marca": "Apple",
@@ -802,34 +905,34 @@
       "variante": "64GB",
       "anio": 2014,
       "gama": "media",
+      "precio": 90000
+    },
+    {
+      "marca": "Apple",
+      "linea": "iPhone",
+      "modelo": "iPhone 5c",
+      "variante": "16GB",
+      "anio": 2013,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Apple",
+      "linea": "iPhone",
+      "modelo": "iPhone 5c",
+      "variante": "32GB",
+      "anio": 2013,
+      "gama": "media-baja",
       "precio": 60000
     },
     {
       "marca": "Apple",
       "linea": "iPhone",
       "modelo": "iPhone 5c",
-      "variante": "16GB",
-      "anio": 2013,
-      "gama": "media-baja",
-      "precio": 50000
-    },
-    {
-      "marca": "Apple",
-      "linea": "iPhone",
-      "modelo": "iPhone 5c",
-      "variante": "32GB",
-      "anio": 2013,
-      "gama": "media-baja",
-      "precio": 55000
-    },
-    {
-      "marca": "Apple",
-      "linea": "iPhone",
-      "modelo": "iPhone 5c",
       "variante": "8GB",
       "anio": 2013,
       "gama": "media-baja",
-      "precio": 45000
+      "precio": 55000
     },
     {
       "marca": "Apple",
@@ -838,7 +941,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "media",
-      "precio": 50000
+      "precio": 80000
     },
     {
       "marca": "Apple",
@@ -847,7 +950,7 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "media",
-      "precio": 55000
+      "precio": 85000
     },
     {
       "marca": "Apple",
@@ -856,7 +959,7 @@
       "variante": "64GB",
       "anio": 2013,
       "gama": "media",
-      "precio": 55000
+      "precio": 90000
     },
     {
       "marca": "Apple",
@@ -865,7 +968,7 @@
       "variante": "16GB",
       "anio": 2012,
       "gama": "media",
-      "precio": 50000
+      "precio": 80000
     },
     {
       "marca": "Apple",
@@ -874,7 +977,7 @@
       "variante": "32GB",
       "anio": 2012,
       "gama": "media",
-      "precio": 55000
+      "precio": 85000
     },
     {
       "marca": "Apple",
@@ -883,7 +986,7 @@
       "variante": "64GB",
       "anio": 2012,
       "gama": "media",
-      "precio": 55000
+      "precio": 90000
     },
     {
       "marca": "Apple",
@@ -892,7 +995,7 @@
       "variante": "16GB",
       "anio": 2011,
       "gama": "media",
-      "precio": 50000
+      "precio": 80000
     },
     {
       "marca": "Apple",
@@ -901,7 +1004,7 @@
       "variante": "32GB",
       "anio": 2011,
       "gama": "media",
-      "precio": 55000
+      "precio": 85000
     },
     {
       "marca": "Apple",
@@ -910,7 +1013,7 @@
       "variante": "64GB",
       "anio": 2011,
       "gama": "media",
-      "precio": 55000
+      "precio": 90000
     },
     {
       "marca": "Apple",
@@ -918,8 +1021,8 @@
       "modelo": "iPhone 4",
       "variante": "16GB",
       "anio": 2010,
-      "gama": "media",
-      "precio": 50000
+      "gama": "media-alta",
+      "precio": 105000
     },
     {
       "marca": "Apple",
@@ -927,8 +1030,8 @@
       "modelo": "iPhone 4",
       "variante": "32GB",
       "anio": 2010,
-      "gama": "media",
-      "precio": 55000
+      "gama": "media-alta",
+      "precio": 115000
     },
     {
       "marca": "Apple",
@@ -936,8 +1039,35 @@
       "modelo": "iPhone 4",
       "variante": "8GB",
       "anio": 2010,
-      "gama": "media",
-      "precio": 45000
+      "gama": "media-alta",
+      "precio": 100000
+    },
+    {
+      "marca": "Apple",
+      "linea": "iPhone Pro",
+      "modelo": "iPhone 18 Pro",
+      "variante": "1TB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 4945000
+    },
+    {
+      "marca": "Apple",
+      "linea": "iPhone Pro",
+      "modelo": "iPhone 18 Pro",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3635000
+    },
+    {
+      "marca": "Apple",
+      "linea": "iPhone Pro",
+      "modelo": "iPhone 18 Pro",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 4145000
     },
     {
       "marca": "Apple",
@@ -1163,6 +1293,42 @@
       "anio": 2019,
       "gama": "alta",
       "precio": 745000
+    },
+    {
+      "marca": "Apple",
+      "linea": "iPhone Pro Max",
+      "modelo": "iPhone 18 Pro Max",
+      "variante": "1TB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 5750000
+    },
+    {
+      "marca": "Apple",
+      "linea": "iPhone Pro Max",
+      "modelo": "iPhone 18 Pro Max",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 4230000
+    },
+    {
+      "marca": "Apple",
+      "linea": "iPhone Pro Max",
+      "modelo": "iPhone 18 Pro Max",
+      "variante": "2TB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 7050000
+    },
+    {
+      "marca": "Apple",
+      "linea": "iPhone Pro Max",
+      "modelo": "iPhone 18 Pro Max",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 4825000
     },
     {
       "marca": "Apple",
@@ -1684,7 +1850,7 @@
       "variante": "16GB",
       "anio": 2016,
       "gama": "media",
-      "precio": 75000
+      "precio": 80000
     },
     {
       "marca": "Apple",
@@ -1693,7 +1859,7 @@
       "variante": "32GB",
       "anio": 2016,
       "gama": "media",
-      "precio": 80000
+      "precio": 85000
     },
     {
       "marca": "Apple",
@@ -1702,7 +1868,7 @@
       "variante": "64GB",
       "anio": 2016,
       "gama": "media",
-      "precio": 85000
+      "precio": 90000
     },
     {
       "marca": "Apple",
@@ -2044,7 +2210,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 65000
+      "precio": 80000
     },
     {
       "marca": "Asus",
@@ -2053,7 +2219,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 70000
+      "precio": 85000
     },
     {
       "marca": "BlackBerry",
@@ -2170,7 +2336,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "media",
-      "precio": 50000
+      "precio": 80000
     },
     {
       "marca": "BlackBerry",
@@ -2179,7 +2345,7 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "media",
-      "precio": 55000
+      "precio": 85000
     },
     {
       "marca": "BlackBerry",
@@ -2188,7 +2354,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "media",
-      "precio": 50000
+      "precio": 80000
     },
     {
       "marca": "BlackBerry",
@@ -2197,7 +2363,7 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "media",
-      "precio": 55000
+      "precio": 85000
     },
     {
       "marca": "BlackBerry",
@@ -2206,7 +2372,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "media",
-      "precio": 50000
+      "precio": 80000
     },
     {
       "marca": "BlackBerry",
@@ -2215,7 +2381,7 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "media",
-      "precio": 55000
+      "precio": 85000
     },
     {
       "marca": "BlackBerry",
@@ -2224,43 +2390,133 @@
       "variante": "32GB",
       "anio": 2017,
       "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "BlackBerry",
+      "linea": "BlackBerry",
+      "modelo": "Leap",
+      "variante": "16GB",
+      "anio": 2015,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "BlackBerry",
+      "linea": "BlackBerry",
+      "modelo": "Leap",
+      "variante": "32GB",
+      "anio": 2015,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "BlackBerry",
+      "linea": "BlackBerry",
+      "modelo": "Classic",
+      "variante": "16GB",
+      "anio": 2014,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "BlackBerry",
+      "linea": "BlackBerry",
+      "modelo": "Classic",
+      "variante": "32GB",
+      "anio": 2014,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "BlackBerry",
+      "linea": "BlackBerry",
+      "modelo": "Style 9670",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
       "precio": 55000
     },
     {
       "marca": "BlackBerry",
       "linea": "BlackBerry",
-      "modelo": "Leap",
-      "variante": "16GB",
-      "anio": 2015,
-      "gama": "media",
-      "precio": 65000
-    },
-    {
-      "marca": "BlackBerry",
-      "linea": "BlackBerry",
-      "modelo": "Leap",
+      "modelo": "Style 9670",
       "variante": "32GB",
-      "anio": 2015,
-      "gama": "media",
-      "precio": 70000
-    },
-    {
-      "marca": "BlackBerry",
-      "linea": "BlackBerry",
-      "modelo": "Classic",
-      "variante": "16GB",
-      "anio": 2014,
-      "gama": "media",
+      "anio": 2010,
+      "gama": "media-baja",
       "precio": 60000
     },
     {
       "marca": "BlackBerry",
       "linea": "BlackBerry",
-      "modelo": "Classic",
-      "variante": "32GB",
-      "anio": 2014,
+      "modelo": "Torch 9800",
+      "variante": "16GB",
+      "anio": 2010,
       "gama": "media",
-      "precio": 65000
+      "precio": 80000
+    },
+    {
+      "marca": "BlackBerry",
+      "linea": "BlackBerry",
+      "modelo": "Torch 9800",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "Google",
+      "linea": "Nexus",
+      "modelo": "Nexus One",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 105000
+    },
+    {
+      "marca": "Google",
+      "linea": "Nexus",
+      "modelo": "Nexus One",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 115000
+    },
+    {
+      "marca": "Google",
+      "linea": "Nexus",
+      "modelo": "Nexus S",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 105000
+    },
+    {
+      "marca": "Google",
+      "linea": "Nexus",
+      "modelo": "Nexus S",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 115000
+    },
+    {
+      "marca": "Google",
+      "linea": "Pixel",
+      "modelo": "Pixel 11",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media-alta",
+      "precio": 1230000
+    },
+    {
+      "marca": "Google",
+      "linea": "Pixel",
+      "modelo": "Pixel 11",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media-alta",
+      "precio": 1400000
     },
     {
       "marca": "Google",
@@ -2526,6 +2782,60 @@
     {
       "marca": "Google",
       "linea": "Pixel Pro",
+      "modelo": "Pixel 11 Pro",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3190000
+    },
+    {
+      "marca": "Google",
+      "linea": "Pixel Pro",
+      "modelo": "Pixel 11 Pro",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3635000
+    },
+    {
+      "marca": "Google",
+      "linea": "Pixel Pro",
+      "modelo": "Pixel 11 Pro",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 4145000
+    },
+    {
+      "marca": "Google",
+      "linea": "Pixel Pro",
+      "modelo": "Pixel 11 Pro XL",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3190000
+    },
+    {
+      "marca": "Google",
+      "linea": "Pixel Pro",
+      "modelo": "Pixel 11 Pro XL",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3635000
+    },
+    {
+      "marca": "Google",
+      "linea": "Pixel Pro",
+      "modelo": "Pixel 11 Pro XL",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 4145000
+    },
+    {
+      "marca": "Google",
+      "linea": "Pixel Pro",
       "modelo": "Pixel 10 Pro",
       "variante": "128GB",
       "anio": 2025,
@@ -2652,6 +2962,24 @@
     {
       "marca": "Google",
       "linea": "Pixel a",
+      "modelo": "Pixel 10a",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media",
+      "precio": 705000
+    },
+    {
+      "marca": "Google",
+      "linea": "Pixel a",
+      "modelo": "Pixel 10a",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media",
+      "precio": 805000
+    },
+    {
+      "marca": "Google",
+      "linea": "Pixel a",
       "modelo": "Pixel 9a",
       "variante": "128GB",
       "anio": 2025,
@@ -2733,6 +3061,24 @@
     {
       "marca": "Google",
       "linea": "Pixel Fold",
+      "modelo": "Pixel 11 Pro Fold",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 4465000
+    },
+    {
+      "marca": "Google",
+      "linea": "Pixel Fold",
+      "modelo": "Pixel 11 Pro Fold",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 5090000
+    },
+    {
+      "marca": "Google",
+      "linea": "Pixel Fold",
       "modelo": "Pixel Fold",
       "variante": "256GB",
       "anio": 2023,
@@ -2747,6 +3093,24 @@
       "anio": 2023,
       "gama": "alta",
       "precio": 2810000
+    },
+    {
+      "marca": "Honor",
+      "linea": "Magic",
+      "modelo": "Magic8 Lite",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media",
+      "precio": 880000
+    },
+    {
+      "marca": "Honor",
+      "linea": "Magic",
+      "modelo": "Magic8 Lite",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media",
+      "precio": 1005000
     },
     {
       "marca": "Honor",
@@ -3313,7 +3677,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 75000
+      "precio": 80000
     },
     {
       "marca": "Honor",
@@ -3322,7 +3686,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 80000
+      "precio": 85000
     },
     {
       "marca": "Honor",
@@ -3601,7 +3965,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "media-alta",
-      "precio": 95000
+      "precio": 105000
     },
     {
       "marca": "HTC",
@@ -3610,7 +3974,7 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "media-alta",
-      "precio": 100000
+      "precio": 115000
     },
     {
       "marca": "HTC",
@@ -3619,7 +3983,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "media-alta",
-      "precio": 80000
+      "precio": 105000
     },
     {
       "marca": "HTC",
@@ -3628,7 +3992,7 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "media-alta",
-      "precio": 85000
+      "precio": 115000
     },
     {
       "marca": "HTC",
@@ -3664,7 +4028,7 @@
       "variante": "32GB",
       "anio": 2019,
       "gama": "baja",
-      "precio": 60000
+      "precio": 55000
     },
     {
       "marca": "HTC",
@@ -3673,7 +4037,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "HTC",
@@ -3682,7 +4046,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "HTC",
@@ -3709,7 +4073,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 65000
+      "precio": 80000
     },
     {
       "marca": "HTC",
@@ -3718,7 +4082,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 70000
+      "precio": 85000
     },
     {
       "marca": "HTC",
@@ -3727,7 +4091,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "media",
-      "precio": 55000
+      "precio": 80000
     },
     {
       "marca": "HTC",
@@ -3736,7 +4100,61 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "media",
-      "precio": 55000
+      "precio": 85000
+    },
+    {
+      "marca": "HTC",
+      "linea": "Desire",
+      "modelo": "Desire",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 105000
+    },
+    {
+      "marca": "HTC",
+      "linea": "Desire",
+      "modelo": "Desire",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 115000
+    },
+    {
+      "marca": "HTC",
+      "linea": "Desire",
+      "modelo": "Desire HD",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 105000
+    },
+    {
+      "marca": "HTC",
+      "linea": "Desire",
+      "modelo": "Desire HD",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 115000
+    },
+    {
+      "marca": "HTC",
+      "linea": "Desire",
+      "modelo": "Desire Z",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "HTC",
+      "linea": "Desire",
+      "modelo": "Desire Z",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
     },
     {
       "marca": "HTC",
@@ -3755,6 +4173,132 @@
       "anio": 2016,
       "gama": "media-alta",
       "precio": 180000
+    },
+    {
+      "marca": "HTC",
+      "linea": "HTC",
+      "modelo": "7 Mozart",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "HTC",
+      "linea": "HTC",
+      "modelo": "7 Mozart",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "HTC",
+      "linea": "HTC",
+      "modelo": "7 Surround",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "HTC",
+      "linea": "HTC",
+      "modelo": "7 Surround",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "HTC",
+      "linea": "HTC",
+      "modelo": "7 Trophy",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "HTC",
+      "linea": "HTC",
+      "modelo": "7 Trophy",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "HTC",
+      "linea": "HTC",
+      "modelo": "Droid Incredible",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "HTC",
+      "linea": "HTC",
+      "modelo": "Droid Incredible",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "HTC",
+      "linea": "HTC",
+      "modelo": "Evo 4G",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "HTC",
+      "linea": "HTC",
+      "modelo": "Evo 4G",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "HTC",
+      "linea": "HTC",
+      "modelo": "HD7",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "HTC",
+      "linea": "HTC",
+      "modelo": "HD7",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "HTC",
+      "linea": "HTC",
+      "modelo": "Wildfire",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "HTC",
+      "linea": "HTC",
+      "modelo": "Wildfire",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
     },
     {
       "marca": "Huawei",
@@ -4105,7 +4649,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 65000
+      "precio": 80000
     },
     {
       "marca": "Huawei",
@@ -4114,7 +4658,34 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 70000
+      "precio": 85000
+    },
+    {
+      "marca": "Huawei",
+      "linea": "Mate",
+      "modelo": "Mate 90",
+      "variante": "1TB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3950000
+    },
+    {
+      "marca": "Huawei",
+      "linea": "Mate",
+      "modelo": "Mate 90",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 2905000
+    },
+    {
+      "marca": "Huawei",
+      "linea": "Mate",
+      "modelo": "Mate 90",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3315000
     },
     {
       "marca": "Huawei",
@@ -4771,7 +5342,7 @@
       "variante": "16GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 50000
+      "precio": 45000
     },
     {
       "marca": "Huawei",
@@ -4780,7 +5351,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Huawei",
@@ -4825,7 +5396,7 @@
       "variante": "32GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Huawei",
@@ -4834,7 +5405,7 @@
       "variante": "64GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Huawei",
@@ -4843,7 +5414,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Huawei",
@@ -4852,7 +5423,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Huawei",
@@ -4861,7 +5432,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Huawei",
@@ -4870,7 +5441,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Huawei",
@@ -4961,6 +5532,96 @@
       "anio": 2024,
       "gama": "alta",
       "precio": 2620000
+    },
+    {
+      "marca": "Huawei",
+      "linea": "Huawei",
+      "modelo": "Ascend",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Huawei",
+      "linea": "Huawei",
+      "modelo": "Ascend",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Huawei",
+      "linea": "Huawei",
+      "modelo": "IDEOS",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 40000
+    },
+    {
+      "marca": "Huawei",
+      "linea": "Huawei",
+      "modelo": "IDEOS",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Huawei",
+      "linea": "Huawei",
+      "modelo": "U8100",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 40000
+    },
+    {
+      "marca": "Huawei",
+      "linea": "Huawei",
+      "modelo": "U8100",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Infinix",
+      "linea": "Note",
+      "modelo": "Note 60",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 420000
+    },
+    {
+      "marca": "Infinix",
+      "linea": "Note",
+      "modelo": "Note 60",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 480000
+    },
+    {
+      "marca": "Infinix",
+      "linea": "Note",
+      "modelo": "Note 60 Pro",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 530000
+    },
+    {
+      "marca": "Infinix",
+      "linea": "Note",
+      "modelo": "Note 60 Pro",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 605000
     },
     {
       "marca": "Infinix",
@@ -5280,6 +5941,24 @@
     {
       "marca": "Itel",
       "linea": "A",
+      "modelo": "A100 Pro",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "baja",
+      "precio": 285000
+    },
+    {
+      "marca": "Itel",
+      "linea": "A",
+      "modelo": "A100 Pro",
+      "variante": "64GB",
+      "anio": 2026,
+      "gama": "baja",
+      "precio": 270000
+    },
+    {
+      "marca": "Itel",
+      "linea": "A",
       "modelo": "A80",
       "variante": "64GB",
       "anio": 2024,
@@ -5464,7 +6143,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Lenovo",
@@ -5473,97 +6152,97 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
-    },
-    {
-      "marca": "Lenovo",
-      "linea": "K",
-      "modelo": "K8",
-      "variante": "32GB",
-      "anio": 2017,
-      "gama": "baja",
-      "precio": 55000
-    },
-    {
-      "marca": "Lenovo",
-      "linea": "K",
-      "modelo": "K8",
-      "variante": "64GB",
-      "anio": 2017,
-      "gama": "baja",
-      "precio": 55000
-    },
-    {
-      "marca": "Lenovo",
-      "linea": "K",
-      "modelo": "K4 Note",
-      "variante": "32GB",
-      "anio": 2016,
-      "gama": "baja",
-      "precio": 55000
-    },
-    {
-      "marca": "Lenovo",
-      "linea": "K",
-      "modelo": "K4 Note",
-      "variante": "64GB",
-      "anio": 2016,
-      "gama": "baja",
-      "precio": 55000
-    },
-    {
-      "marca": "Lenovo",
-      "linea": "K",
-      "modelo": "K5",
-      "variante": "32GB",
-      "anio": 2016,
-      "gama": "baja",
-      "precio": 55000
-    },
-    {
-      "marca": "Lenovo",
-      "linea": "K",
-      "modelo": "K5",
-      "variante": "64GB",
-      "anio": 2016,
-      "gama": "baja",
-      "precio": 55000
-    },
-    {
-      "marca": "Lenovo",
-      "linea": "K",
-      "modelo": "K6",
-      "variante": "32GB",
-      "anio": 2016,
-      "gama": "baja",
-      "precio": 55000
-    },
-    {
-      "marca": "Lenovo",
-      "linea": "K",
-      "modelo": "K6",
-      "variante": "64GB",
-      "anio": 2016,
-      "gama": "baja",
-      "precio": 55000
-    },
-    {
-      "marca": "Lenovo",
-      "linea": "K",
-      "modelo": "K3 Note",
-      "variante": "16GB",
-      "anio": 2015,
-      "gama": "baja",
       "precio": 50000
     },
     {
       "marca": "Lenovo",
       "linea": "K",
+      "modelo": "K8",
+      "variante": "32GB",
+      "anio": 2017,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Lenovo",
+      "linea": "K",
+      "modelo": "K8",
+      "variante": "64GB",
+      "anio": 2017,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Lenovo",
+      "linea": "K",
+      "modelo": "K4 Note",
+      "variante": "32GB",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Lenovo",
+      "linea": "K",
+      "modelo": "K4 Note",
+      "variante": "64GB",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Lenovo",
+      "linea": "K",
+      "modelo": "K5",
+      "variante": "32GB",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Lenovo",
+      "linea": "K",
+      "modelo": "K5",
+      "variante": "64GB",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Lenovo",
+      "linea": "K",
+      "modelo": "K6",
+      "variante": "32GB",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Lenovo",
+      "linea": "K",
+      "modelo": "K6",
+      "variante": "64GB",
+      "anio": 2016,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Lenovo",
+      "linea": "K",
+      "modelo": "K3 Note",
+      "variante": "16GB",
+      "anio": 2015,
+      "gama": "baja",
+      "precio": 40000
+    },
+    {
+      "marca": "Lenovo",
+      "linea": "K",
       "modelo": "K3 Note",
       "variante": "32GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Lenovo",
@@ -5572,7 +6251,7 @@
       "variante": "32GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Lenovo",
@@ -5581,7 +6260,7 @@
       "variante": "64GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Lenovo",
@@ -5590,7 +6269,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 65000
+      "precio": 80000
     },
     {
       "marca": "Lenovo",
@@ -5599,7 +6278,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 70000
+      "precio": 85000
     },
     {
       "marca": "Lenovo",
@@ -5608,7 +6287,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 65000
+      "precio": 80000
     },
     {
       "marca": "Lenovo",
@@ -5617,7 +6296,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 70000
+      "precio": 85000
     },
     {
       "marca": "Lenovo",
@@ -5698,7 +6377,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 75000
+      "precio": 80000
     },
     {
       "marca": "Lenovo",
@@ -5707,7 +6386,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 80000
+      "precio": 85000
     },
     {
       "marca": "Lenovo",
@@ -5716,7 +6395,7 @@
       "variante": "32GB",
       "anio": 2019,
       "gama": "baja",
-      "precio": 60000
+      "precio": 55000
     },
     {
       "marca": "Lenovo",
@@ -5725,7 +6404,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Lenovo",
@@ -5734,7 +6413,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Lenovo",
@@ -5743,7 +6422,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Lenovo",
@@ -5752,7 +6431,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "LG",
@@ -5780,6 +6459,96 @@
       "anio": 2020,
       "gama": "alta",
       "precio": 1005000
+    },
+    {
+      "marca": "LG",
+      "linea": "Optimus",
+      "modelo": "Optimus",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "LG",
+      "linea": "Optimus",
+      "modelo": "Optimus",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "LG",
+      "linea": "Optimus",
+      "modelo": "Optimus 7",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "LG",
+      "linea": "Optimus",
+      "modelo": "Optimus 7",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "LG",
+      "linea": "Optimus",
+      "modelo": "Optimus Chic",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "LG",
+      "linea": "Optimus",
+      "modelo": "Optimus Chic",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "LG",
+      "linea": "Optimus",
+      "modelo": "Optimus One",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "LG",
+      "linea": "Optimus",
+      "modelo": "Optimus One",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "LG",
+      "linea": "Optimus",
+      "modelo": "Optimus Q",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 40000
+    },
+    {
+      "marca": "LG",
+      "linea": "Optimus",
+      "modelo": "Optimus Q",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 45000
     },
     {
       "marca": "LG",
@@ -5887,7 +6656,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "media-alta",
-      "precio": 85000
+      "precio": 105000
     },
     {
       "marca": "LG",
@@ -5896,7 +6665,7 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "media-alta",
-      "precio": 90000
+      "precio": 115000
     },
     {
       "marca": "LG",
@@ -6067,7 +6836,7 @@
       "variante": "32GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "LG",
@@ -6076,7 +6845,7 @@
       "variante": "64GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "LG",
@@ -6085,7 +6854,7 @@
       "variante": "32GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "LG",
@@ -6094,7 +6863,7 @@
       "variante": "64GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "LG",
@@ -6166,7 +6935,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "LG",
@@ -6175,7 +6944,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "LG",
@@ -6184,7 +6953,7 @@
       "variante": "32GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "LG",
@@ -6193,7 +6962,61 @@
       "variante": "64GB",
       "anio": 2017,
       "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "LG",
+      "linea": "LG",
+      "modelo": "GD880 Mini",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
       "precio": 55000
+    },
+    {
+      "marca": "LG",
+      "linea": "LG",
+      "modelo": "GD880 Mini",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "LG",
+      "linea": "LG",
+      "modelo": "Quantum",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "LG",
+      "linea": "LG",
+      "modelo": "Quantum",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "LG",
+      "linea": "LG",
+      "modelo": "VS740",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "LG",
+      "linea": "LG",
+      "modelo": "VS740",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
     },
     {
       "marca": "Meizu",
@@ -6274,7 +7097,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 75000
+      "precio": 80000
     },
     {
       "marca": "Meizu",
@@ -6283,7 +7106,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 80000
+      "precio": 85000
     },
     {
       "marca": "Meizu",
@@ -6292,7 +7115,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "media",
-      "precio": 60000
+      "precio": 80000
     },
     {
       "marca": "Meizu",
@@ -6301,7 +7124,7 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "media",
-      "precio": 65000
+      "precio": 85000
     },
     {
       "marca": "Meizu",
@@ -6472,7 +7295,7 @@
       "variante": "32GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Microsoft",
@@ -6481,7 +7304,7 @@
       "variante": "64GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Microsoft",
@@ -6490,7 +7313,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Microsoft",
@@ -6499,7 +7322,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Microsoft",
@@ -6544,7 +7367,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Microsoft",
@@ -6553,7 +7376,43 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Microsoft",
+      "linea": "Microsoft",
+      "modelo": "Kin One",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
       "precio": 55000
+    },
+    {
+      "marca": "Microsoft",
+      "linea": "Microsoft",
+      "modelo": "Kin One",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Microsoft",
+      "linea": "Microsoft",
+      "modelo": "Kin Two",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "Microsoft",
+      "linea": "Microsoft",
+      "modelo": "Kin Two",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
     },
     {
       "marca": "Motorola",
@@ -7196,6 +8055,96 @@
     },
     {
       "marca": "Motorola",
+      "linea": "Droid",
+      "modelo": "Droid 2",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Droid",
+      "modelo": "Droid 2",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Droid",
+      "modelo": "Droid Pro",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Droid",
+      "modelo": "Droid Pro",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Droid",
+      "modelo": "Droid X",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 105000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Droid",
+      "modelo": "Droid X",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 115000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto G",
+      "modelo": "Moto G (2026)",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 480000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto G",
+      "modelo": "Moto G (2026)",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 545000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto G",
+      "modelo": "Moto G06",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "baja",
+      "precio": 260000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto G",
+      "modelo": "Moto G06",
+      "variante": "64GB",
+      "anio": 2026,
+      "gama": "baja",
+      "precio": 245000
+    },
+    {
+      "marca": "Motorola",
       "linea": "Moto G",
       "modelo": "Moto G24",
       "variante": "128GB",
@@ -7822,7 +8771,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Motorola",
@@ -7831,7 +8780,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Motorola",
@@ -7849,7 +8798,7 @@
       "variante": "16GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Motorola",
@@ -7858,7 +8807,7 @@
       "variante": "32GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Motorola",
@@ -7885,7 +8834,7 @@
       "variante": "32GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Motorola",
@@ -7894,7 +8843,7 @@
       "variante": "64GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Motorola",
@@ -7903,7 +8852,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Motorola",
@@ -7912,7 +8861,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Motorola",
@@ -7921,7 +8870,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Motorola",
@@ -7930,7 +8879,7 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Motorola",
@@ -7939,7 +8888,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Motorola",
@@ -7948,7 +8897,7 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Motorola",
@@ -8092,7 +9041,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Motorola",
@@ -8101,7 +9050,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Motorola",
@@ -8110,7 +9059,7 @@
       "variante": "32GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Motorola",
@@ -8119,7 +9068,7 @@
       "variante": "64GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Motorola",
@@ -8128,7 +9077,7 @@
       "variante": "32GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Motorola",
@@ -8137,7 +9086,7 @@
       "variante": "64GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Motorola",
@@ -8146,7 +9095,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Motorola",
@@ -8155,7 +9104,7 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Motorola",
@@ -8362,7 +9311,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 65000
+      "precio": 80000
     },
     {
       "marca": "Motorola",
@@ -8371,7 +9320,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 70000
+      "precio": 85000
     },
     {
       "marca": "Motorola",
@@ -8380,34 +9329,178 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "Moto X2",
+      "variante": "32GB",
+      "anio": 2014,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "Moto X",
+      "variante": "16GB",
+      "anio": 2013,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "Moto X",
+      "variante": "32GB",
+      "anio": 2013,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "Backflip",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "Backflip",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
       "precio": 60000
     },
     {
       "marca": "Motorola",
       "linea": "Moto",
-      "modelo": "Moto X2",
-      "variante": "32GB",
-      "anio": 2014,
-      "gama": "media",
-      "precio": 65000
-    },
-    {
-      "marca": "Motorola",
-      "linea": "Moto",
-      "modelo": "Moto X",
+      "modelo": "Charm",
       "variante": "16GB",
-      "anio": 2013,
-      "gama": "media",
-      "precio": 50000
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 40000
     },
     {
       "marca": "Motorola",
       "linea": "Moto",
-      "modelo": "Moto X",
+      "modelo": "Charm",
       "variante": "32GB",
-      "anio": 2013,
-      "gama": "media",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "Defy",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
       "precio": 55000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "Defy",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "Devour",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 40000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "Devour",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "Flipout",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 40000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "Flipout",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "i1",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "i1",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "Milestone XT720",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "Milestone XT720",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "Spice",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 40000
+    },
+    {
+      "marca": "Motorola",
+      "linea": "Moto",
+      "modelo": "Spice",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 45000
     },
     {
       "marca": "Nokia",
@@ -8453,6 +9546,24 @@
       "anio": 2021,
       "gama": "media-baja",
       "precio": 180000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "X",
+      "modelo": "X5",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "X",
+      "modelo": "X5",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
     },
     {
       "marca": "Nokia",
@@ -8663,6 +9774,150 @@
     },
     {
       "marca": "Nokia",
+      "linea": "C",
+      "modelo": "C5-00",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "C",
+      "modelo": "C5-00",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "C",
+      "modelo": "C5-03",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "C",
+      "modelo": "C5-03",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "C",
+      "modelo": "C6-00",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "C",
+      "modelo": "C6-00",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "C",
+      "modelo": "C6-01",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "C",
+      "modelo": "C6-01",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "C",
+      "modelo": "C7-00",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 105000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "C",
+      "modelo": "C7-00",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 115000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "E",
+      "modelo": "E5-00",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "E",
+      "modelo": "E5-00",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "E",
+      "modelo": "E7-00",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 105000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "E",
+      "modelo": "E7-00",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 115000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "N",
+      "modelo": "N8",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 105000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "N",
+      "modelo": "N8",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 115000
+    },
+    {
+      "marca": "Nokia",
       "linea": "Nokia",
       "modelo": "1.4",
       "variante": "64GB",
@@ -8830,7 +10085,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Nokia",
@@ -8839,7 +10094,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Nokia",
@@ -8848,7 +10103,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Nokia",
@@ -8857,7 +10112,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Nokia",
@@ -8866,7 +10121,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Nokia",
@@ -8875,7 +10130,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Nokia",
@@ -8884,7 +10139,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Nokia",
@@ -8893,7 +10148,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Nokia",
@@ -8929,7 +10184,7 @@
       "variante": "32GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Nokia",
@@ -8938,7 +10193,7 @@
       "variante": "64GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Nokia",
@@ -8947,7 +10202,7 @@
       "variante": "32GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Nokia",
@@ -8956,7 +10211,7 @@
       "variante": "64GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Nokia",
@@ -8965,7 +10220,7 @@
       "variante": "32GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Nokia",
@@ -8974,7 +10229,7 @@
       "variante": "64GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Nokia",
@@ -8983,7 +10238,7 @@
       "variante": "32GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Nokia",
@@ -8992,7 +10247,7 @@
       "variante": "64GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Nokia",
@@ -9029,6 +10284,96 @@
       "anio": 2017,
       "gama": "media",
       "precio": 125000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "Nokia",
+      "modelo": "5250",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 40000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "Nokia",
+      "modelo": "5250",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "Nokia",
+      "modelo": "6700 slide",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Nokia",
+      "linea": "Nokia",
+      "modelo": "6700 slide",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Nothing",
+      "linea": "Phone",
+      "modelo": "Phone (4a)",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media",
+      "precio": 705000
+    },
+    {
+      "marca": "Nothing",
+      "linea": "Phone",
+      "modelo": "Phone (4a)",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media",
+      "precio": 805000
+    },
+    {
+      "marca": "Nothing",
+      "linea": "Phone",
+      "modelo": "Phone (4a) Pro",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media-alta",
+      "precio": 1540000
+    },
+    {
+      "marca": "Nothing",
+      "linea": "Phone",
+      "modelo": "Phone (4a) Pro",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media-alta",
+      "precio": 1755000
+    },
+    {
+      "marca": "Nothing",
+      "linea": "Phone",
+      "modelo": "Phone (4b)",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 420000
+    },
+    {
+      "marca": "Nothing",
+      "linea": "Phone",
+      "modelo": "Phone (4b)",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 480000
     },
     {
       "marca": "Nothing",
@@ -9415,7 +10760,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "media-alta",
-      "precio": 85000
+      "precio": 105000
     },
     {
       "marca": "Nubia",
@@ -9424,7 +10769,7 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "media-alta",
-      "precio": 90000
+      "precio": 115000
     },
     {
       "marca": "Nubia",
@@ -9910,7 +11255,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 75000
+      "precio": 80000
     },
     {
       "marca": "OnePlus",
@@ -9919,7 +11264,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 80000
+      "precio": 85000
     },
     {
       "marca": "OnePlus",
@@ -9928,7 +11273,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "media",
-      "precio": 55000
+      "precio": 80000
     },
     {
       "marca": "OnePlus",
@@ -9937,7 +11282,34 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "media",
-      "precio": 55000
+      "precio": 85000
+    },
+    {
+      "marca": "Oppo",
+      "linea": "Find N",
+      "modelo": "Find N6",
+      "variante": "1TB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 4495000
+    },
+    {
+      "marca": "Oppo",
+      "linea": "Find N",
+      "modelo": "Find N6",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3305000
+    },
+    {
+      "marca": "Oppo",
+      "linea": "Find N",
+      "modelo": "Find N6",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3770000
     },
     {
       "marca": "Oppo",
@@ -10064,6 +11436,24 @@
       "anio": 2018,
       "gama": "alta",
       "precio": 640000
+    },
+    {
+      "marca": "Oppo",
+      "linea": "Reno",
+      "modelo": "Reno 15",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media-alta",
+      "precio": 1400000
+    },
+    {
+      "marca": "Oppo",
+      "linea": "Reno",
+      "modelo": "Reno 15",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "media-alta",
+      "precio": 1600000
     },
     {
       "marca": "Oppo",
@@ -10648,7 +12038,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Oppo",
@@ -10657,7 +12047,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Oppo",
@@ -10666,7 +12056,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Oppo",
@@ -10675,7 +12065,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Oppo",
@@ -10684,7 +12074,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "media",
-      "precio": 60000
+      "precio": 80000
     },
     {
       "marca": "Oppo",
@@ -10693,7 +12083,7 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "media",
-      "precio": 65000
+      "precio": 85000
     },
     {
       "marca": "POCO",
@@ -11521,7 +12911,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Realme",
@@ -11530,7 +12920,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Realme",
@@ -11539,7 +12929,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Realme",
@@ -11548,7 +12938,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Realme",
@@ -11773,7 +13163,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Realme",
@@ -11782,7 +13172,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Realme",
@@ -11833,6 +13223,24 @@
       "marca": "Samsung",
       "linea": "Galaxy S",
       "modelo": "Galaxy S26",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media-alta",
+      "precio": 1595000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy S",
+      "modelo": "Galaxy S26 FE",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media-alta",
+      "precio": 1400000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy S",
+      "modelo": "Galaxy S26 FE",
       "variante": "256GB",
       "anio": 2026,
       "gama": "media-alta",
@@ -12619,7 +14027,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "media",
-      "precio": 60000
+      "precio": 80000
     },
     {
       "marca": "Samsung",
@@ -12628,7 +14036,7 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "media",
-      "precio": 65000
+      "precio": 85000
     },
     {
       "marca": "Samsung",
@@ -12637,7 +14045,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "media-baja",
-      "precio": 50000
+      "precio": 55000
     },
     {
       "marca": "Samsung",
@@ -12646,7 +14054,7 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "media-baja",
-      "precio": 55000
+      "precio": 60000
     },
     {
       "marca": "Samsung",
@@ -12655,7 +14063,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "media",
-      "precio": 50000
+      "precio": 80000
     },
     {
       "marca": "Samsung",
@@ -12664,7 +14072,7 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "media",
-      "precio": 55000
+      "precio": 85000
     },
     {
       "marca": "Samsung",
@@ -12673,7 +14081,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "media-baja",
-      "precio": 50000
+      "precio": 55000
     },
     {
       "marca": "Samsung",
@@ -12682,7 +14090,7 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "media-baja",
-      "precio": 55000
+      "precio": 60000
     },
     {
       "marca": "Samsung",
@@ -12691,7 +14099,7 @@
       "variante": "16GB",
       "anio": 2012,
       "gama": "media",
-      "precio": 50000
+      "precio": 80000
     },
     {
       "marca": "Samsung",
@@ -12700,7 +14108,7 @@
       "variante": "32GB",
       "anio": 2012,
       "gama": "media",
-      "precio": 55000
+      "precio": 85000
     },
     {
       "marca": "Samsung",
@@ -12709,7 +14117,7 @@
       "variante": "16GB",
       "anio": 2012,
       "gama": "media-baja",
-      "precio": 50000
+      "precio": 55000
     },
     {
       "marca": "Samsung",
@@ -12718,7 +14126,25 @@
       "variante": "32GB",
       "anio": 2012,
       "gama": "media-baja",
-      "precio": 55000
+      "precio": 60000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy S",
+      "modelo": "Galaxy S",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 105000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy S",
+      "modelo": "Galaxy S",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 115000
     },
     {
       "marca": "Samsung",
@@ -12871,7 +14297,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "media-alta",
-      "precio": 95000
+      "precio": 105000
     },
     {
       "marca": "Samsung",
@@ -12880,7 +14306,7 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "media-alta",
-      "precio": 100000
+      "precio": 115000
     },
     {
       "marca": "Samsung",
@@ -12907,7 +14333,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "media-alta",
-      "precio": 80000
+      "precio": 105000
     },
     {
       "marca": "Samsung",
@@ -12916,7 +14342,7 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "media-alta",
-      "precio": 85000
+      "precio": 115000
     },
     {
       "marca": "Samsung",
@@ -12925,7 +14351,7 @@
       "variante": "16GB",
       "anio": 2012,
       "gama": "media-alta",
-      "precio": 60000
+      "precio": 105000
     },
     {
       "marca": "Samsung",
@@ -12934,7 +14360,97 @@
       "variante": "32GB",
       "anio": 2012,
       "gama": "media-alta",
-      "precio": 65000
+      "precio": 115000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy A",
+      "modelo": "Galaxy A08",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "baja",
+      "precio": 260000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy A",
+      "modelo": "Galaxy A08",
+      "variante": "64GB",
+      "anio": 2026,
+      "gama": "baja",
+      "precio": 245000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy A",
+      "modelo": "Galaxy A18",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 480000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy A",
+      "modelo": "Galaxy A18",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 545000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy A",
+      "modelo": "Galaxy A27 5G",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 480000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy A",
+      "modelo": "Galaxy A27 5G",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 545000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy A",
+      "modelo": "Galaxy A37 5G",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media",
+      "precio": 800000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy A",
+      "modelo": "Galaxy A37 5G",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media",
+      "precio": 910000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy A",
+      "modelo": "Galaxy A57 5G",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media-alta",
+      "precio": 1400000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy A",
+      "modelo": "Galaxy A57 5G",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media-alta",
+      "precio": 1595000
     },
     {
       "marca": "Samsung",
@@ -13771,7 +15287,7 @@
       "variante": "16GB",
       "anio": 2019,
       "gama": "baja",
-      "precio": 50000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -14073,6 +15589,60 @@
     {
       "marca": "Samsung",
       "linea": "Galaxy Z Fold",
+      "modelo": "Galaxy Z Fold8",
+      "variante": "1TB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 6070000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy Z Fold",
+      "modelo": "Galaxy Z Fold8",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 4465000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy Z Fold",
+      "modelo": "Galaxy Z Fold8",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 5090000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy Z Fold",
+      "modelo": "Galaxy Z Fold8 Ultra",
+      "variante": "1TB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 5300000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy Z Fold",
+      "modelo": "Galaxy Z Fold8 Ultra",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3900000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy Z Fold",
+      "modelo": "Galaxy Z Fold8 Ultra",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 4445000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy Z Fold",
       "modelo": "Galaxy Z Fold7",
       "variante": "128GB",
       "anio": 2025,
@@ -14316,6 +15886,24 @@
     {
       "marca": "Samsung",
       "linea": "Galaxy Z Flip",
+      "modelo": "Galaxy Z Flip8",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3800000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy Z Flip",
+      "modelo": "Galaxy Z Flip8",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 4335000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy Z Flip",
       "modelo": "Galaxy Z Flip7",
       "variante": "128GB",
       "anio": 2025,
@@ -14501,6 +16089,24 @@
       "anio": 2020,
       "gama": "alta",
       "precio": 1155000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy M",
+      "modelo": "Galaxy M47 5G",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 480000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy M",
+      "modelo": "Galaxy M47 5G",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 545000
     },
     {
       "marca": "Samsung",
@@ -15058,7 +16664,7 @@
       "variante": "16GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 50000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15067,7 +16673,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Samsung",
@@ -15076,7 +16682,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Samsung",
@@ -15085,7 +16691,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Samsung",
@@ -15094,7 +16700,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Samsung",
@@ -15103,7 +16709,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Samsung",
@@ -15112,7 +16718,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "Samsung",
@@ -15175,7 +16781,7 @@
       "variante": "32GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15184,7 +16790,7 @@
       "variante": "64GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15193,7 +16799,7 @@
       "variante": "32GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15202,7 +16808,7 @@
       "variante": "64GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15211,7 +16817,7 @@
       "variante": "32GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15220,7 +16826,7 @@
       "variante": "64GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15229,7 +16835,7 @@
       "variante": "32GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15238,7 +16844,7 @@
       "variante": "64GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15247,7 +16853,7 @@
       "variante": "32GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15256,7 +16862,7 @@
       "variante": "64GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15265,7 +16871,7 @@
       "variante": "32GB",
       "anio": 2016,
       "gama": "media-baja",
-      "precio": 55000
+      "precio": 60000
     },
     {
       "marca": "Samsung",
@@ -15274,7 +16880,7 @@
       "variante": "64GB",
       "anio": 2016,
       "gama": "media-baja",
-      "precio": 55000
+      "precio": 65000
     },
     {
       "marca": "Samsung",
@@ -15283,7 +16889,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Samsung",
@@ -15292,7 +16898,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15301,7 +16907,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Samsung",
@@ -15310,7 +16916,7 @@
       "variante": "8GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 45000
+      "precio": 40000
     },
     {
       "marca": "Samsung",
@@ -15319,7 +16925,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Samsung",
@@ -15328,7 +16934,7 @@
       "variante": "8GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 45000
+      "precio": 40000
     },
     {
       "marca": "Samsung",
@@ -15337,7 +16943,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Samsung",
@@ -15346,7 +16952,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Samsung",
@@ -15355,7 +16961,7 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15364,7 +16970,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Samsung",
@@ -15373,7 +16979,7 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15382,7 +16988,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Samsung",
@@ -15391,7 +16997,7 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15400,7 +17006,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Samsung",
@@ -15409,7 +17015,7 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15418,7 +17024,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Samsung",
@@ -15427,7 +17033,7 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Samsung",
@@ -15436,7 +17042,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Samsung",
@@ -15445,7 +17051,313 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy",
+      "modelo": "Galaxy 3",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 40000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy",
+      "modelo": "Galaxy 3",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy",
+      "modelo": "Galaxy 5",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 40000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Galaxy",
+      "modelo": "Galaxy 5",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Omnia",
+      "modelo": "Omnia 7",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 105000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Omnia",
+      "modelo": "Omnia 7",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-alta",
+      "precio": 115000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Wave",
+      "modelo": "Wave 3",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
       "precio": 55000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Wave",
+      "modelo": "Wave 3",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Wave",
+      "modelo": "Wave 575",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 40000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Wave",
+      "modelo": "Wave 575",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Wave",
+      "modelo": "Wave 723",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Wave",
+      "modelo": "Wave 723",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Wave",
+      "modelo": "Wave II",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Wave",
+      "modelo": "Wave II",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Wave",
+      "modelo": "Wave S8500",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Wave",
+      "modelo": "Wave S8500",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Focus",
+      "modelo": "Focus",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Focus",
+      "modelo": "Focus",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Beam i8520",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Beam i8520",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Captivate",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Captivate",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Continuum",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Continuum",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Epic 4G",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Epic 4G",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Fascinate",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Fascinate",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Intercept",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Intercept",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Transform",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Transform",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Vibrant",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "Samsung",
+      "linea": "Samsung",
+      "modelo": "Vibrant",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
     },
     {
       "marca": "Sharp",
@@ -15608,6 +17520,24 @@
       "anio": 2023,
       "gama": "media",
       "precio": 445000
+    },
+    {
+      "marca": "Sony",
+      "linea": "Xperia 1",
+      "modelo": "Xperia 1 VIII",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 2905000
+    },
+    {
+      "marca": "Sony",
+      "linea": "Xperia 1",
+      "modelo": "Xperia 1 VIII",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3315000
     },
     {
       "marca": "Sony",
@@ -15819,6 +17749,24 @@
     {
       "marca": "Sony",
       "linea": "Xperia 10",
+      "modelo": "Xperia 10 VIII",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media",
+      "precio": 705000
+    },
+    {
+      "marca": "Sony",
+      "linea": "Xperia 10",
+      "modelo": "Xperia 10 VIII",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media",
+      "precio": 805000
+    },
+    {
+      "marca": "Sony",
+      "linea": "Xperia 10",
       "modelo": "Xperia 10 VI",
       "variante": "128GB",
       "anio": 2024,
@@ -16003,7 +17951,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 65000
+      "precio": 80000
     },
     {
       "marca": "Sony",
@@ -16012,7 +17960,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "media",
-      "precio": 70000
+      "precio": 85000
     },
     {
       "marca": "Sony",
@@ -16021,7 +17969,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "media-alta",
-      "precio": 95000
+      "precio": 105000
     },
     {
       "marca": "Sony",
@@ -16030,7 +17978,7 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "media-alta",
-      "precio": 100000
+      "precio": 115000
     },
     {
       "marca": "Sony",
@@ -16039,7 +17987,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "media-alta",
-      "precio": 95000
+      "precio": 105000
     },
     {
       "marca": "Sony",
@@ -16048,7 +17996,7 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "media-alta",
-      "precio": 100000
+      "precio": 115000
     },
     {
       "marca": "Sony",
@@ -16057,7 +18005,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "media",
-      "precio": 55000
+      "precio": 80000
     },
     {
       "marca": "Sony",
@@ -16066,43 +18014,115 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "Sony",
+      "linea": "Xperia",
+      "modelo": "Xperia Z",
+      "variante": "16GB",
+      "anio": 2013,
+      "gama": "media-alta",
+      "precio": 105000
+    },
+    {
+      "marca": "Sony",
+      "linea": "Xperia",
+      "modelo": "Xperia Z",
+      "variante": "32GB",
+      "anio": 2013,
+      "gama": "media-alta",
+      "precio": 115000
+    },
+    {
+      "marca": "Sony",
+      "linea": "Xperia",
+      "modelo": "Xperia Z1",
+      "variante": "16GB",
+      "anio": 2013,
+      "gama": "media-alta",
+      "precio": 105000
+    },
+    {
+      "marca": "Sony",
+      "linea": "Xperia",
+      "modelo": "Xperia Z1",
+      "variante": "32GB",
+      "anio": 2013,
+      "gama": "media-alta",
+      "precio": 115000
+    },
+    {
+      "marca": "Sony",
+      "linea": "Xperia",
+      "modelo": "Xperia X10",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 80000
+    },
+    {
+      "marca": "Sony",
+      "linea": "Xperia",
+      "modelo": "Xperia X10",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media",
+      "precio": 85000
+    },
+    {
+      "marca": "Sony",
+      "linea": "Xperia",
+      "modelo": "Xperia X10 mini",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
       "precio": 55000
     },
     {
       "marca": "Sony",
       "linea": "Xperia",
-      "modelo": "Xperia Z",
-      "variante": "16GB",
-      "anio": 2013,
-      "gama": "media-alta",
-      "precio": 80000
-    },
-    {
-      "marca": "Sony",
-      "linea": "Xperia",
-      "modelo": "Xperia Z",
+      "modelo": "Xperia X10 mini",
       "variante": "32GB",
-      "anio": 2013,
-      "gama": "media-alta",
-      "precio": 85000
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
     },
     {
       "marca": "Sony",
       "linea": "Xperia",
-      "modelo": "Xperia Z1",
+      "modelo": "Xperia X8",
       "variante": "16GB",
-      "anio": 2013,
-      "gama": "media-alta",
-      "precio": 80000
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
     },
     {
       "marca": "Sony",
       "linea": "Xperia",
-      "modelo": "Xperia Z1",
+      "modelo": "Xperia X8",
       "variante": "32GB",
-      "anio": 2013,
-      "gama": "media-alta",
-      "precio": 85000
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
+    },
+    {
+      "marca": "Sony",
+      "linea": "Sony",
+      "modelo": "Vivaz",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 55000
+    },
+    {
+      "marca": "Sony",
+      "linea": "Sony",
+      "modelo": "Vivaz",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "media-baja",
+      "precio": 60000
     },
     {
       "marca": "TCL",
@@ -16440,6 +18460,24 @@
     {
       "marca": "Tecno",
       "linea": "Camon",
+      "modelo": "Camon 50",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 480000
+    },
+    {
+      "marca": "Tecno",
+      "linea": "Camon",
+      "modelo": "Camon 50",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media-baja",
+      "precio": 545000
+    },
+    {
+      "marca": "Tecno",
+      "linea": "Camon",
       "modelo": "Camon 40",
       "variante": "128GB",
       "anio": 2025,
@@ -16679,6 +18717,33 @@
       "anio": 2020,
       "gama": "baja",
       "precio": 80000
+    },
+    {
+      "marca": "vivo",
+      "linea": "X",
+      "modelo": "X300 Ultra",
+      "variante": "1TB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 5300000
+    },
+    {
+      "marca": "vivo",
+      "linea": "X",
+      "modelo": "X300 Ultra",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3900000
+    },
+    {
+      "marca": "vivo",
+      "linea": "X",
+      "modelo": "X300 Ultra",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 4445000
     },
     {
       "marca": "vivo",
@@ -16980,6 +19045,24 @@
     {
       "marca": "vivo",
       "linea": "Y",
+      "modelo": "Y31d",
+      "variante": "128GB",
+      "anio": 2026,
+      "gama": "baja",
+      "precio": 260000
+    },
+    {
+      "marca": "vivo",
+      "linea": "Y",
+      "modelo": "Y31d",
+      "variante": "64GB",
+      "anio": 2026,
+      "gama": "baja",
+      "precio": 245000
+    },
+    {
+      "marca": "vivo",
+      "linea": "Y",
       "modelo": "Y28",
       "variante": "64GB",
       "anio": 2024,
@@ -17165,6 +19248,69 @@
       "anio": 2019,
       "gama": "baja",
       "precio": 60000
+    },
+    {
+      "marca": "Xiaomi",
+      "linea": "Xiaomi",
+      "modelo": "17T",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "media-alta",
+      "precio": 1595000
+    },
+    {
+      "marca": "Xiaomi",
+      "linea": "Xiaomi",
+      "modelo": "17T",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "media-alta",
+      "precio": 1820000
+    },
+    {
+      "marca": "Xiaomi",
+      "linea": "Xiaomi",
+      "modelo": "17T Pro",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 3635000
+    },
+    {
+      "marca": "Xiaomi",
+      "linea": "Xiaomi",
+      "modelo": "17T Pro",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 4145000
+    },
+    {
+      "marca": "Xiaomi",
+      "linea": "Xiaomi",
+      "modelo": "18 Fold",
+      "variante": "1TB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 6070000
+    },
+    {
+      "marca": "Xiaomi",
+      "linea": "Xiaomi",
+      "modelo": "18 Fold",
+      "variante": "256GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 4465000
+    },
+    {
+      "marca": "Xiaomi",
+      "linea": "Xiaomi",
+      "modelo": "18 Fold",
+      "variante": "512GB",
+      "anio": 2026,
+      "gama": "alta",
+      "precio": 5090000
     },
     {
       "marca": "Xiaomi",
@@ -17776,7 +19922,7 @@
       "variante": "16GB",
       "anio": 2014,
       "gama": "media-baja",
-      "precio": 50000
+      "precio": 55000
     },
     {
       "marca": "Xiaomi",
@@ -17785,7 +19931,7 @@
       "variante": "32GB",
       "anio": 2014,
       "gama": "media-baja",
-      "precio": 55000
+      "precio": 60000
     },
     {
       "marca": "Xiaomi",
@@ -17794,7 +19940,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "media-baja",
-      "precio": 50000
+      "precio": 55000
     },
     {
       "marca": "Xiaomi",
@@ -17803,7 +19949,7 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "media-baja",
-      "precio": 55000
+      "precio": 60000
     },
     {
       "marca": "Xiaomi",
@@ -18118,7 +20264,7 @@
       "variante": "32GB",
       "anio": 2016,
       "gama": "media-baja",
-      "precio": 55000
+      "precio": 60000
     },
     {
       "marca": "Xiaomi",
@@ -18127,7 +20273,7 @@
       "variante": "64GB",
       "anio": 2016,
       "gama": "media-baja",
-      "precio": 55000
+      "precio": 65000
     },
     {
       "marca": "Xiaomi",
@@ -18397,7 +20543,7 @@
       "variante": "32GB",
       "anio": 2019,
       "gama": "baja",
-      "precio": 60000
+      "precio": 55000
     },
     {
       "marca": "Xiaomi",
@@ -18406,7 +20552,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Xiaomi",
@@ -18415,7 +20561,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Xiaomi",
@@ -18424,7 +20570,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Xiaomi",
@@ -18433,7 +20579,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Xiaomi",
@@ -18442,7 +20588,7 @@
       "variante": "32GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Xiaomi",
@@ -18451,7 +20597,7 @@
       "variante": "64GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Xiaomi",
@@ -18460,7 +20606,7 @@
       "variante": "32GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Xiaomi",
@@ -18469,7 +20615,7 @@
       "variante": "64GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Xiaomi",
@@ -18478,7 +20624,7 @@
       "variante": "16GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Xiaomi",
@@ -18487,7 +20633,7 @@
       "variante": "32GB",
       "anio": 2015,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Xiaomi",
@@ -18496,7 +20642,7 @@
       "variante": "16GB",
       "anio": 2013,
       "gama": "baja",
-      "precio": 50000
+      "precio": 40000
     },
     {
       "marca": "Xiaomi",
@@ -18505,7 +20651,7 @@
       "variante": "32GB",
       "anio": 2013,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "Xiaomi",
@@ -19054,7 +21200,7 @@
       "variante": "64GB",
       "anio": 2019,
       "gama": "baja",
-      "precio": 55000
+      "precio": 50000
     },
     {
       "marca": "ZTE",
@@ -19063,7 +21209,7 @@
       "variante": "32GB",
       "anio": 2019,
       "gama": "baja",
-      "precio": 60000
+      "precio": 55000
     },
     {
       "marca": "ZTE",
@@ -19072,7 +21218,7 @@
       "variante": "32GB",
       "anio": 2019,
       "gama": "baja",
-      "precio": 60000
+      "precio": 55000
     },
     {
       "marca": "ZTE",
@@ -19081,7 +21227,7 @@
       "variante": "32GB",
       "anio": 2019,
       "gama": "baja",
-      "precio": 60000
+      "precio": 55000
     },
     {
       "marca": "ZTE",
@@ -19090,7 +21236,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "ZTE",
@@ -19099,7 +21245,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "ZTE",
@@ -19108,7 +21254,7 @@
       "variante": "32GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "ZTE",
@@ -19117,7 +21263,7 @@
       "variante": "64GB",
       "anio": 2018,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "ZTE",
@@ -19126,7 +21272,7 @@
       "variante": "32GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "ZTE",
@@ -19135,7 +21281,7 @@
       "variante": "64GB",
       "anio": 2017,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "ZTE",
@@ -19144,7 +21290,7 @@
       "variante": "32GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
     },
     {
       "marca": "ZTE",
@@ -19153,7 +21299,43 @@
       "variante": "64GB",
       "anio": 2016,
       "gama": "baja",
-      "precio": 55000
+      "precio": 45000
+    },
+    {
+      "marca": "ZTE",
+      "linea": "Blade",
+      "modelo": "Blade",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 40000
+    },
+    {
+      "marca": "ZTE",
+      "linea": "Blade",
+      "modelo": "Blade",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 45000
+    },
+    {
+      "marca": "ZTE",
+      "linea": "ZTE",
+      "modelo": "Racer",
+      "variante": "16GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 40000
+    },
+    {
+      "marca": "ZTE",
+      "linea": "ZTE",
+      "modelo": "Racer",
+      "variante": "32GB",
+      "anio": 2010,
+      "gama": "baja",
+      "precio": 45000
     }
   ],
   "fichas": {
@@ -19653,14 +21835,14 @@
       "real": false
     },
     "Apple|iPhone 4": {
-      "pantalla": "6.6\" IPS 60 Hz",
-      "chipset": "Chipset de gama media (8 nucleos)",
-      "ram": "2 GB",
+      "pantalla": "6.6\" AMOLED 60 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "3 GB",
       "bateria": "3300 mAh",
-      "camara": "50 MP + 5 MP + 2 MP",
-      "frontal": "13 MP",
-      "antutu": "~300.000",
-      "soporte": "2 años",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~450.000",
+      "soporte": "3 años",
       "real": false
     },
     "Apple|iPhone 4s": {
@@ -19683,6 +21865,50 @@
       "frontal": "13 MP",
       "antutu": "~300.000",
       "soporte": "2 años",
+      "real": false
+    },
+    "Apple|iPhone 17e": {
+      "pantalla": "6.6\" IPS 90 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "6 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~420.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Apple|iPhone 18 Pro": {
+      "pantalla": "6.7\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama alta (8 nucleos)",
+      "ram": "12 GB",
+      "bateria": "4600 mAh",
+      "camara": "50 MP + 12 MP + 10 MP",
+      "frontal": "12 MP",
+      "antutu": "~1.200.000",
+      "soporte": "4 años",
+      "real": false
+    },
+    "Apple|iPhone 18 Pro Max": {
+      "pantalla": "6.7\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama alta (8 nucleos)",
+      "ram": "12 GB",
+      "bateria": "4600 mAh",
+      "camara": "50 MP + 12 MP + 10 MP",
+      "frontal": "12 MP",
+      "antutu": "~1.200.000",
+      "soporte": "4 años",
+      "real": false
+    },
+    "Apple|iPhone Duo": {
+      "pantalla": "6.7\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama alta (8 nucleos)",
+      "ram": "12 GB",
+      "bateria": "4600 mAh",
+      "camara": "50 MP + 12 MP + 10 MP",
+      "frontal": "12 MP",
+      "antutu": "~1.200.000",
+      "soporte": "4 años",
       "real": false
     },
     "Samsung|Galaxy S3": {
@@ -22006,6 +24232,314 @@
       "soporte": "4 años",
       "real": false
     },
+    "Samsung|Beam i8520": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Captivate": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Continuum": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Epic 4G": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Fascinate": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Focus": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Galaxy S": {
+      "pantalla": "6.6\" AMOLED 60 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "3 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~450.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "Samsung|Galaxy 5": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~110.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "Samsung|Galaxy 3": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~110.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "Samsung|Intercept": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Transform": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Omnia 7": {
+      "pantalla": "6.6\" AMOLED 60 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "3 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~450.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "Samsung|Vibrant": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Wave S8500": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Wave 575": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~110.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "Samsung|Wave 723": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Wave 3": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Wave II": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Galaxy A08": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "3 GB",
+      "bateria": "5000 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~180.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "Samsung|Galaxy A18": {
+      "pantalla": "6.5\" IPS 90 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "4 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Galaxy A27 5G": {
+      "pantalla": "6.5\" IPS 90 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "4 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Galaxy A37 5G": {
+      "pantalla": "6.6\" IPS 90 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "6 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~420.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Galaxy A57 5G": {
+      "pantalla": "6.6\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "8 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~650.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "Samsung|Galaxy M47 5G": {
+      "pantalla": "6.5\" IPS 90 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "4 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Samsung|Galaxy S26 FE": {
+      "pantalla": "6.6\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "8 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~650.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "Samsung|Galaxy Z Flip8": {
+      "pantalla": "6.7\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama alta (8 nucleos)",
+      "ram": "12 GB",
+      "bateria": "4600 mAh",
+      "camara": "50 MP + 12 MP + 10 MP",
+      "frontal": "12 MP",
+      "antutu": "~1.200.000",
+      "soporte": "4 años",
+      "real": false
+    },
+    "Samsung|Galaxy Z Fold8": {
+      "pantalla": "6.7\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama alta (8 nucleos)",
+      "ram": "12 GB",
+      "bateria": "4600 mAh",
+      "camara": "50 MP + 12 MP + 10 MP",
+      "frontal": "12 MP",
+      "antutu": "~1.200.000",
+      "soporte": "4 años",
+      "real": false
+    },
+    "Samsung|Galaxy Z Fold8 Ultra": {
+      "pantalla": "6.7\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama alta (8 nucleos)",
+      "ram": "12 GB",
+      "bateria": "4600 mAh",
+      "camara": "50 MP + 12 MP + 10 MP",
+      "frontal": "12 MP",
+      "antutu": "~1.200.000",
+      "soporte": "4 años",
+      "real": false
+    },
     "Xiaomi|Mi 3": {
       "pantalla": "6.5\" IPS 60 Hz",
       "chipset": "Chipset de gama media baja (8 nucleos)",
@@ -23060,6 +25594,39 @@
       "frontal": "5 MP",
       "antutu": "~180.000",
       "soporte": "1 años",
+      "real": false
+    },
+    "Xiaomi|17T": {
+      "pantalla": "6.6\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "8 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~650.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "Xiaomi|17T Pro": {
+      "pantalla": "6.7\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama alta (8 nucleos)",
+      "ram": "12 GB",
+      "bateria": "4600 mAh",
+      "camara": "50 MP + 12 MP + 10 MP",
+      "frontal": "12 MP",
+      "antutu": "~1.200.000",
+      "soporte": "4 años",
+      "real": false
+    },
+    "Xiaomi|18 Fold": {
+      "pantalla": "6.7\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama alta (8 nucleos)",
+      "ram": "12 GB",
+      "bateria": "4600 mAh",
+      "camara": "50 MP + 12 MP + 10 MP",
+      "frontal": "12 MP",
+      "antutu": "~1.200.000",
+      "soporte": "4 años",
       "real": false
     },
     "POCO|F1": {
@@ -24646,6 +27213,149 @@
       "soporte": "2 años",
       "real": false
     },
+    "Motorola|Backflip": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Motorola|Charm": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~110.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "Motorola|Defy": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Motorola|Devour": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~110.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "Motorola|Flipout": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~110.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "Motorola|i1": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Motorola|Milestone XT720": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Motorola|Spice": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~110.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "Motorola|Droid 2": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Motorola|Droid X": {
+      "pantalla": "6.6\" AMOLED 60 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "3 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~450.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "Motorola|Droid Pro": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Motorola|Moto G (2026)": {
+      "pantalla": "6.5\" IPS 90 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "4 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Motorola|Moto G06": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "3 GB",
+      "bateria": "5000 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~180.000",
+      "soporte": "1 años",
+      "real": false
+    },
     "Huawei|P8": {
       "pantalla": "6.6\" AMOLED 60 Hz",
       "chipset": "Chipset de gama media alta (8 nucleos)",
@@ -25460,6 +28170,50 @@
       "soporte": "2 años",
       "real": false
     },
+    "Huawei|Ascend": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Huawei|IDEOS": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~110.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "Huawei|U8100": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~110.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "Huawei|Mate 90": {
+      "pantalla": "6.7\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama alta (8 nucleos)",
+      "ram": "12 GB",
+      "bateria": "4600 mAh",
+      "camara": "50 MP + 12 MP + 10 MP",
+      "frontal": "12 MP",
+      "antutu": "~1.200.000",
+      "soporte": "4 años",
+      "real": false
+    },
     "Honor|7": {
       "pantalla": "6.6\" IPS 60 Hz",
       "chipset": "Chipset de gama media (8 nucleos)",
@@ -25930,6 +28684,17 @@
       "camara": "50 MP + 2 MP",
       "frontal": "8 MP",
       "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Honor|Magic8 Lite": {
+      "pantalla": "6.6\" IPS 90 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "6 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~420.000",
       "soporte": "2 años",
       "real": false
     },
@@ -26484,6 +29249,28 @@
       "real": false
     },
     "Oppo|A98": {
+      "pantalla": "6.6\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "8 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~650.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "Oppo|Find N6": {
+      "pantalla": "6.7\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama alta (8 nucleos)",
+      "ram": "12 GB",
+      "bateria": "4600 mAh",
+      "camara": "50 MP + 12 MP + 10 MP",
+      "frontal": "12 MP",
+      "antutu": "~1.200.000",
+      "soporte": "4 años",
+      "real": false
+    },
+    "Oppo|Reno 15": {
       "pantalla": "6.6\" AMOLED 120 Hz",
       "chipset": "Chipset de gama media alta (8 nucleos)",
       "ram": "8 GB",
@@ -27363,6 +30150,28 @@
       "soporte": "4 años",
       "real": false
     },
+    "vivo|X300 Ultra": {
+      "pantalla": "6.7\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama alta (8 nucleos)",
+      "ram": "12 GB",
+      "bateria": "4600 mAh",
+      "camara": "50 MP + 12 MP + 10 MP",
+      "frontal": "12 MP",
+      "antutu": "~1.200.000",
+      "soporte": "4 años",
+      "real": false
+    },
+    "vivo|Y31d": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "3 GB",
+      "bateria": "5000 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~180.000",
+      "soporte": "1 años",
+      "real": false
+    },
     "OnePlus|One": {
       "pantalla": "6.6\" IPS 60 Hz",
       "chipset": "Chipset de gama media (8 nucleos)",
@@ -28001,6 +30810,83 @@
       "soporte": "4 años",
       "real": false
     },
+    "Google|Nexus One": {
+      "pantalla": "6.6\" AMOLED 60 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "3 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~450.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "Google|Nexus S": {
+      "pantalla": "6.6\" AMOLED 60 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "3 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~450.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "Google|Pixel 10a": {
+      "pantalla": "6.6\" IPS 90 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "6 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~420.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Google|Pixel 11": {
+      "pantalla": "6.6\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "8 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~650.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "Google|Pixel 11 Pro": {
+      "pantalla": "6.7\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama alta (8 nucleos)",
+      "ram": "12 GB",
+      "bateria": "4600 mAh",
+      "camara": "50 MP + 12 MP + 10 MP",
+      "frontal": "12 MP",
+      "antutu": "~1.200.000",
+      "soporte": "4 años",
+      "real": false
+    },
+    "Google|Pixel 11 Pro Fold": {
+      "pantalla": "6.7\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama alta (8 nucleos)",
+      "ram": "12 GB",
+      "bateria": "4600 mAh",
+      "camara": "50 MP + 12 MP + 10 MP",
+      "frontal": "12 MP",
+      "antutu": "~1.200.000",
+      "soporte": "4 años",
+      "real": false
+    },
+    "Google|Pixel 11 Pro XL": {
+      "pantalla": "6.7\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama alta (8 nucleos)",
+      "ram": "12 GB",
+      "bateria": "4600 mAh",
+      "camara": "50 MP + 12 MP + 10 MP",
+      "frontal": "12 MP",
+      "antutu": "~1.200.000",
+      "soporte": "4 años",
+      "real": false
+    },
     "Nokia|3": {
       "pantalla": "6.5\" IPS 60 Hz",
       "chipset": "Chipset de gama baja (8 nucleos)",
@@ -28485,6 +31371,127 @@
       "soporte": "1 años",
       "real": false
     },
+    "Nokia|5250": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~110.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "Nokia|6700 slide": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Nokia|C5-00": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Nokia|C5-03": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Nokia|C6-00": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Nokia|C6-01": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Nokia|C7-00": {
+      "pantalla": "6.6\" AMOLED 60 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "3 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~450.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "Nokia|E5-00": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Nokia|E7-00": {
+      "pantalla": "6.6\" AMOLED 60 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "3 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~450.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "Nokia|N8": {
+      "pantalla": "6.6\" AMOLED 60 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "3 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~450.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "Nokia|X5": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
     "Sony|Xperia Z": {
       "pantalla": "6.6\" AMOLED 60 Hz",
       "chipset": "Chipset de gama media alta (8 nucleos)",
@@ -28826,6 +31833,72 @@
       "soporte": "4 años",
       "real": false
     },
+    "Sony|Vivaz": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Sony|Xperia X8": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Sony|Xperia X10": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Sony|Xperia X10 mini": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Sony|Xperia 1 VIII": {
+      "pantalla": "6.7\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama alta (8 nucleos)",
+      "ram": "12 GB",
+      "bateria": "4600 mAh",
+      "camara": "50 MP + 12 MP + 10 MP",
+      "frontal": "12 MP",
+      "antutu": "~1.200.000",
+      "soporte": "4 años",
+      "real": false
+    },
+    "Sony|Xperia 10 VIII": {
+      "pantalla": "6.6\" IPS 90 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "6 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~420.000",
+      "soporte": "2 años",
+      "real": false
+    },
     "LG|G2": {
       "pantalla": "6.6\" AMOLED 60 Hz",
       "chipset": "Chipset de gama media alta (8 nucleos)",
@@ -29132,6 +32205,94 @@
       "frontal": "12 MP",
       "antutu": "~750.000",
       "soporte": "4 años",
+      "real": false
+    },
+    "LG|Optimus": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "LG|Optimus 7": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "LG|Optimus Chic": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "LG|Optimus One": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "LG|Optimus Q": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~110.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "LG|Quantum": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "LG|GD880 Mini": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "LG|VS740": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
       "real": false
     },
     "ZTE|Blade V7": {
@@ -29461,6 +32622,28 @@
       "camara": "13 MP + 2 MP",
       "frontal": "5 MP",
       "antutu": "~180.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "ZTE|Blade": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~110.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "ZTE|Racer": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~110.000",
       "soporte": "1 años",
       "real": false
     },
@@ -29871,6 +33054,28 @@
       "soporte": "1 años",
       "real": false
     },
+    "Alcatel|One Touch 808": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~110.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "Alcatel|One Touch 980": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~110.000",
+      "soporte": "1 años",
+      "real": false
+    },
     "Infinix|Note 7": {
       "pantalla": "6.5\" IPS 60 Hz",
       "chipset": "Chipset de gama baja (8 nucleos)",
@@ -30157,6 +33362,28 @@
       "soporte": "1 años",
       "real": false
     },
+    "Infinix|Note 60": {
+      "pantalla": "6.5\" IPS 90 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "4 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Infinix|Note 60 Pro": {
+      "pantalla": "6.5\" IPS 90 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "4 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
     "Tecno|Camon 12": {
       "pantalla": "6.5\" IPS 60 Hz",
       "chipset": "Chipset de gama baja (8 nucleos)",
@@ -30432,6 +33659,17 @@
       "soporte": "1 años",
       "real": false
     },
+    "Tecno|Camon 50": {
+      "pantalla": "6.5\" IPS 90 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "4 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
     "Itel|A16": {
       "pantalla": "6.5\" IPS 60 Hz",
       "chipset": "Chipset de gama baja (8 nucleos)",
@@ -30598,6 +33836,17 @@
       "real": false
     },
     "Itel|P55": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama baja (8 nucleos)",
+      "ram": "3 GB",
+      "bateria": "5000 mAh",
+      "camara": "13 MP + 2 MP",
+      "frontal": "5 MP",
+      "antutu": "~180.000",
+      "soporte": "1 años",
+      "real": false
+    },
+    "Itel|A100 Pro": {
       "pantalla": "6.5\" IPS 60 Hz",
       "chipset": "Chipset de gama baja (8 nucleos)",
       "ram": "3 GB",
@@ -30895,6 +34144,39 @@
       "real": false
     },
     "Nothing|CMF Phone 2 Pro": {
+      "pantalla": "6.5\" IPS 90 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "4 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Nothing|Phone (4a)": {
+      "pantalla": "6.6\" IPS 90 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "6 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~420.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Nothing|Phone (4a) Pro": {
+      "pantalla": "6.6\" AMOLED 120 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "8 GB",
+      "bateria": "5000 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~650.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "Nothing|Phone (4b)": {
       "pantalla": "6.5\" IPS 90 Hz",
       "chipset": "Chipset de gama media baja (8 nucleos)",
       "ram": "4 GB",
@@ -31312,6 +34594,116 @@
       "soporte": "3 años",
       "real": false
     },
+    "HTC|7 Mozart": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "HTC|7 Surround": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "HTC|7 Trophy": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "HTC|Desire": {
+      "pantalla": "6.6\" AMOLED 60 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "3 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~450.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "HTC|Desire HD": {
+      "pantalla": "6.6\" AMOLED 60 Hz",
+      "chipset": "Chipset de gama media alta (8 nucleos)",
+      "ram": "3 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 8 MP + 2 MP",
+      "frontal": "16 MP",
+      "antutu": "~450.000",
+      "soporte": "3 años",
+      "real": false
+    },
+    "HTC|Desire Z": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "HTC|Evo 4G": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "HTC|HD7": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "HTC|Wildfire": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "HTC|Droid Incredible": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
     "BlackBerry|Z10": {
       "pantalla": "6.6\" IPS 60 Hz",
       "chipset": "Chipset de gama media (8 nucleos)",
@@ -31442,6 +34834,28 @@
       "frontal": "5 MP",
       "antutu": "~110.000",
       "soporte": "1 años",
+      "real": false
+    },
+    "BlackBerry|Torch 9800": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "BlackBerry|Style 9670": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
       "real": false
     },
     "Meizu|MX4": {
@@ -31915,6 +35329,28 @@
       "frontal": "12 MP",
       "antutu": "~750.000",
       "soporte": "4 años",
+      "real": false
+    },
+    "Microsoft|Kin One": {
+      "pantalla": "6.5\" IPS 60 Hz",
+      "chipset": "Chipset de gama media baja (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 2 MP",
+      "frontal": "8 MP",
+      "antutu": "~200.000",
+      "soporte": "2 años",
+      "real": false
+    },
+    "Microsoft|Kin Two": {
+      "pantalla": "6.6\" IPS 60 Hz",
+      "chipset": "Chipset de gama media (8 nucleos)",
+      "ram": "2 GB",
+      "bateria": "3300 mAh",
+      "camara": "50 MP + 5 MP + 2 MP",
+      "frontal": "13 MP",
+      "antutu": "~300.000",
+      "soporte": "2 años",
       "real": false
     }
   },

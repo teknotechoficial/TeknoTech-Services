@@ -46,9 +46,23 @@ Todo se edita en `panel/datos.json`:
 - `servicios[]`: cada rubro tiene `rubro`, `detalle` y `precio`.
   - Mientras `precio` sea `null`, el panel muestra “A completar”.
 
-El catálogo actual tiene **2107 filas (1160 modelos) de 30 marcas (2010–2026)**. Los precios son
+El catálogo actual tiene **2348 filas (1274 modelos) de 30 marcas (2010–2026)**. Los precios son
 estimados: se calculan por gama, se ajustan por capacidad y se deprecian según el año de
-lanzamiento. Verificar antes de cotizar.
+lanzamiento, con un piso por gama para que un equipo viejo no quede en un valor irreal.
+Verificar antes de cotizar.
+
+### Cobertura de 2010 y 2026
+
+Ambos años se cargaron desde las categorías de Wikipedia "Mobile phones introduced in 2010" y
+"introduced in 2026", filtradas a las 30 marcas del catálogo y solo equipos con sistema operativo.
+
+- **2010:** 76 modelos (153 filas).
+- **2026:** 42 modelos (97 filas), a noviembre de 2026. El año sigue en curso, así que la lista
+  crece a medida que se anuncian equipos.
+
+Quedaron afuera los feature phones, las variantes de operador y los modelos exclusivos de Japón.
+Para agregar uno, sumarlo a la sección `AMPLIACION 2010 Y 2026` del generador o directamente a
+`celulares[]`.
 
 ### Orden del catálogo
 
