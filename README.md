@@ -30,20 +30,39 @@ Sitio estático de TeknoTech Services: landing pública + panel interno de preci
 Todo se edita en `panel/datos.json`:
 
 - `actualizado`: fecha que se muestra en el panel.
-- `celulares[]`: cada fila es un modelo con una capacidad. Tiene `marca`, `modelo`,
+- `celulares[]`: cada fila es un modelo con una capacidad. Tiene `marca`, `linea`, `modelo`,
   `variante` (almacenamiento, ej. `128GB`), `anio`, `gama` y `precio` (ARS, sin decimales).
   - Valores válidos de `gama`: `alta`, `media-alta`, `media`, `media-baja`, `baja`.
   - Un mismo modelo puede repetirse con distintas capacidades, cada una con su precio.
   - `anio` es el año de lanzamiento; el panel lo muestra y permite filtrar por él.
+  - `linea` es la familia comercial del modelo (`Galaxy S`, `iPhone Pro Max`, `Redmi Note`…).
+    Si la marca no tiene familias, coincide con la marca.
+- `lineas`: orden en que se muestran las líneas dentro de cada marca. Es un objeto
+  `{ "Samsung": ["Galaxy S", "Galaxy Note", …] }`; el panel respeta ese orden en la vista
+  de catálogo. Si agregás una línea nueva y no la listás acá, va al final de su marca.
 - `fichas`: datos técnicos por modelo. La clave es `"Marca|Modelo"` (ej. `"Apple|iPhone 15"`).
   - Campos: `pantalla`, `chipset`, `ram`, `bateria`, `camara`, `frontal`, `antutu`, `soporte`.
   - `real: true` muestra “Datos de referencia del modelo”; `false` muestra “Datos estimados según gama y año”.
 - `servicios[]`: cada rubro tiene `rubro`, `detalle` y `precio`.
   - Mientras `precio` sea `null`, el panel muestra “A completar”.
 
-El catálogo actual tiene **2351 filas (1290 modelos) de 30 marcas (2010–2026)**. Los precios son
+El catálogo actual tiene **2107 filas (1160 modelos) de 30 marcas (2010–2026)**. Los precios son
 estimados: se calculan por gama, se ajustan por capacidad y se deprecian según el año de
 lanzamiento. Verificar antes de cotizar.
+
+### Orden del catálogo
+
+El panel abre en **Catálogo (marca y línea)**, que ordena en este orden:
+
+1. Marca, alfabético (`localeCompare` en español).
+2. Línea, según el orden de `lineas` (ej. en Samsung: Galaxy S, Note, A, Z Fold, Z Flip, M…).
+3. Año, del más nuevo al más viejo.
+4. Modelo, con orden natural cuando comparten año (`S9` antes que `S10`, `S26` antes que
+   `S26+` antes que `S26 Ultra`).
+5. Capacidad, de menor a mayor (`256GB`, `512GB`, `1TB`).
+
+En ese modo la tabla muestra encabezados de grupo por marca y por línea. Los demás órdenes
+(Mayor precio, Menor precio, Más nuevo, Más viejo, Marca, Gama) son planos, sin encabezados.
 
 ### Imágenes
 

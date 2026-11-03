@@ -16,10 +16,11 @@
     var POR_PAGINA = 50;
 
     var datos = null;
-    var estado = { texto: '', marca: '', gama: '', anio: '', orden: 'precio-desc', pagina: 1 };
+    var estado = { texto: '', marca: '', gama: '', anio: '', orden: 'catalogo', pagina: 1 };
     var ultimaLista = [];
     var paginaActual = [];
     var focoDetalle = null;
+    var ORDEN_LINEA = {};
 
     var el = {
         fecha: document.getElementById('fecha-actualizado'),
@@ -90,6 +91,7 @@
             })
             .then(function (json) {
                 datos = json;
+                prepararOrdenLineas();
                 prepararFiltros();
                 pintarCelulares();
                 pintarServicios();
@@ -97,9 +99,25 @@
                 if (el.avisoCel) el.avisoCel.textContent = datos.aviso || '';
             })
             .catch(function (error) {
-                el.tbodyCel.innerHTML = '<tr><td colspan="5" class="vacio">No se pudo cargar datos.json (' + escapar(error.message) + '). Abrilo desde un servidor HTTP.</td></tr>';
+                el.tbodyCel.innerHTML = '<tr><td colspan="6" class="vacio">No se pudo cargar datos.json (' + escapar(error.message) + '). Abrilo desde un servidor HTTP.</td></tr>';
                 el.pagInfo.textContent = '—';
             });
+    }
+
+    function prepararOrdenLineas() {
+        ORDEN_LINEA = {};
+
+        var mapa = datos.lineas || {};
+        Object.keys(mapa).forEach(function (marca) {
+            mapa[marca].forEach(function (linea, indice) {
+                ORDEN_LINEA[marca + '|' + linea] = indice;
+            });
+        });
+    }
+
+    function ordenDeLinea(c) {
+        var valor = ORDEN_LINEA[c.marca + '|' + c.linea];
+        return valor === undefined ? 999 : valor;
     }
 
     function prepararFiltros() {
@@ -137,9 +155,48 @@
         });
     }
 
+    var COLADOR = window.Intl && Intl.Collator
+        ? new Intl.Collator('es', { numeric: true, sensitivity: 'base' })
+        : null;
+
+    function compararTexto(a, b) {
+        if (COLADOR) return COLADOR.compare(a, b);
+        return String(a).localeCompare(String(b), 'es');
+    }
+
+    // "Galaxy S26" < "Galaxy S26+" < "Galaxy S26 Ultra": el "+" no debe
+    // mandar el modelo al final de la linea.
+    function claveModelo(modelo) {
+        return String(modelo || '').replace(/\+/g, '').trim();
+    }
+
+    function tieneMas(modelo) {
+        return String(modelo || '').indexOf('+') === -1 ? 0 : 1;
+    }
+
+    // 256GB < 512GB < 1TB < 2TB (y las capacidades raras, al final).
+    function pesoVariante(variante) {
+        var partes = /^(\d+(?:[.,]\d+)?)\s*(GB|TB)$/i.exec(String(variante || '').trim());
+        if (!partes) return 1e12;
+        var numero = parseFloat(partes[1].replace(',', '.'));
+        if (/^TB$/i.test(partes[2])) numero *= 1024;
+        return numero;
+    }
+
     function ordenar(lista) {
         var copia = lista.slice();
         switch (estado.orden) {
+            case 'catalogo':
+                copia.sort(function (a, b) {
+                    return compararTexto(a.marca, b.marca) ||
+                        (ordenDeLinea(a) - ordenDeLinea(b)) ||
+                        (b.anio - a.anio) ||
+                        compararTexto(claveModelo(a.modelo), claveModelo(b.modelo)) ||
+                        (tieneMas(a.modelo) - tieneMas(b.modelo)) ||
+                        compararTexto(a.modelo, b.modelo) ||
+                        (pesoVariante(a.variante) - pesoVariante(b.variante));
+                });
+                break;
             case 'precio-asc':
                 copia.sort(function (a, b) { return a.precio - b.precio; });
                 break;
@@ -163,6 +220,22 @@
                 copia.sort(function (a, b) { return b.precio - a.precio; });
         }
         return copia;
+    }
+
+    function filaHtml(c, indice) {
+        var miniatura = window.TT_Marcas
+            ? window.TT_Marcas.svg(c.marca, c.gama, '', true, lentesDe(c))
+            : '';
+        var nombre = c.modelo + (c.variante ? ' · ' + c.variante : '');
+
+        return '<tr class="fila" tabindex="0" data-i="' + indice + '" aria-label="Ver ficha de ' + escapar(c.marca + ' ' + nombre) + '">' +
+            '<td class="col-img"><span class="mini">' + miniatura + '</span></td>' +
+            '<td>' + escapar(c.marca) + '</td>' +
+            '<td>' + escapar(c.modelo) + (c.variante ? ' <span class="cap">' + escapar(c.variante) + '</span>' : '') + '</td>' +
+            '<td class="num anio">' + (c.anio || '—') + '</td>' +
+            '<td><span class="badge badge-' + escapar(c.gama) + '">' + escapar(ETIQUETA_GAMA[c.gama] || c.gama) + '</span></td>' +
+            '<td class="num">' + formatearPrecio(c.precio) + '</td>' +
+            '</tr>';
     }
 
     function pintarCelulares() {
@@ -192,21 +265,26 @@
         var desde = (estado.pagina - 1) * POR_PAGINA;
         paginaActual = ultimaLista.slice(desde, desde + POR_PAGINA);
 
-        el.tbodyCel.innerHTML = paginaActual.map(function (c, indice) {
-            var miniatura = window.TT_Marcas
-                ? window.TT_Marcas.svg(c.marca, c.gama, '', true, lentesDe(c))
-                : '';
-            var nombre = c.modelo + (c.variante ? ' · ' + c.variante : '');
+        var filas = [];
+        var marcaPrevia = null;
+        var lineaPrevia = null;
 
-            return '<tr class="fila" tabindex="0" data-i="' + indice + '" aria-label="Ver ficha de ' + escapar(c.marca + ' ' + nombre) + '">' +
-                '<td class="col-img"><span class="mini">' + miniatura + '</span></td>' +
-                '<td>' + escapar(c.marca) + '</td>' +
-                '<td>' + escapar(c.modelo) + (c.variante ? ' <span class="cap">' + escapar(c.variante) + '</span>' : '') + '</td>' +
-                '<td class="num anio">' + (c.anio || '—') + '</td>' +
-                '<td><span class="badge badge-' + escapar(c.gama) + '">' + escapar(ETIQUETA_GAMA[c.gama] || c.gama) + '</span></td>' +
-                '<td class="num">' + formatearPrecio(c.precio) + '</td>' +
-                '</tr>';
-        }).join('');
+        paginaActual.forEach(function (c, indice) {
+            if (estado.orden === 'catalogo') {
+                if (c.marca !== marcaPrevia) {
+                    filas.push('<tr class="grupo grupo-marca"><th colspan="6" scope="colgroup">' + escapar(c.marca) + '</th></tr>');
+                    marcaPrevia = c.marca;
+                    lineaPrevia = null;
+                }
+                if (c.linea !== lineaPrevia && c.linea !== c.marca) {
+                    filas.push('<tr class="grupo grupo-linea"><th colspan="6" scope="colgroup">' + escapar(c.linea) + '</th></tr>');
+                    lineaPrevia = c.linea;
+                }
+            }
+            filas.push(filaHtml(c, indice));
+        });
+
+        el.tbodyCel.innerHTML = filas.join('');
 
         el.pagInfo.textContent = 'Página ' + estado.pagina + ' de ' + totalPaginas +
             ' · ' + (desde + 1) + '–' + Math.min(desde + POR_PAGINA, total) + ' de ' + total.toLocaleString('es-AR');
@@ -399,9 +477,9 @@
     });
 
     el.exportar.addEventListener('click', function () {
-        var filas = [['Marca', 'Modelo', 'Almacenamiento', 'Año', 'Gama', 'Precio estimado ARS']];
+        var filas = [['Marca', 'Línea', 'Modelo', 'Almacenamiento', 'Año', 'Gama', 'Precio estimado ARS']];
         ultimaLista.forEach(function (c) {
-            filas.push([c.marca, c.modelo, c.variante || '', c.anio || '', ETIQUETA_GAMA[c.gama] || c.gama, c.precio]);
+            filas.push([c.marca, c.linea || '', c.modelo, c.variante || '', c.anio || '', ETIQUETA_GAMA[c.gama] || c.gama, c.precio]);
         });
         descargarCSV('celulares-teknotech-' + (datos.actualizado || '') + '.csv', filas);
     });
