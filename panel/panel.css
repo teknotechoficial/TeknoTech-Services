@@ -185,6 +185,7 @@ tbody tr:last-child td { border-bottom: none; }
 tbody tr:hover { background: #191919; }
 
 .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+td.col-nuevo { color: var(--muted); }
 .anio { color: var(--muted); font-size: 13px; }
 
 .badge {
@@ -406,10 +407,31 @@ body.detalle-abierto { overflow: hidden; }
 
 .detalle-precio {
     margin: 14px 0 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-variant-numeric: tabular-nums;
+}
+
+.detalle-precio .precio-linea {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--muted);
+}
+
+.detalle-precio .precio-linea.usado {
     font-size: 28px;
     font-weight: 700;
     color: var(--verde);
-    font-variant-numeric: tabular-nums;
+}
+
+.detalle-precio .precio-et {
+    display: inline-block;
+    min-width: 54px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .detalle-specs {
@@ -451,7 +473,7 @@ body.detalle-abierto { overflow: hidden; }
     }
     .detalle-figura svg { max-width: 130px; }
     .detalle-titulo { font-size: 21px; }
-    .detalle-precio { font-size: 23px; }
+    .detalle-precio .precio-linea.usado { font-size: 23px; }
     .detalle-specs { grid-template-columns: 1fr; }
     .col-img { display: none; }
 }
@@ -466,7 +488,9 @@ body.detalle-abierto { overflow: hidden; }
     .topbar-inner { align-items: flex-start; }
     .topbar-actions { width: 100%; justify-content: space-between; }
     table { font-size: 13px; }
-    thead th, tbody td { padding: 9px 10px; }
+    thead th, tbody td { padding: 9px 7px; }
+    /* La gama ocupa demasiado ancho; en el telefono se consulta en la ficha. */
+    #tabla-cel th:nth-child(5), #tabla-cel td:nth-child(5) { display: none; }
     .pager { flex-direction: column; align-items: stretch; }
     .pager .btn-ghost { width: 100%; }
     .pag-info { text-align: center; order: -1; }

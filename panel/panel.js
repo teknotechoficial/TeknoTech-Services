@@ -168,7 +168,7 @@
                 if (el.avisoCel) el.avisoCel.textContent = datos.aviso || '';
             })
             .catch(function (error) {
-                el.tbodyCel.innerHTML = '<tr><td colspan="6" class="vacio">No se pudo cargar datos.json (' + escapar(error.message) + '). Abrilo desde un servidor HTTP.</td></tr>';
+                el.tbodyCel.innerHTML = '<tr><td colspan="7" class="vacio">No se pudo cargar datos.json (' + escapar(error.message) + '). Abrilo desde un servidor HTTP.</td></tr>';
                 el.pagInfo.textContent = '—';
             });
     }
@@ -286,13 +286,13 @@
                 });
                 break;
             case 'precio-asc':
-                copia.sort(function (a, b) { return a.precio - b.precio; });
+                copia.sort(function (a, b) { return a.precio_usado - b.precio_usado; });
                 break;
             case 'anio-desc':
-                copia.sort(function (a, b) { return (b.anio - a.anio) || (b.precio - a.precio); });
+                copia.sort(function (a, b) { return (b.anio - a.anio) || (b.precio_usado - a.precio_usado); });
                 break;
             case 'anio-asc':
-                copia.sort(function (a, b) { return (a.anio - b.anio) || (b.precio - a.precio); });
+                copia.sort(function (a, b) { return (a.anio - b.anio) || (b.precio_usado - a.precio_usado); });
                 break;
             case 'marca':
                 copia.sort(function (a, b) {
@@ -301,11 +301,11 @@
                 break;
             case 'gama':
                 copia.sort(function (a, b) {
-                    return (ORDEN_GAMA[a.gama] - ORDEN_GAMA[b.gama]) || (b.precio - a.precio);
+                    return (ORDEN_GAMA[a.gama] - ORDEN_GAMA[b.gama]) || (b.precio_usado - a.precio_usado);
                 });
                 break;
             default:
-                copia.sort(function (a, b) { return b.precio - a.precio; });
+                copia.sort(function (a, b) { return b.precio_usado - a.precio_usado; });
         }
         return copia;
     }
@@ -322,7 +322,8 @@
             '<td>' + escapar(c.modelo) + (c.variante ? ' <span class="cap">' + escapar(c.variante) + '</span>' : '') + '</td>' +
             '<td class="num anio">' + (c.anio || '—') + '</td>' +
             '<td><span class="badge badge-' + escapar(c.gama) + '">' + escapar(ETIQUETA_GAMA[c.gama] || c.gama) + '</span></td>' +
-            '<td class="num">' + formatearPrecio(c.precio) + '</td>' +
+            '<td class="num col-nuevo">' + formatearPrecio(c.precio_nuevo) + '</td>' +
+            '<td class="num">' + formatearPrecio(c.precio_usado) + '</td>' +
             '</tr>';
     }
 
@@ -338,7 +339,7 @@
         el.conteo.textContent = total.toLocaleString('es-AR');
 
         if (!total) {
-            el.tbodyCel.innerHTML = '<tr><td colspan="6" class="vacio">Sin resultados con esos filtros.</td></tr>';
+            el.tbodyCel.innerHTML = '<tr><td colspan="7" class="vacio">Sin resultados con esos filtros.</td></tr>';
             el.rango.textContent = '—';
             el.pagInfo.textContent = '—';
             el.pagPrev.disabled = true;
@@ -347,8 +348,11 @@
             return;
         }
 
-        var precios = ultimaLista.map(function (c) { return c.precio; });
-        el.rango.textContent = formatearPrecio(Math.min.apply(null, precios)) + ' a ' + formatearPrecio(Math.max.apply(null, precios));
+        var usados = ultimaLista.map(function (c) { return c.precio_usado; });
+        var nuevos = ultimaLista.map(function (c) { return c.precio_nuevo; });
+        el.rango.textContent =
+            'Usado ' + formatearPrecio(Math.min.apply(null, usados)) + ' a ' + formatearPrecio(Math.max.apply(null, usados)) +
+            ' · Nuevo ' + formatearPrecio(Math.min.apply(null, nuevos)) + ' a ' + formatearPrecio(Math.max.apply(null, nuevos));
 
         var desde = (estado.pagina - 1) * POR_PAGINA;
         paginaActual = ultimaLista.slice(desde, desde + POR_PAGINA);
@@ -360,12 +364,12 @@
         paginaActual.forEach(function (c, indice) {
             if (estado.orden === 'catalogo') {
                 if (c.marca !== marcaPrevia) {
-                    filas.push('<tr class="grupo grupo-marca"><th colspan="6" scope="colgroup">' + escapar(c.marca) + '</th></tr>');
+                    filas.push('<tr class="grupo grupo-marca"><th colspan="7" scope="colgroup">' + escapar(c.marca) + '</th></tr>');
                     marcaPrevia = c.marca;
                     lineaPrevia = null;
                 }
                 if (c.linea !== lineaPrevia && c.linea !== c.marca) {
-                    filas.push('<tr class="grupo grupo-linea"><th colspan="6" scope="colgroup">' + escapar(c.linea) + '</th></tr>');
+                    filas.push('<tr class="grupo grupo-linea"><th colspan="7" scope="colgroup">' + escapar(c.linea) + '</th></tr>');
                     lineaPrevia = c.linea;
                 }
             }
@@ -456,7 +460,9 @@
         el.detalleTitulo.textContent = c.modelo;
         el.detalleSub.textContent = (c.variante ? c.variante + ' · ' : '') +
             (c.anio || '—') + ' · ' + (ETIQUETA_GAMA[c.gama] || c.gama);
-        el.detallePrecio.textContent = formatearPrecio(c.precio) || '—';
+        el.detallePrecio.innerHTML =
+            '<span class="precio-linea"><span class="precio-et">Nuevo</span>' + (formatearPrecio(c.precio_nuevo) || '—') + '</span>' +
+            '<span class="precio-linea usado"><span class="precio-et">Usado</span>' + (formatearPrecio(c.precio_usado) || '—') + '</span>';
 
         el.detalleFigura.innerHTML = window.TT_Marcas
             ? window.TT_Marcas.svg(c.marca, c.gama, c.marca + ' ' + nombre, false, lentesDe(c))
@@ -568,9 +574,9 @@
     });
 
     el.exportar.addEventListener('click', function () {
-        var filas = [['Marca', 'Línea', 'Modelo', 'Almacenamiento', 'Año', 'Gama', 'Precio estimado ARS']];
+        var filas = [['Marca', 'Línea', 'Modelo', 'Almacenamiento', 'Año', 'Gama', 'Precio nuevo ARS', 'Precio usado ARS']];
         ultimaLista.forEach(function (c) {
-            filas.push([c.marca, c.linea || '', c.modelo, c.variante || '', c.anio || '', ETIQUETA_GAMA[c.gama] || c.gama, c.precio]);
+            filas.push([c.marca, c.linea || '', c.modelo, c.variante || '', c.anio || '', ETIQUETA_GAMA[c.gama] || c.gama, c.precio_nuevo, c.precio_usado]);
         });
         descargarCSV('celulares-teknotech-' + (datos.actualizado || '') + '.csv', filas);
     });

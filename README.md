@@ -32,7 +32,10 @@ Todo se edita en `panel/datos.json`:
 
 - `actualizado`: fecha que se muestra en el panel.
 - `celulares[]`: cada fila es un modelo con una capacidad. Tiene `marca`, `linea`, `modelo`,
-  `variante` (almacenamiento, ej. `128GB`), `anio`, `gama` y `precio` (ARS, sin decimales).
+  `variante` (almacenamiento, ej. `128GB`), `anio`, `gama`, `precio_nuevo` y `precio_usado`
+  (ARS, sin decimales).
+  - `precio_usado` es el valor de reventa; `precio_nuevo` es el de un equipo nuevo o sellado hoy.
+    Siempre `precio_nuevo >= precio_usado`.
   - Valores válidos de `gama`: `alta`, `media-alta`, `media`, `media-baja`, `baja`.
   - Un mismo modelo puede repetirse con distintas capacidades, cada una con su precio.
   - `anio` es el año de lanzamiento; el panel lo muestra y permite filtrar por él.
@@ -50,10 +53,11 @@ Todo se edita en `panel/datos.json`:
 - `servicios[]`: cada rubro tiene `rubro`, `detalle` y `precio`.
   - Mientras `precio` sea `null`, el panel muestra “A completar”.
 
-El catálogo actual tiene **11.133 filas (10.621 modelos) de 101 marcas (2010–2026)**, con
-9.436 fichas técnicas reales. Los precios son estimados: se calculan por gama, se ajustan por
-capacidad y se deprecian según el año de lanzamiento, con un piso por gama para que un equipo
-viejo no quede en un valor irreal. Verificar antes de cotizar.
+El catálogo actual tiene **10.114 filas (9.602 modelos) de 100 marcas (2010–2026)**, con
+8.417 fichas técnicas reales. Los precios son estimados: el usado se calcula por gama, se ajusta
+por capacidad y se deprecia según el año de lanzamiento, con un piso por gama para que un equipo
+viejo no quede en un valor irreal. El nuevo se deriva del usado con un margen que crece con la
+edad del modelo (`1,30 + 0,05 × años`, tope a los 8 años). Verificar antes de cotizar.
 
 ### Origen de los datos
 
@@ -68,7 +72,9 @@ El catálogo se genera con `build-catalog.py` a partir de:
 Reglas de armado:
 
 - Se excluyen relojes, bandas y pulseras inteligentes (GSMArena los publica como “phone”).
-- Se incluyen smartphones, tablets y feature phones; los feature phones van siempre a gama baja.
+- Se excluyen tablets, incluso las que GSMArena publica con tipo “phone” y delata el nombre
+  (VivoTab, Ativ Tab, XPS 10, Lumia 2520, Wi10N, Surface salvo Duo).
+- Se incluyen smartphones y feature phones; los feature phones van siempre a gama baja.
 - La gama sale del chipset cuando está; si no, del año y del nombre, y la RAM solo ajusta dentro
   de su época (2 GB era gama alta en 2014 y baja en 2020). Un sufijo “Pro Max”/“Ultra” sube un
   escalón, pero no convierte por sí solo un equipo de gama media en gama alta.
@@ -155,6 +161,7 @@ Luego abrir:
 ## Pendientes conocidos
 
 - Precios de servicio técnico sin cargar (18 rubros con `precio: null`).
-- Fichas técnicas: 9.436 modelos con datos reales de GSMArena; el resto se estima según gama y año.
+- Fichas técnicas: 8.417 modelos con datos reales de GSMArena; el resto se estima según gama y año.
+- El precio nuevo de modelos viejos es teórico: ya no se consiguen sellados, sirve solo como referencia.
 - La marca de agua a pantalla completa del `index.html` se mantiene por decisión del dueño; pesa ~470 KB en base64.
 - Sin dominio propio: cuando haya uno, actualizar las URLs listadas arriba.
