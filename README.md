@@ -18,9 +18,11 @@ Sitio estático de TeknoTech Services: landing pública + panel interno de preci
 │   ├── index.html        Panel interno (noindex)
 │   ├── panel.css         Estilos del panel
 │   ├── panel.js          Filtros, tablas, ficha y exportación CSV
-│   ├── marcas.js         Ilustraciones SVG por marca y gama
+│   ├── marcas.js         Ilustraciones SVG de respaldo
 │   ├── datos.json        ← catálogo y precios (lo que edita el panel)
-│   └── fichas.json       Fichas técnicas reales, se cargan al abrir una ficha
+│   ├── fichas.json       Fichas técnicas reales, se cargan al abrir una ficha
+│   ├── imagenes.json     Mapa "Marca|Modelo" → foto
+│   └── img/              Fotos de los equipos, una carpeta por marca
 ├── robots.txt
 ├── sitemap.xml
 └── _headers              Headers de Cloudflare Pages
@@ -98,10 +100,21 @@ En ese modo la tabla muestra encabezados de grupo por marca y por línea. Los de
 
 ### Imágenes
 
-No se usan fotos: `panel/marcas.js` dibuja un SVG en el navegador con el color de cada marca y la
-cantidad de cámaras del modelo (según `fichas.camara`, o según la gama si no hay ficha). No hay
-archivos, no pesa y no tiene derechos de autor. Para agregar una marca nueva, sumar su color al
-objeto `COLORES` de ese archivo.
+La lista y la ficha muestran la foto del equipo cuando existe. `panel/imagenes.json` mapea
+`"Marca|Modelo"` a un archivo en `panel/img/<marca>/<modelo>.jpg`, descargado de GSMArena y
+normalizado a 160×212 px. Cobertura actual: **6.208 de 9.602 modelos (64,7%)**, 6.201 archivos,
+57 MB, ~9 KB por foto. Si un modelo no tiene foto, `panel/marcas.js` dibuja un SVG de respaldo
+con el color de la marca y la cantidad de cámaras (según `fichas.camara`, o según la gama si no
+hay ficha). En móvil la miniatura de la tabla se oculta para no romper el ancho; la foto se ve
+al abrir la ficha.
+
+Los 3.394 modelos sin foto son, en su mayoría, equipos viejos o de marcas menores cuyo archivo
+en GSMArena no se llama igual que la ficha, y el sitio bloquea el HTML (`HTTP 429`) para
+averiguarlo. Cuando se libere el bloqueo, `bajar-faltantes.py` completa el resto usando el mapa
+de páginas de marca.
+
+Las fotos son renders de prensa de GSMArena, con copyright: se usan solo en este panel interno.
+Para agregar una marca nueva al SVG de respaldo, sumar su color al objeto `COLORES` de `marcas.js`.
 
 Después de editar, commit y push: Cloudflare Pages redeploya solo.
 

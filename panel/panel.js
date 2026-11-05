@@ -24,6 +24,7 @@
     var fichas = {};
     var fichasListas = false;
     var fichaPendiente = null;
+    var imagenes = {};
 
     var el = {
         fecha: document.getElementById('fecha-actualizado'),
@@ -67,6 +68,10 @@
     function formatearPrecio(valor) {
         if (valor === null || valor === undefined || valor === '') return null;
         return '$ ' + Number(valor).toLocaleString('es-AR');
+    }
+
+    function fotoDe(c) {
+        return imagenes[c.marca + '|' + c.modelo] || '';
     }
 
     function normalizar(texto) {
@@ -152,12 +157,21 @@
             return;
         }
 
-        fetch('datos.json', { cache: 'no-store' })
-            .then(function (r) {
-                if (!r.ok) throw new Error('HTTP ' + r.status);
-                return r.json();
-            })
-            .then(function (json) {
+        Promise.all([
+            fetch('datos.json', { cache: 'no-store' })
+                .then(function (r) {
+                    if (!r.ok) throw new Error('HTTP ' + r.status);
+                    return r.json();
+                }),
+            fetch('imagenes.json', { cache: 'no-store' })
+                .then(function (r) {
+                    return r.ok ? r.json().catch(function () { return {}; }) : {};
+                })
+                .catch(function () { return {}; })
+        ])
+            .then(function (res) {
+                var json = res[0];
+                imagenes = res[1] || {};
                 datos = json;
                 prepararOrdenLineas();
                 prepararFiltros();
@@ -311,9 +325,12 @@
     }
 
     function filaHtml(c, indice) {
-        var miniatura = window.TT_Marcas
-            ? window.TT_Marcas.svg(c.marca, c.gama, '', true, lentesDe(c))
-            : '';
+        var ruta = fotoDe(c);
+        var miniatura = ruta
+            ? '<img class="foto-cel" src="' + escapar(ruta) + '" alt="" width="38" height="50" loading="lazy" decoding="async" onerror="this.hidden=true">'
+            : (window.TT_Marcas
+                ? window.TT_Marcas.svg(c.marca, c.gama, '', true, lentesDe(c))
+                : '');
         var nombre = c.modelo + (c.variante ? ' · ' + c.variante : '');
 
         return '<tr class="fila" tabindex="0" data-i="' + indice + '" aria-label="Ver ficha de ' + escapar(c.marca + ' ' + nombre) + '">' +
@@ -464,9 +481,12 @@
             '<span class="precio-linea"><span class="precio-et">Nuevo</span>' + (formatearPrecio(c.precio_nuevo) || '—') + '</span>' +
             '<span class="precio-linea usado"><span class="precio-et">Usado</span>' + (formatearPrecio(c.precio_usado) || '—') + '</span>';
 
-        el.detalleFigura.innerHTML = window.TT_Marcas
-            ? window.TT_Marcas.svg(c.marca, c.gama, c.marca + ' ' + nombre, false, lentesDe(c))
-            : '';
+        var rutaFoto = fotoDe(c);
+        el.detalleFigura.innerHTML = rutaFoto
+            ? '<img class="detalle-foto" src="' + escapar(rutaFoto) + '" alt="' + escapar(c.marca + ' ' + nombre) + '" onerror="this.hidden=true">'
+            : (window.TT_Marcas
+                ? window.TT_Marcas.svg(c.marca, c.gama, c.marca + ' ' + nombre, false, lentesDe(c))
+                : '');
 
         if (ficha) {
             pintarFicha(ficha, true);

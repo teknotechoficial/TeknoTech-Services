@@ -255,15 +255,19 @@ td.col-nuevo { color: var(--muted); }
     border: 0;
 }
 
-.col-img { width: 52px; }
+.col-img { width: 66px; }
 
 .mini {
     display: block;
-    width: 22px;
-    height: 44px;
+    width: 38px;
+    height: 50px;
     margin: 0 auto;
+    box-sizing: border-box;
+    padding: 2px;
+    background: #eef0f3;
+    border-radius: 5px;
 }
-.mini svg { display: block; width: 100%; height: 100%; }
+.mini svg, .mini img { display: block; width: 100%; height: 100%; object-fit: contain; }
 
 tbody tr.fila { cursor: pointer; }
 tbody tr.fila:hover { background: #191d22; }
@@ -387,6 +391,16 @@ body.detalle-abierto { overflow: hidden; }
     padding: 20px;
 }
 .detalle-figura svg { width: 100%; max-width: 190px; height: auto; }
+.detalle-figura img {
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    display: block;
+    box-sizing: border-box;
+    padding: 8px;
+    background: #eef0f3;
+    border-radius: 10px;
+}
 
 .detalle-marca {
     font-size: 12px;
@@ -472,6 +486,7 @@ body.detalle-abierto { overflow: hidden; }
         padding: 22px;
     }
     .detalle-figura svg { max-width: 130px; }
+    .detalle-figura img { max-width: 120px; }
     .detalle-titulo { font-size: 21px; }
     .detalle-precio .precio-linea.usado { font-size: 23px; }
     .detalle-specs { grid-template-columns: 1fr; }
