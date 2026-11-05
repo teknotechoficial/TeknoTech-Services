@@ -102,16 +102,21 @@ En ese modo la tabla muestra encabezados de grupo por marca y por línea. Los de
 
 La lista y la ficha muestran la foto del equipo cuando existe. `panel/imagenes.json` mapea
 `"Marca|Modelo"` a un archivo en `panel/img/<marca>/<modelo>.jpg`, descargado de GSMArena y
-normalizado a 160×212 px. Cobertura actual: **6.208 de 9.602 modelos (64,7%)**, 6.201 archivos,
-57 MB, ~9 KB por foto. Si un modelo no tiene foto, `panel/marcas.js` dibuja un SVG de respaldo
+normalizado a 160×212 px. Cobertura actual: **6.396 de 9.602 modelos (66,6%)**, 6.388 archivos,
+59 MB, ~9,5 KB por foto. Si un modelo no tiene foto, `panel/marcas.js` dibuja un SVG de respaldo
 con el color de la marca y la cantidad de cámaras (según `fichas.camara`, o según la gama si no
 hay ficha). En móvil la miniatura de la tabla se oculta para no romper el ancho; la foto se ve
 al abrir la ficha.
 
-Los 3.394 modelos sin foto son, en su mayoría, equipos viejos o de marcas menores cuyo archivo
+El emparejamiento con GSMArena no es solo por nombre exacto: `emparejar.py` prueba reglas
+conservadoras en orden (sin espacios, marca incluida en el nombre, año pegado al modelo,
+generación, código de modelo, conectividad) y prefiere no asignar foto antes que asignar la de
+otro equipo. Con eso se recuperaron 214 modelos que antes quedaban sin imagen.
+
+Los 3.206 modelos sin foto son, en su mayoría, equipos viejos o de marcas menores cuyo archivo
 en GSMArena no se llama igual que la ficha, y el sitio bloquea el HTML (`HTTP 429`) para
-averiguarlo. Cuando se libere el bloqueo, `bajar-faltantes.py` completa el resto usando el mapa
-de páginas de marca.
+averiguarlo. Cuando se libere el bloqueo, el descargador completa el resto abriendo la ficha de
+cada modelo.
 
 Las fotos son renders de prensa de GSMArena, con copyright: se usan solo en este panel interno.
 Para agregar una marca nueva al SVG de respaldo, sumar su color al objeto `COLORES` de `marcas.js`.
